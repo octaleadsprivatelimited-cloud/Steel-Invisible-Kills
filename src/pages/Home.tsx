@@ -254,7 +254,7 @@ const Home: React.FC = () => {
               <div className="h-48 bg-cover bg-center bg-no-repeat relative overflow-hidden">
                 {/* Construction Safety Nets Image */}
               <div className="absolute inset-0" style={{
-                backgroundImage: `url('/images/safety-nets/balcony-safety-nets (1).webp')`
+                backgroundImage: `url('/images/safety-nets/balcony-safety-nets-1.webp')`
               }}></div>
                 
 
