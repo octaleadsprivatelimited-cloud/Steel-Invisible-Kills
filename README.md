@@ -136,7 +136,7 @@ The build folder will contain all production-ready files.
 ## 📞 Contact Information
 
 - **Phone**: +91 9100116156
-- **Email**: vinayakasafetynets@gmail.com
+- **Email**: steelinvisiblegrillsints@gmail.com
 - **Service Areas**: Mumbai, Delhi, Bangalore, Chennai, Hyderabad, Pune, Kolkata
 
 ## 🔧 Configuration
@@ -146,7 +146,7 @@ Create a `.env` file for environment-specific configurations:
 ```env
 REACT_APP_COMPANY_NAME=Steel Invisible Grills
 REACT_APP_PHONE_NUMBER=+917893987771
-REACT_APP_EMAIL=vinayakasafetynets@gmail.com
+REACT_APP_EMAIL=steelinvisiblegrillsints@gmail.com
 ```
 
 ### Tailwind Configuration
