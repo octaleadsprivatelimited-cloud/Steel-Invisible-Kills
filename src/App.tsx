@@ -16,6 +16,7 @@ import Article from './pages/Article';
 import WhatsAppButton from './components/WhatsAppButton';
 import GreetingModal from './components/GreetingModal';
 import ScrollToTop from './components/ScrollToTop';
+import ErrorBoundary from './components/ErrorBoundary';
 import './App.css';
 
 // Lazy load heavy components
@@ -23,11 +24,12 @@ const ServicePage = lazy(() => import('./pages/ServicePage'));
 
 function App() {
   return (
-    <Router>
-      <ScrollToTop />
-      <div className="App">
-        <Navbar />
-            <main>
+    <ErrorBoundary>
+      <Router>
+        <ScrollToTop />
+        <div className="App">
+          <Navbar />
+              <main>
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/services" element={<Services />} />
@@ -58,10 +60,11 @@ function App() {
         <GreetingModal />
         <WhatsAppButton />
         <Footer />
-        <SpeedInsights />
-        <Analytics />
-      </div>
-    </Router>
+          <SpeedInsights />
+          <Analytics />
+        </div>
+      </Router>
+    </ErrorBoundary>
   );
 }
 
