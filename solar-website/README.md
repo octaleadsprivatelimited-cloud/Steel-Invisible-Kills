@@ -1,17 +1,17 @@
-# Vinayaka Solar - Solar Panel Installation Website
+# Steel Invisible Kills - Safety Nets Installation Website
 
-A professional, responsive website for a solar panel installation company operating in Andhra Pradesh, India.
+A professional, responsive website for a safety nets installation company operating in Hyderabad, Telangana, India.
 
 ## 🌟 Features
 
-- **Multi-page Website**: Home, Services, About, Calculator, Contact
+- **Multi-page Website**: Home, Services, About, Contact, FAQ, Blog
 - **Responsive Design**: Mobile-first approach, works on all devices
 - **SEO Optimized**: Meta tags, structured data, and semantic HTML
-- **Cost Calculator**: Solar installation cost calculator with PM Solar Scheme subsidies
+- **Service Pages**: Individual pages for all 12 safety nets services
 - **WhatsApp Integration**: Floating WhatsApp button for instant contact
 - **Modern UI/UX**: Professional design with smooth animations
 - **Contact Forms**: Lead generation forms with validation
-- **Service Areas**: Coverage in 7 major cities of Andhra Pradesh
+- **Service Areas**: Coverage across all areas of Hyderabad
 
 ## 🚀 Tech Stack
 
@@ -24,18 +24,32 @@ A professional, responsive website for a solar panel installation company operat
 
 ## 📱 Service Areas
 
-- Visakhapatnam
-- Rajahmundry
-- Amalapuram
-- Kakinada
-- Tanuku
-- Eluru
-- Bhimavaram
+- Banjara Hills
+- Jubilee Hills
+- Gachibowli
+- HITEC City
+- Secunderabad
+- Kondapur
+- Madhapur
+- Begumpet
+- Ameerpet
+- Kukatpally
+- Financial District
+- Nanakramguda
+- Manikonda
+- Chandanagar
+- Serilingampally
+- Old City
+- Charminar
+- Dilsukhnagar
+- L.B. Nagar
+- Uppal
+- Nagole
 
 ## 🏗️ Installation & Setup
 
 ### Prerequisites
-- Node.js (v14 or higher)
+- Node.js (v18 or higher)
 - npm or yarn
 
 ### Setup Steps
@@ -43,7 +57,7 @@ A professional, responsive website for a solar panel installation company operat
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd solar-website
+   cd steel-invisible-kills-website
    ```
 
 2. **Install dependencies**
@@ -68,15 +82,26 @@ src/
 ├── components/          # Reusable UI components
 │   ├── Navbar.tsx      # Navigation bar
 │   ├── Footer.tsx      # Footer component
-│   └── WhatsAppButton.tsx # Floating WhatsApp button
+│   ├── WhatsAppButton.tsx # Floating WhatsApp button
+│   ├── SafeImage.tsx   # Image component with fallbacks
+│   └── ImageTest.tsx   # Image testing component
 ├── pages/              # Page components
 │   ├── Home.tsx        # Homepage
 │   ├── Services.tsx    # Services page
+│   ├── ServicePage.tsx # Individual service pages
 │   ├── About.tsx       # About company
-│   ├── Calculator.tsx  # Cost calculator
-│   └── Contact.tsx     # Contact page
-├── types/              # TypeScript type definitions
+│   ├── Contact.tsx     # Contact page
+│   ├── FAQ.tsx         # FAQ page
+│   ├── Blog.tsx        # Blog page
+│   └── Article.tsx     # Individual blog articles
+├── data/               # Data files
+│   ├── services.ts     # Services data
+│   └── articles.ts     # Blog articles data
 ├── utils/              # Utility functions
+│   ├── whatsapp.ts     # WhatsApp integration
+│   ├── imageUtils.ts   # Image utilities
+│   ├── imageLoader.ts  # Image loading
+│   └── imageFallback.ts # Image fallbacks
 ├── App.tsx             # Main app component
 └── index.tsx           # Entry point
 ```
@@ -85,7 +110,7 @@ src/
 
 ### Colors
 The website uses a custom color palette defined in `tailwind.config.js`:
-- Primary: Solar yellow (#eab308)
+- Primary: Orange (#f97316)
 - Secondary: Blue (#1e40af)
 - Accent: Green (#059669)
 
@@ -94,7 +119,7 @@ Update the following files to customize content:
 - Company information: `src/components/Footer.tsx`
 - Contact details: `src/pages/Contact.tsx`
 - Service areas: Update city arrays in multiple components
-- Phone number: Search and replace `+919100116156` throughout
+- Phone number: Search and replace `+918074616049` throughout
 
 ## 📊 SEO Features
 
@@ -114,15 +139,15 @@ Update the following files to customize content:
 
 ## 🚀 Deployment
 
-### Netlify
-1. Connect your GitHub repository
-2. Set build command: `npm run build`
-3. Set publish directory: `build`
-
 ### Vercel
 1. Import your GitHub repository
 2. Framework preset: Create React App
 3. Build command: `npm run build`
+
+### Netlify
+1. Connect your GitHub repository
+2. Set build command: `npm run build`
+3. Set publish directory: `build`
 
 ### Traditional Hosting
 1. Run `npm run build`
@@ -131,18 +156,18 @@ Update the following files to customize content:
 
 ## 📞 Contact Information
 
-- **Phone**: +91 9100116156
-- **Email**: vinayakasolarpowersolutions@gmail.com
-- **Service Areas**: Kakinada, Visakhapatnam, Rajahmundry
+- **Phone**: +91 8074616049
+- **Email**: philipraju1999@gmail.com
+- **Service Areas**: All areas of Hyderabad, Telangana
 
 ## 🔧 Configuration
 
 ### Environment Variables
 Create a `.env` file for environment-specific configurations:
 ```env
-REACT_APP_COMPANY_NAME=Vinayaka Solar
-REACT_APP_PHONE_NUMBER=+919100116156
-REACT_APP_EMAIL=vinayakasolarpowersolutions@gmail.com
+REACT_APP_COMPANY_NAME=Steel Invisible Kills
+REACT_APP_PHONE_NUMBER=+918074616049
+REACT_APP_EMAIL=philipraju1999@gmail.com
 ```
 
 ### Tailwind Configuration
@@ -188,9 +213,9 @@ This project is licensed under the MIT License.
 
 For support and questions:
 
-- Phone: +91 9100116156
-- WhatsApp: +91 9100116156
+- Phone: +91 8074616049
+- WhatsApp: +91 8074616049
 
 ---
 
-**Vinayaka Solar** - Powering the future with solar energy! ☀️
+**Steel Invisible Kills** - Protecting lives with safety nets! 🛡️

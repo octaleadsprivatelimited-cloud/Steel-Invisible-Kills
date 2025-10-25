@@ -6,7 +6,6 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Services from './pages/Services';
 import About from './pages/About';
-import Calculator from './pages/Calculator';
 import Contact from './pages/Contact';
 import Landing from './pages/Landing';
 import WhatsAppButton from './components/WhatsAppButton';
@@ -22,8 +21,6 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />
             <Route path="/about" element={<About />} />
-            <Route path="/calculator" element={<Navigate to="/solar-calculator" replace />} />
-            <Route path="/solar-calculator" element={<Calculator />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/landing" element={<Landing />} />
             {/* Catch all route for 404 errors - redirect to home */}
