@@ -289,7 +289,7 @@ export const services: Service[] = [
     heroImage: "/images/safety-nets/cricket-practice-nets.webp",
     gallery: [
       "/images/safety-nets/cricket-practice-nets.webp",
-      "/images/safety-nets/sports-nets.webp",
+      "/images/safety-nets/sports-nets-installation.avif",
       "/images/safety-nets/industrial-safety-nets.webp"
     ],
     priceRange: "₹30-50 per sq ft",
@@ -565,7 +565,7 @@ export const services: Service[] = [
     heroImage: "/images/safety-nets/industrial-safety-nets.webp",
     gallery: [
       "/images/safety-nets/industrial-safety-nets.webp",
-      "/images/safety-nets/construction-safety-nets.webp",
+      "/images/safety-nets/industrial-safety-nets.webp",
       "/images/safety-nets/balcony-safety-nets (1).webp"
     ],
     priceRange: "₹35-55 per sq ft",
@@ -634,7 +634,7 @@ export const services: Service[] = [
     heroImage: "/images/safety-nets/open-area-safety-nets.webp",
     gallery: [
       "/images/safety-nets/open-area-safety-nets.webp",
-      "/images/safety-nets/gardening-nets.webp",
+      "/images/safety-nets/open-area-safety-nets.webp",
       "/images/safety-nets/balcony-safety-nets (1).webp"
     ],
     priceRange: "₹12-20 per sq ft",
@@ -703,7 +703,7 @@ export const services: Service[] = [
     heroImage: "/images/safety-nets/industrial-safety-nets.jpg",
     gallery: [
       "/images/safety-nets/industrial-safety-nets.jpg",
-      "/images/safety-nets/construction-safety-nets.webp",
+      "/images/safety-nets/industrial-safety-nets.webp",
       "/images/safety-nets/balcony-safety-nets (1).webp"
     ],
     priceRange: "₹40-60 per sq ft",
@@ -772,7 +772,7 @@ export const services: Service[] = [
     heroImage: "/images/safety-nets/cricket-practice-nets.webp",
     gallery: [
       "/images/safety-nets/cricket-practice-nets.webp",
-      "/images/safety-nets/sports-nets.webp",
+      "/images/safety-nets/sports-nets-installation.avif",
       "/images/safety-nets/industrial-safety-nets.webp"
     ],
     priceRange: "₹25-45 per sq ft",

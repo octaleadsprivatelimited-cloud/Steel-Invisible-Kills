@@ -85,7 +85,7 @@ const Navbar: React.FC = () => {
   }
 
   return (
-    <nav className="shadow-md fixed w-full z-50" style={{ backgroundColor: '#f97316' }}>
+    <nav className="shadow-lg fixed w-full z-50 backdrop-blur-md bg-white/95 border-b border-gray-200" style={{ backgroundColor: '#f97316' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
               <Link to="/" className="flex items-center space-x-2">
@@ -213,7 +213,13 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Navigation */}
       {isOpen && (
-        <div className="mobile-menu md:hidden absolute top-full left-0 right-0 bg-white shadow-lg border-t border-gray-200 z-50 max-h-[80vh] overflow-y-auto">
+        <>
+          {/* Backdrop */}
+          <div 
+            className="fixed inset-0 bg-black bg-opacity-50 z-40 md:hidden"
+            onClick={() => setIsOpen(false)}
+          />
+          <div className="mobile-menu md:hidden fixed top-16 left-0 right-0 bg-white shadow-lg border-t border-gray-200 z-50 max-h-[80vh] overflow-y-auto">
           <div className="px-4 py-3 space-y-2 bg-white">
             <Link to="/" className="block px-3 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded-md transition-colors" onClick={() => setIsOpen(false)}>Home</Link>
             
@@ -288,6 +294,7 @@ const Navbar: React.FC = () => {
             </div>
           </div>
         </div>
+        </>
       )}
     </nav>
   );

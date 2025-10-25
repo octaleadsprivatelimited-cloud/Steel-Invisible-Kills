@@ -228,14 +228,14 @@ const Services: React.FC = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {services.map((service, index) => (
               <div
                 key={index}
-                className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
+                className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 border border-gray-100 hover:border-blue-200"
               >
                 {/* Service Header with Background */}
-                <div className="h-32 flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-blue-500 to-blue-600">
+                <div className="h-40 flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-blue-500 via-blue-600 to-blue-700 group-hover:from-blue-600 group-hover:via-blue-700 group-hover:to-blue-800 transition-all duration-500">
                   {/* Background Images for all services */}
                       {index === 0 && (
                         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
@@ -306,21 +306,21 @@ const Services: React.FC = () => {
                   </div>
                 </div>
                 
-                <div className="p-8">
-                  <p className="text-gray-600 mb-6 text-center">
+                <div className="p-6">
+                  <p className="text-gray-600 mb-6 text-center leading-relaxed">
                     {service.description}
                   </p>
                   
                   <div className="mb-6">
-                    <h4 className="font-semibold text-gray-900 mb-3 flex items-center">
+                    <h4 className="font-semibold text-gray-900 mb-4 flex items-center text-lg">
                       <CheckCircle className="h-5 w-5 text-green-500 mr-2" />
                       Key Features:
                     </h4>
-                    <ul className="space-y-2">
+                    <ul className="space-y-3">
                       {service.features.map((feature, idx) => (
-                        <li key={idx} className="flex items-center text-gray-600">
-                          <div className="w-2 h-2 bg-yellow-500 rounded-full mr-3 flex-shrink-0"></div>
-                          {feature}
+                        <li key={idx} className="flex items-center text-gray-600 group-hover:text-gray-700 transition-colors">
+                          <div className="w-2 h-2 bg-blue-500 rounded-full mr-3 flex-shrink-0 group-hover:bg-blue-600 transition-colors"></div>
+                          <span className="text-sm">{feature}</span>
                         </li>
                       ))}
                     </ul>
@@ -329,14 +329,14 @@ const Services: React.FC = () => {
                   <div className="text-center space-y-3">
                     <Link
                       to={`/services/${getServiceSlug(service.title)}`}
-                      className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold transition-colors inline-flex items-center group"
+                      className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300 inline-flex items-center justify-center group shadow-lg hover:shadow-xl"
                     >
                       Learn More
                       <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                     </Link>
                     <button 
                       onClick={openWhatsAppQuote}
-                      className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-6 py-3 rounded-lg font-semibold transition-colors inline-flex items-center group cursor-pointer"
+                      className="w-full bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-gray-900 px-6 py-3 rounded-xl font-semibold transition-all duration-300 inline-flex items-center justify-center group cursor-pointer shadow-lg hover:shadow-xl"
                     >
                       Get Quote
                       <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
