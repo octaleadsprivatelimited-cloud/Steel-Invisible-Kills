@@ -6,11 +6,11 @@
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",
     "@testing-library/react": "^16.3.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.126",
-    "@types/react": "^18.3.1",
-    "@types/react-dom": "^18.3.1",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.1",
+    "@types/react": "^18.3.17",
+    "@types/react-dom": "^18.3.5",
     "@vercel/analytics": "^1.5.0",
     "@vercel/speed-insights": "^1.2.0",
     "framer-motion": "^12.23.12",
@@ -18,10 +18,10 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-helmet-async": "^2.0.5",
-    "react-router-dom": "^6.22.3",
-    "react-scripts": "5.0.1",
+    "react-router-dom": "^6.28.0",
+    "react-scripts": "^5.0.1",
     "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^4.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -33,12 +33,6 @@
     "clean": "rm -rf node_modules/.cache && rm -rf build && rm -rf .cache",
     "clean:all": "rm -rf node_modules && rm -rf node_modules/.cache && rm -rf build && rm -rf .cache && npm install",
     "clean:cache": "rm -rf node_modules/.cache && rm -rf .cache"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
@@ -55,10 +49,33 @@
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.17"
+    "tailwindcss": "^3.4.17",
+    "eslint": "^9.17.0",
+    "@eslint/js": "^9.17.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "@babel/core": "^7.25.9",
+    "@babel/preset-env": "^7.25.9",
+    "@babel/preset-react": "^7.25.9",
+    "@babel/preset-typescript": "^7.25.9",
+    "@babel/plugin-transform-private-methods": "^7.25.9",
+    "@babel/plugin-transform-optional-chaining": "^7.25.9",
+    "@babel/plugin-transform-numeric-separator": "^7.25.9",
+    "@babel/plugin-transform-class-properties": "^7.25.9",
+    "@babel/plugin-transform-nullish-coalescing-operator": "^7.25.9",
+    "@babel/plugin-transform-private-property-in-object": "^7.25.9"
   },
   "engines": {
     "node": "22.x",
     "npm": "10.x"
+  },
+  "overrides": {
+    "eslint": "^9.17.0",
+    "glob": "^10.3.10",
+    "rimraf": "^5.0.5",
+    "inflight": "npm:@npmcli/inflight@^2.0.0",
+    "svgo": "^3.0.0",
+    "source-map": "^0.7.4"
   }
 }
