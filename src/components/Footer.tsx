@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
                 <Shield className="h-6 w-6 text-blue-500" />
-                  <span className="text-lg lg:text-xl font-bold">Steel Invisible Kills</span>
+                  <span className="text-lg lg:text-xl font-bold">Steel Invisible Grills</span>
               </div>
               <p className="text-sm text-gray-300 leading-relaxed">
                 Leading safety nets and protection solutions provider in Hyderabad.
@@ -63,8 +63,8 @@ const Footer: React.FC = () => {
                 <div className="flex items-start space-x-3">
                   <Phone className="h-4 w-4 text-blue-500 mt-0.5 flex-shrink-0" />
                   <div>
-                    <p className="text-gray-300">+91 8074616049</p>
-                    <p className="text-gray-300">+91 9100116056</p>
+                    <p className="text-gray-300">+91 7893987771</p>
+                    <p className="text-gray-300">+91 8096481881</p>
                     <p className="text-gray-400 text-xs">24/7 Support</p>
                   </div>
                 </div>
@@ -99,7 +99,7 @@ const Footer: React.FC = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-3 md:space-y-0">
             <div className="text-center md:text-left">
               <p className="text-sm text-gray-400">
-                © 2024 Steel Invisible Kills. All rights reserved. | Developed by{' '}
+                © 2024 Steel Invisible Grills. All rights reserved. | Developed by{' '}
                 <a 
                   href="https://www.octaleads.com/" 
                   target="_blank" 

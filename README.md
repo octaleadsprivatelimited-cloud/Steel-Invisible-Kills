@@ -1,4 +1,4 @@
-# Steel Invisible Kills - Safety Nets & Protection Solutions Website
+# Steel Invisible Grills - Safety Nets & Protection Solutions Website
 
 A professional, responsive website for a safety nets and protection solutions company operating across India.
 
@@ -144,8 +144,8 @@ The build folder will contain all production-ready files.
 ### Environment Variables
 Create a `.env` file for environment-specific configurations:
 ```env
-REACT_APP_COMPANY_NAME=Steel Invisible Kills
-REACT_APP_PHONE_NUMBER=+919100116156
+REACT_APP_COMPANY_NAME=Steel Invisible Grills
+REACT_APP_PHONE_NUMBER=+917893987771
 REACT_APP_EMAIL=vinayakasafetynets@gmail.com
 ```
 
@@ -190,9 +190,9 @@ This project is licensed under the MIT License.
 
 For support and questions:
 
-- Phone: +91 9100116156
-- WhatsApp: +91 9100116156
+- Phone: +91 7893987771
+- WhatsApp: +91 7893987771
 
 ---
 
-**Steel Invisible Kills** - Protecting lives with quality safety solutions! 🛡️
+**Steel Invisible Grills** - Protecting lives with quality safety solutions! 🛡️

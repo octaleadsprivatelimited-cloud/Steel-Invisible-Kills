@@ -90,7 +90,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center h-16">
               <Link to="/" className="flex items-center space-x-2">
                 <Shield className="h-8 w-8 text-blue-500" />
-                <span className="text-xl font-bold text-white">Steel Invisible Kills</span>
+                <span className="text-xl font-bold text-white">Steel Invisible Grills</span>
               </Link>
 
           <div className="hidden md:flex items-center space-x-8">

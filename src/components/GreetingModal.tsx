@@ -31,13 +31,13 @@ const GreetingModal: React.FC = () => {
     const message = encodeURIComponent(
       "Hi! I'm interested in safety nets installation. Can you provide me with more information about your services?"
     );
-    const whatsappUrl = `https://wa.me/918074616049?text=${message}`;
+    const whatsappUrl = `https://wa.me/917893987771?text=${message}`;
     window.open(whatsappUrl, '_blank');
     handleClose();
   };
 
   const handleCall = () => {
-    window.open('tel:+918074616049', '_self');
+    window.open('tel:+917893987771', '_self');
     handleClose();
   };
 
@@ -89,7 +89,7 @@ const GreetingModal: React.FC = () => {
                   transition={{ delay: 0.3 }}
                   className="text-2xl font-bold text-gray-900 mb-2"
                 >
-                  Welcome to Steel Invisible Kills! 🎉
+                  Welcome to Steel Invisible Grills! 🎉
                 </motion.h2>
                 
                 <motion.p
@@ -147,7 +147,7 @@ const GreetingModal: React.FC = () => {
                   className="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 px-4 rounded-lg font-semibold transition-colors flex items-center justify-center"
                 >
                   <Phone className="h-5 w-5 mr-2" />
-                  Call Now: +91 8074616049
+                  Call Now: +91 7893987771
                 </button>
               </motion.div>
 

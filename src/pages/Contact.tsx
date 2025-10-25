@@ -49,8 +49,8 @@ const Contact: React.FC = () => {
     {
       icon: <Phone className="h-8 w-8 text-yellow-500" />,
       title: "Phone",
-      details: ["+91 8074616049", "+91 8466055207"],
-      action: "tel:+918074616049"
+      details: ["+91 7893987771", "+91 8096481881"],
+      action: "tel:+917893987771"
     },
     {
       icon: <Mail className="h-8 w-8 text-yellow-500" />,
@@ -328,7 +328,7 @@ const Contact: React.FC = () => {
                       <h4 className="font-semibold text-gray-900">WhatsApp</h4>
                       <p className="text-gray-600">Get instant response on WhatsApp</p>
                       <a
-                        href="https://wa.me/918074616049"
+                        href="https://wa.me/917893987771"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-yellow-600 hover:text-yellow-700 font-medium"
@@ -344,10 +344,10 @@ const Contact: React.FC = () => {
                       <h4 className="font-semibold text-gray-900">Call Us</h4>
                       <p className="text-gray-600">Speak directly with our experts</p>
                       <a
-                        href="tel:+918074616049"
+                        href="tel:+917893987771"
                         className="text-yellow-600 hover:text-yellow-700 font-medium"
                       >
-                        +91 8074616049
+                        +91 7893987771
                       </a>
                     </div>
                   </div>
@@ -376,7 +376,7 @@ const Contact: React.FC = () => {
                       allowFullScreen
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
-                      title="Steel Invisible Kills Location"
+                      title="Steel Invisible Grills Location"
                     ></iframe>
                   </div>
                   <div className="mt-4 flex flex-col sm:flex-row gap-2">
@@ -456,13 +456,13 @@ const Contact: React.FC = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+918074616049"
+              href="tel:+917893987771"
               className="bg-gray-900 hover:bg-gray-800 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
             >
-                              Call Now: +91 8074616049
+                              Call Now: +91 7893987771
             </a>
             <a
-              href="https://wa.me/918074616049"
+              href="https://wa.me/917893987771"
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors"

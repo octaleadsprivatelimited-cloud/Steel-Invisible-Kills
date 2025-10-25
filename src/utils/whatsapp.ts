@@ -1,5 +1,5 @@
 export const openWhatsAppQuote = () => {
-  const phoneNumber = '918074616049';
+  const phoneNumber = '917893987771';
   const message = encodeURIComponent(
     'Hi! I would like to get a quote for safety nets installation. Please provide me with more information.'
   );

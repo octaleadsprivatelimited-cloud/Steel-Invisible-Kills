@@ -371,7 +371,7 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                  Why Choose Steel Invisible Kills?
+                  Why Choose Steel Invisible Grills?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We provide comprehensive safety solutions with unmatched quality and service - from construction safety nets to cricket nets, gardening protection, and industrial safety solutions across Hyderabad
@@ -427,10 +427,10 @@ const Home: React.FC = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="tel:+918074616049"
+                  href="tel:+917893987771"
                   className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors shadow-lg"
                 >
-              Call Now: +91 8074616049
+              Call Now: +91 7893987771
             </a>
             <button
               onClick={openWhatsAppQuote}

@@ -1,5 +1,5 @@
 /* TEAM */
-    Founder: Steel Invisible Kills Team
+    Founder: Steel Invisible Grills Team
     Site: https://steel-invisible-kills.vercel.app
     Location: Hyderabad, Telangana, India
 
@@ -31,7 +31,7 @@
     Description: Quality safety nets and materials
 
 /* SITE */
-    Name: Steel Invisible Kills
+    Name: Steel Invisible Grills
     Description: Leading safety nets installation company in Hyderabad
     Keywords: safety nets, balcony safety nets, pigeon nets, cricket nets, kids safety nets, construction safety nets, industrial safety nets, sports nets, swimming pool nets, window safety nets, invisible nets, Hyderabad, Telangana, safety installation, protection solutions
-    Author: Steel Invisible Kills Team
+    Author: Steel Invisible Grills Team

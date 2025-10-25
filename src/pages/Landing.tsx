@@ -56,14 +56,14 @@ const Landing: React.FC = () => {
             {/* Logo and Company Name */}
             <div className="flex items-center flex-shrink-0 min-w-0">
               <Shield className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6 text-yellow-400 mr-1 sm:mr-1.5 lg:mr-2 flex-shrink-0" />
-              <h1 className="text-sm sm:text-base lg:text-lg font-bold text-white truncate">Steel Invisible Kills</h1>
+              <h1 className="text-sm sm:text-base lg:text-lg font-bold text-white truncate">Steel Invisible Grills</h1>
             </div>
             
             {/* Contact Buttons */}
             <div className="flex items-center space-x-1 sm:space-x-2 lg:space-x-3 flex-shrink-0">
               {/* WhatsApp Button */}
               <a
-                href="https://wa.me/918074616049?text=Hi! I would like to get a quote for safety nets installation. Please provide me with more information."
+                href="https://wa.me/917893987771?text=Hi! I would like to get a quote for safety nets installation. Please provide me with more information."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-500 hover:bg-green-600 text-white px-2 py-1.5 sm:px-3 sm:py-2 lg:px-4 lg:py-2 rounded-lg font-semibold text-xs sm:text-sm lg:text-base transition-colors flex items-center whitespace-nowrap flex-shrink-0"
@@ -75,11 +75,11 @@ const Landing: React.FC = () => {
               </a>
               
               {/* Phone Number */}
-              <a href="tel:+918074616049" className="text-white hover:text-yellow-400 transition-colors text-xs sm:text-sm lg:text-base flex items-center whitespace-nowrap flex-shrink-0">
+              <a href="tel:+917893987771" className="text-white hover:text-yellow-400 transition-colors text-xs sm:text-sm lg:text-base flex items-center whitespace-nowrap flex-shrink-0">
                 <Phone className="h-3 w-3 sm:h-4 sm:w-4 lg:h-4 lg:w-4 mr-1 flex-shrink-0" />
-                <span className="hidden lg:inline">+91 8074616049</span>
-                <span className="hidden sm:inline lg:hidden">+91 8074616049</span>
-                <span className="sm:hidden">+91 8074616049</span>
+                <span className="hidden lg:inline">+91 7893987771</span>
+                <span className="hidden sm:inline lg:hidden">+91 7893987771</span>
+                <span className="sm:hidden">+91 7893987771</span>
               </a>
             </div>
           </div>
@@ -209,8 +209,8 @@ const Landing: React.FC = () => {
                 <div className="mt-3 sm:mt-4 text-center">
                   <p className="text-gray-300 text-xs">
                     Or call us directly: 
-                    <a href="tel:+918074616049" className="text-yellow-400 font-semibold ml-1">
-                      +91 8074616049
+                    <a href="tel:+917893987771" className="text-yellow-400 font-semibold ml-1">
+                      +91 7893987771
                     </a>
                   </p>
                 </div>
@@ -224,7 +224,7 @@ const Landing: React.FC = () => {
       <section className="py-16 bg-white/5 w-full">
         <div className="w-full max-w-6xl mx-auto px-3 sm:px-4 lg:px-6">
           <h2 className="text-3xl lg:text-4xl font-bold text-white text-center mb-12">
-            Why Choose Steel Invisible Kills?
+            Why Choose Steel Invisible Grills?
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -415,14 +415,14 @@ const Landing: React.FC = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+918074616049"
+                href="tel:+917893987771"
                 className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-8 py-4 rounded-lg font-bold text-lg transition-colors inline-flex items-center"
               >
                 <Phone className="mr-2 h-5 w-5" />
-                Call Now: +91 8074616049
+                Call Now: +91 7893987771
               </a>
               <a
-                href="https://wa.me/918074616049"
+                href="https://wa.me/917893987771"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors inline-flex items-center"
@@ -438,7 +438,7 @@ const Landing: React.FC = () => {
       {/* Footer */}
       <footer className="bg-black/30 py-8 text-center text-gray-300 w-full">
         <div className="w-full max-w-4xl mx-auto px-3 sm:px-4 lg:px-6">
-          <p>&copy; 2024 Steel Invisible Kills. All rights reserved.</p>
+          <p>&copy; 2024 Steel Invisible Grills. All rights reserved.</p>
           <p className="mt-2">| ISO 9001:2015 Certified Serving All Areas of Hyderabad – delivering reliable safety nets solutions.</p>
         </div>
       </footer>
@@ -464,7 +464,7 @@ const Landing: React.FC = () => {
                       <Shield className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
                     </div>
                     <div>
-                      <h2 className="text-lg sm:text-xl font-bold text-white">Contact Steel Invisible Kills</h2>
+                      <h2 className="text-lg sm:text-xl font-bold text-white">Contact Steel Invisible Grills</h2>
                       <p className="text-yellow-200 text-xs sm:text-sm">Get Free Safety Quote</p>
                     </div>
                   </div>
@@ -537,8 +537,8 @@ const Landing: React.FC = () => {
                 <div className="mt-4 text-center">
                   <p className="text-gray-500 text-xs sm:text-sm">
                     Or call us directly: 
-                    <a href="tel:+918074616049" className="text-yellow-600 font-semibold ml-1">
-                      +91 8074616049
+                    <a href="tel:+917893987771" className="text-yellow-600 font-semibold ml-1">
+                      +91 7893987771
                     </a>
                   </p>
                 </div>

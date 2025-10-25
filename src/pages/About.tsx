@@ -68,7 +68,7 @@ const About: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="text-4xl lg:text-5xl font-bold mb-6"
           >
-            About Steel Invisible Kills
+            About Steel Invisible Grills
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -95,7 +95,7 @@ const About: React.FC = () => {
                 Our Story
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded in 2009, Steel Invisible Kills began with a clear mission: to make safety 
+                Founded in 2009, Steel Invisible Grills began with a clear mission: to make safety 
                 accessible and reliable for construction sites, sports facilities, and gardens across India.
               </p>
               <p className="text-lg text-gray-600 mb-6">
@@ -310,18 +310,18 @@ const About: React.FC = () => {
             Ready to Work with Us?
           </h2>
           <p className="text-lg sm:text-xl text-gray-300 mb-6 sm:mb-8 max-w-2xl mx-auto px-4">
-            Join our growing family of satisfied customers and experience the Steel Invisible Kills difference
+            Join our growing family of satisfied customers and experience the Steel Invisible Grills difference
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4">
             <a
-              href="tel:+918074616049"
+              href="tel:+917893987771"
               className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-base sm:text-lg transition-colors inline-flex items-center justify-center"
             >
               <Phone className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
-              Call Now: +91 8074616049
+              Call Now: +91 7893987771
             </a>
             <a
-              href="https://wa.me/918074616049"
+              href="https://wa.me/917893987771"
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-white hover:bg-white hover:text-gray-900 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-base sm:text-lg transition-colors"
