@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://steel-invisible-grills.vercel.app/sitemap.xml
+Sitemap: https://steel-invisible-kills.vercel.app/sitemap.xml
 
 # Disallow admin and private areas
 Disallow: /admin/

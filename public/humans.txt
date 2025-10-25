@@ -1,14 +1,14 @@
 /* TEAM */
     Founder: Steel Invisible Grills Team
-    Site: https://steel-invisible-grills.vercel.app
+    Site: https://steel-invisible-kills.vercel.app
     Location: Hyderabad, Telangana, India
 
     Technical Director: Safety Nets Specialist
-    Site: https://steel-invisible-grills.vercel.app
+    Site: https://steel-invisible-kills.vercel.app
     Location: Hyderabad, Telangana, India
 
     Operations Manager: Installation Expert
-    Site: https://steel-invisible-grills.vercel.app
+    Site: https://steel-invisible-kills.vercel.app
     Location: Hyderabad, Telangana, India
 
 /* SITE */
