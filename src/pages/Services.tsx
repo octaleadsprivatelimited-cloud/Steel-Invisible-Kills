@@ -239,7 +239,7 @@ const Services: React.FC = () => {
                   {/* Background Images for all services */}
                       {index === 0 && (
                         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
-                          backgroundImage: `url('/images/safety-nets/balcony-safety-nets (1).webp')`
+                          backgroundImage: `url('/images/safety-nets/balcony-safety-nets-1.webp')`
                         }}></div>
                       )}
                   {index === 1 && (

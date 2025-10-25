@@ -83,7 +83,7 @@ export const services: Service[] = [
     gallery: [
       "/images/safety-nets/pigeon-nets.webp",
       "/images/safety-nets/bird-spikes.webp",
-      "/images/safety-nets/balcony-safety-nets (1).webp"
+      "/images/safety-nets/balcony-safety-nets-1.webp"
     ],
     priceRange: "₹15-25 per sq ft",
     category: "Bird Control",
@@ -152,7 +152,7 @@ export const services: Service[] = [
     gallery: [
       "/images/safety-nets/invisible-nets.webp",
       "/images/safety-nets/terrace-top-nets.webp",
-      "/images/safety-nets/balcony-safety-nets (1).webp"
+      "/images/safety-nets/balcony-safety-nets-1.webp"
     ],
     priceRange: "₹20-35 per sq ft",
     category: "Safety Protection",
@@ -216,10 +216,10 @@ export const services: Service[] = [
       "Annual service"
     ],
     warranty: "5 years warranty on materials and workmanship",
-    image: "/images/safety-nets/balcony-safety-nets (1).webp",
-    heroImage: "/images/safety-nets/balcony-safety-nets (1).webp",
+    image: "/images/safety-nets/balcony-safety-nets-1.webp",
+    heroImage: "/images/safety-nets/balcony-safety-nets-1.webp",
     gallery: [
-      "/images/safety-nets/balcony-safety-nets (1).webp",
+      "/images/safety-nets/balcony-safety-nets-1.webp",
       "/images/safety-nets/terrace-top-nets.webp",
       "/images/safety-nets/window-safety-nets.webp"
     ],
@@ -359,7 +359,7 @@ export const services: Service[] = [
     gallery: [
       "/images/safety-nets/kids-safety-nets.jpg",
       "/images/safety-nets/terrace-top-nets.webp",
-      "/images/safety-nets/balcony-safety-nets (1).webp"
+      "/images/safety-nets/balcony-safety-nets-1.webp"
     ],
     priceRange: "₹20-35 per sq ft",
     category: "Child Safety",
@@ -497,7 +497,7 @@ export const services: Service[] = [
     gallery: [
       "/images/safety-nets/pets-safety-nets.jpg",
       "/images/safety-nets/duct-area-safety-nets.webp",
-      "/images/safety-nets/balcony-safety-nets (1).webp"
+      "/images/safety-nets/balcony-safety-nets-1.webp"
     ],
     priceRange: "₹20-35 per sq ft",
     category: "Pet Safety",
@@ -566,7 +566,7 @@ export const services: Service[] = [
     gallery: [
       "/images/safety-nets/industrial-safety-nets.webp",
       "/images/safety-nets/industrial-safety-nets.webp",
-      "/images/safety-nets/balcony-safety-nets (1).webp"
+      "/images/safety-nets/balcony-safety-nets-1.webp"
     ],
     priceRange: "₹35-55 per sq ft",
     category: "Construction Safety",
@@ -635,7 +635,7 @@ export const services: Service[] = [
     gallery: [
       "/images/safety-nets/open-area-safety-nets.webp",
       "/images/safety-nets/open-area-safety-nets.webp",
-      "/images/safety-nets/balcony-safety-nets (1).webp"
+      "/images/safety-nets/balcony-safety-nets-1.webp"
     ],
     priceRange: "₹12-20 per sq ft",
     category: "Garden Protection",
@@ -704,7 +704,7 @@ export const services: Service[] = [
     gallery: [
       "/images/safety-nets/industrial-safety-nets.jpg",
       "/images/safety-nets/industrial-safety-nets.webp",
-      "/images/safety-nets/balcony-safety-nets (1).webp"
+      "/images/safety-nets/balcony-safety-nets-1.webp"
     ],
     priceRange: "₹40-60 per sq ft",
     category: "Industrial Safety",
@@ -842,7 +842,7 @@ export const services: Service[] = [
     gallery: [
       "/images/safety-nets/swimming-pool-nets.jpg",
       "/images/safety-nets/staircase-safety-nets.webp",
-      "/images/safety-nets/balcony-safety-nets (1).webp"
+      "/images/safety-nets/balcony-safety-nets-1.webp"
     ],
     priceRange: "₹30-50 per sq ft",
     category: "Pool Safety",
@@ -911,7 +911,7 @@ export const services: Service[] = [
     gallery: [
       "/images/safety-nets/window-safety-nets.jpg",
       "/images/safety-nets/terrace-top-nets.webp",
-      "/images/safety-nets/balcony-safety-nets (1).webp"
+      "/images/safety-nets/balcony-safety-nets-1.webp"
     ],
     priceRange: "₹20-35 per sq ft",
     category: "Window Safety",

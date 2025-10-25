@@ -17,6 +17,7 @@ const LazyImage: React.FC<LazyImageProps> = ({
 }) => {
   const [isLoaded, setIsLoaded] = useState(false);
   const [isInView, setIsInView] = useState(false);
+  const [hasError, setHasError] = useState(false);
   const imgRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -39,16 +40,25 @@ const LazyImage: React.FC<LazyImageProps> = ({
 
   return (
     <div ref={imgRef} className={className} style={style}>
-      {isInView && (
+      {isInView && !hasError && (
         <img
           src={src}
           alt={alt}
           className={`transition-opacity duration-300 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
           onLoad={() => setIsLoaded(true)}
+          onError={() => setHasError(true)}
           loading="lazy"
         />
       )}
-      {!isLoaded && isInView && (
+      {hasError && (
+        <div className="w-full h-full bg-gray-200 flex items-center justify-center">
+          <div className="text-center text-gray-500">
+            <div className="text-4xl mb-2">🖼️</div>
+            <div className="text-sm">Image not available</div>
+          </div>
+        </div>
+      )}
+      {!isLoaded && isInView && !hasError && (
         <div 
           className="w-full h-full bg-gray-200 animate-pulse"
           style={{ backgroundImage: `url(${placeholder})` }}
