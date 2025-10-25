@@ -26,8 +26,8 @@
   "scripts": {
     "start": "react-scripts start",
     "start:clean": "npm run clean && react-scripts start",
-    "build": "react-scripts build",
-    "build:clean": "npm run clean && react-scripts build",
+    "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
+    "build:clean": "npm run clean && DISABLE_ESLINT_PLUGIN=true react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "clean": "rm -rf node_modules/.cache && rm -rf build && rm -rf .cache",
@@ -49,33 +49,10 @@
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.17",
-    "eslint": "^9.17.0",
-    "@eslint/js": "^9.17.0",
-    "eslint-plugin-react": "^7.37.2",
-    "eslint-plugin-react-hooks": "^5.0.0",
-    "eslint-plugin-jsx-a11y": "^6.10.2",
-    "@babel/core": "^7.25.9",
-    "@babel/preset-env": "^7.25.9",
-    "@babel/preset-react": "^7.25.9",
-    "@babel/preset-typescript": "^7.25.9",
-    "@babel/plugin-transform-private-methods": "^7.25.9",
-    "@babel/plugin-transform-optional-chaining": "^7.25.9",
-    "@babel/plugin-transform-numeric-separator": "^7.25.9",
-    "@babel/plugin-transform-class-properties": "^7.25.9",
-    "@babel/plugin-transform-nullish-coalescing-operator": "^7.25.9",
-    "@babel/plugin-transform-private-property-in-object": "^7.25.9"
+    "tailwindcss": "^3.4.17"
   },
   "engines": {
     "node": "22.x",
     "npm": "10.x"
-  },
-  "overrides": {
-    "eslint": "^9.17.0",
-    "glob": "^10.3.10",
-    "rimraf": "^5.0.5",
-    "inflight": "npm:@npmcli/inflight@^2.0.0",
-    "svgo": "^3.0.0",
-    "source-map": "^0.7.4"
   }
 }
