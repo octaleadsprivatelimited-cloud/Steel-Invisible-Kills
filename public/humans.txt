@@ -1,18 +1,18 @@
 /* TEAM */
-    Founder: Rajesh Kumar
-    Site: https://vinayakasolar.in
+    Founder: Steel Invisible Kills Team
+    Site: https://steel-invisible-kills.vercel.app
     Location: Hyderabad, Telangana, India
 
-    Technical Director: Priya Sharma
-    Site: https://vinayakasolar.in
-    Location: Karimnagar, Telangana, India
+    Technical Director: Safety Nets Specialist
+    Site: https://steel-invisible-kills.vercel.app
+    Location: Hyderabad, Telangana, India
 
-    Operations Manager: Amit Patel
-    Site: https://vinayakasolar.in
-    Location: Warangal, Telangana, India
+    Operations Manager: Installation Expert
+    Site: https://steel-invisible-kills.vercel.app
+    Location: Hyderabad, Telangana, India
 
 /* SITE */
-    Last update: 2024/08/22
+    Last update: 2024/10/25
     Language: English, Hindi, Telugu
     Doctype: HTML5
     IDE: Visual Studio Code
@@ -21,17 +21,17 @@
     Software: Create React App, Node.js, npm
 
 /* THANKS */
-    Name: Government of India
-    Description: PM Solar Scheme subsidies and renewable energy policies
+    Name: Safety Standards Organizations
+    Description: Safety nets standards and guidelines
 
-    Name: Telangana Government
-    Description: State solar energy initiatives and support
+    Name: Construction Industry
+    Description: Safety requirements and best practices
 
-    Name: Solar Energy Corporation of India (SECI)
-    Description: National solar mission and guidelines
+    Name: Safety Equipment Manufacturers
+    Description: Quality safety nets and materials
 
 /* SITE */
-    Name: Jara Safety Nets
-    Description: Leading solar panel installation company in Telangana
-    Keywords: solar panels, solar installation, PM solar scheme, subsidy, renewable energy, Telangana, Hyderabad, Karimnagar, Warangal, Nizamabad, Khammam, Ramagundam, Mahabubnagar, Adilabad, Nalgonda, Medak, Rangareddy, Suryapet, Miryalaguda, Siddipet, Jagtial
-    Author: Jara Safety Nets Team
+    Name: Steel Invisible Kills
+    Description: Leading safety nets installation company in Hyderabad
+    Keywords: safety nets, balcony safety nets, pigeon nets, cricket nets, kids safety nets, construction safety nets, industrial safety nets, sports nets, swimming pool nets, window safety nets, invisible nets, Hyderabad, Telangana, safety installation, protection solutions
+    Author: Steel Invisible Kills Team

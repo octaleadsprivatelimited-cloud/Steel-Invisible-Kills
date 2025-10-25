@@ -1,7 +1,7 @@
 {
-  "short_name": "Jara Safety Nets",
-  "name": "Jara Safety Nets - Leading Solar Panel Installation Company in Telangana",
-  "description": "Professional solar panel installation services with PM Solar Scheme subsidies up to ₹78,000. Serving Hyderabad, Karimnagar, Warangal, Nizamabad, Khammam, Ramagundam, Mahabubnagar, Adilabad, Nalgonda, Medak, Rangareddy, Suryapet, Miryalaguda, Siddipet, and Jagtial.",
+  "short_name": "Steel Invisible Kills",
+  "name": "Steel Invisible Kills - Leading Safety Nets Installation Company in Hyderabad",
+  "description": "Professional safety nets installation services with quality assurance. Serving all areas of Hyderabad including Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, and surrounding areas.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -21,12 +21,12 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#fbbf24",
+  "theme_color": "#f97316",
   "background_color": "#ffffff",
   "orientation": "portrait-primary",
   "scope": "/",
   "lang": "en",
-  "categories": ["business", "energy", "environment", "home-improvement"],
+  "categories": ["business", "safety", "construction", "home-improvement"],
   "screenshots": [
     {
       "src": "screenshot-wide.png",
@@ -43,25 +43,25 @@
   ],
   "shortcuts": [
     {
-      "name": "Solar Calculator",
-      "short_name": "Calculator",
-      "description": "Calculate your solar savings and subsidy",
-      "url": "/calculator",
+      "name": "Safety Nets Services",
+      "short_name": "Services",
+      "description": "View our safety nets services",
+      "url": "/services",
       "icons": [
         {
-          "src": "calculator-icon.png",
+          "src": "services-icon.png",
           "sizes": "96x96"
         }
       ]
     },
     {
-      "name": "Get Subsidy",
-      "short_name": "Subsidy",
-      "description": "Apply for ₹78,000 solar subsidy",
-      "url": "/landing",
+      "name": "Get Quote",
+      "short_name": "Quote",
+      "description": "Request a safety nets quote",
+      "url": "/contact",
       "icons": [
         {
-          "src": "subsidy-icon.png",
+          "src": "quote-icon.png",
           "sizes": "96x96"
         }
       ]

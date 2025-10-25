@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://vinayakasolar.in/sitemap.xml
+Sitemap: https://steel-invisible-kills.vercel.app/sitemap.xml
 
 # Disallow admin and private areas
 Disallow: /admin/
@@ -14,11 +14,9 @@ Disallow: /api/
 Allow: /services
 Allow: /about
 Allow: /blog
-Allow: /news
-Allow: /gallery
 Allow: /faq
 Allow: /contact
-Allow: /solar-calculator
+Allow: /image-test
 
 # Crawl delay (optional)
 Crawl-delay: 1
