@@ -1,4 +1,4 @@
-# Jara Safety Nets - Safety Nets & Protection Solutions Website
+# Steel Invisible Kills - Safety Nets & Protection Solutions Website
 
 A professional, responsive website for a safety nets and protection solutions company operating across India.
 
@@ -144,7 +144,7 @@ The build folder will contain all production-ready files.
 ### Environment Variables
 Create a `.env` file for environment-specific configurations:
 ```env
-REACT_APP_COMPANY_NAME=Jara Safety Nets
+REACT_APP_COMPANY_NAME=Steel Invisible Kills
 REACT_APP_PHONE_NUMBER=+919100116156
 REACT_APP_EMAIL=vinayakasafetynets@gmail.com
 ```
@@ -195,4 +195,4 @@ For support and questions:
 
 ---
 
-**Jara Safety Nets** - Protecting lives with quality safety solutions! 🛡️
+**Steel Invisible Kills** - Protecting lives with quality safety solutions! 🛡️

@@ -48,7 +48,7 @@ const ArticlePage: React.FC = () => {
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Jara Safety Nets",
+      "name": "Steel Invisible Kills",
       "logo": {
         "@type": "ImageObject",
         "url": "https://jara-safety-nets.vercel.app/logo.png"
@@ -96,7 +96,7 @@ const ArticlePage: React.FC = () => {
         <meta property="og:description" content={article.excerpt} />
         <meta property="og:image" content={`https://jara-safety-nets.vercel.app${article.image}`} />
         <meta property="og:url" content={`https://jara-safety-nets.vercel.app/blog/${article.slug}`} />
-        <meta property="og:site_name" content="Jara Safety Nets" />
+        <meta property="og:site_name" content="Steel Invisible Kills" />
         
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />

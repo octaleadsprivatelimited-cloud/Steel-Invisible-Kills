@@ -124,7 +124,7 @@ const FAQ: React.FC = () => {
             </h1>
             <p className="text-xl text-white max-w-3xl mx-auto font-medium">
               Get answers to common questions about safety nets, installation, and maintenance. 
-              Everything you need to know about Jara Safety Nets services.
+              Everything you need to know about Steel Invisible Kills services.
             </p>
           </motion.div>
         </div>
