@@ -13,6 +13,7 @@ import Landing from './pages/Landing';
 import FAQ from './pages/FAQ';
 import Blog from './pages/Blog';
 import Article from './pages/Article';
+import ImageTest from './pages/ImageTest';
 import WhatsAppButton from './components/WhatsAppButton';
 import GreetingModal from './components/GreetingModal';
 import ScrollToTop from './components/ScrollToTop';
@@ -49,9 +50,10 @@ function App() {
                   </Suspense>
                 } />
 
-                <Route path="/faq" element={<FAQ />} />
-                <Route path="/blog" element={<Blog />} />
-                <Route path="/blog/:slug" element={<Article />} />
+                    <Route path="/faq" element={<FAQ />} />
+                    <Route path="/blog" element={<Blog />} />
+                    <Route path="/blog/:slug" element={<Article />} />
+                    <Route path="/image-test" element={<ImageTest />} />
 
                 {/* Catch all route for 404 errors - redirect to home */}
                 <Route path="*" element={<Navigate to="/" replace />} />
