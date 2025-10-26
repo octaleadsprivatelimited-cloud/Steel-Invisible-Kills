@@ -1,17 +1,22 @@
 module.exports = {
   extends: [
-    'react-app',
-    'react-app/jest'
+    'eslint:recommended'
   ],
+  env: {
+    browser: true,
+    es2021: true,
+    node: true
+  },
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true
+    },
+    ecmaVersion: 12,
+    sourceType: 'module'
+  },
   rules: {
     // Disable problematic rules that might cause build issues
     'no-unused-vars': 'warn',
-    'no-console': 'warn',
-    'react-hooks/exhaustive-deps': 'warn'
-  },
-  settings: {
-    react: {
-      version: 'detect'
-    }
+    'no-console': 'warn'
   }
 };

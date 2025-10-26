@@ -20,15 +20,15 @@ const Services: React.FC = () => {
   };
   const services = [
     {
-      icon: <HardHat className="h-16 w-16 text-blue-500" />,
-      title: "Balcony Safety Nets",
-      description: "Complete safety solutions for balconies and high-rise buildings",
+      icon: <Shield className="h-16 w-16 text-blue-500" />,
+      title: "Invisible Nets",
+      description: "Ultra-thin, nearly invisible safety nets that provide maximum protection while maintaining clear visibility",
       features: [
-        "Child safety protection",
-        "Pet safety barriers",
-        "Weather resistant material",
-        "Professional installation",
-        "Custom sizing available"
+        "Ultra-thin design",
+        "Nearly invisible",
+        "High tensile strength",
+        "Weather resistant",
+        "Maintains visibility"
       ],
     },
     {
@@ -41,6 +41,18 @@ const Services: React.FC = () => {
         "Easy maintenance",
         "Weather proof",
         "Custom installation"
+      ],
+    },
+    {
+      icon: <HardHat className="h-16 w-16 text-blue-500" />,
+      title: "Balcony Safety Nets",
+      description: "Complete safety solutions for balconies and high-rise buildings",
+      features: [
+        "Child safety protection",
+        "Pet safety barriers",
+        "Weather resistant material",
+        "Professional installation",
+        "Custom sizing available"
       ],
     },
     {
@@ -239,7 +251,7 @@ const Services: React.FC = () => {
                   {/* Background Images for all services */}
                       {index === 0 && (
                         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
-                          backgroundImage: `url('/images/safety-nets/balcony-safety-nets-1.webp')`
+                          backgroundImage: `url('/images/safety-nets/invisible-nets.webp')`
                         }}></div>
                       )}
                   {index === 1 && (
@@ -249,50 +261,55 @@ const Services: React.FC = () => {
                   )}
                   {index === 2 && (
                     <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
-                      backgroundImage: `url('/images/safety-nets/cricket-practice-nets.webp')`
+                      backgroundImage: `url('/images/safety-nets/balcony-safety-nets-1.webp')`
                     }}></div>
                   )}
                   {index === 3 && (
                     <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
-                      backgroundImage: `url('/images/safety-nets/terrace-top-nets.webp')`
+                      backgroundImage: `url('/images/safety-nets/cricket-practice-nets.webp')`
                     }}></div>
                   )}
                   {index === 4 && (
                     <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
-                      backgroundImage: `url('/images/safety-nets/bird-spikes.webp')`
+                      backgroundImage: `url('/images/safety-nets/terrace-top-nets.webp')`
                     }}></div>
                   )}
                   {index === 5 && (
                     <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
-                      backgroundImage: `url('/images/safety-nets/duct-area-safety-nets.webp')`
+                      backgroundImage: `url('/images/safety-nets/bird-spikes.webp')`
                     }}></div>
                   )}
                   {index === 6 && (
                     <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
-                      backgroundImage: `url('/images/safety-nets/industrial-safety-nets.webp')`
+                      backgroundImage: `url('/images/safety-nets/duct-area-safety-nets.webp')`
                     }}></div>
                   )}
                   {index === 7 && (
                     <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
-                      backgroundImage: `url('/images/safety-nets/open-area-safety-nets.webp')`
+                      backgroundImage: `url('/images/safety-nets/industrial-safety-nets.webp')`
                     }}></div>
                   )}
                   {index === 8 && (
                     <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
-                      backgroundImage: `url('/images/safety-nets/industrial-safety-nets.webp')`
+                      backgroundImage: `url('/images/safety-nets/open-area-safety-nets.webp')`
                     }}></div>
                   )}
                   {index === 9 && (
                     <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
-                      backgroundImage: `url('/images/safety-nets/cricket-practice-nets.webp')`
+                      backgroundImage: `url('/images/safety-nets/industrial-safety-nets.webp')`
                     }}></div>
                   )}
                   {index === 10 && (
                     <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
-                      backgroundImage: `url('/images/safety-nets/staircase-safety-nets.webp')`
+                      backgroundImage: `url('/images/safety-nets/cricket-practice-nets.webp')`
                     }}></div>
                   )}
                   {index === 11 && (
+                    <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
+                      backgroundImage: `url('/images/safety-nets/staircase-safety-nets.webp')`
+                    }}></div>
+                  )}
+                  {index === 12 && (
                     <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
                       backgroundImage: `url('/images/safety-nets/terrace-top-nets.webp')`
                     }}></div>
