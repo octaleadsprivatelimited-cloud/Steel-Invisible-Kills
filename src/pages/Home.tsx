@@ -323,15 +323,15 @@ const Home: React.FC = () => {
               </div>
             </motion.div>
 
-            {/* Gardening Nets */}
+            {/* Cricket Practice Nets */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.2 }}
+              transition={{ duration: 0.6, delay: 0.3 }}
               className="bg-gradient-to-br from-white to-blue-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group"
             >
               <div className="h-48 bg-cover bg-center bg-no-repeat relative overflow-hidden">
-                {/* Gardening Nets Image */}
+                {/* Cricket Practice Nets Image */}
               <div className="absolute inset-0" style={{
                 backgroundImage: `url('/images/safety-nets/cricket-practice-nets.webp')`
               }}></div>
@@ -349,29 +349,6 @@ const Home: React.FC = () => {
               </div>
             </motion.div>
 
-            {/* Kids Safety Nets */}
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.3 }}
-              className="bg-gradient-to-br from-white to-blue-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group"
-            >
-              <div className="h-48 bg-cover bg-center bg-no-repeat relative overflow-hidden">
-                {/* Kids Safety Nets Image */}
-                <div className="absolute inset-0" style={{
-                  backgroundImage: `url('/images/safety-nets/terrace-top-nets.webp')`
-                }}></div>
-                
-                <div className="text-center text-white relative z-10 h-full flex flex-col items-center justify-center">
-                  <h3 className="text-xl font-semibold drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Kids Safety Nets</h3>
-                  <p className="text-sm opacity-90 drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Child protection</p>
-                </div>
-              </div>
-              <div className="p-6">
-                <h4 className="font-semibold text-gray-900 mb-2">Perfect for Children</h4>
-                <p className="text-gray-600 text-sm">Specialized safety nets designed specifically for children's safety. Child-safe materials with small mesh size for maximum protection across all areas of Hyderabad including Old City, Charminar, Dilsukhnagar, L.B. Nagar, Uppal, Nagole, and surrounding areas</p>
-              </div>
-            </motion.div>
           </div>
           
           {/* View More Services Button */}
