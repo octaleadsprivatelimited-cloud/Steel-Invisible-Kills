@@ -244,7 +244,7 @@ const Home: React.FC = () => {
           </motion.div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {/* Construction Safety Nets */}
+            {/* Invisible Nets */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -252,25 +252,25 @@ const Home: React.FC = () => {
               className="bg-gradient-to-br from-white to-blue-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group"
             >
               <div className="h-48 bg-cover bg-center bg-no-repeat relative overflow-hidden">
-                {/* Construction Safety Nets Image */}
+                {/* Invisible Nets Image */}
               <div className="absolute inset-0" style={{
-                backgroundImage: `url('/images/safety-nets/balcony-safety-nets-1.webp')`
+                backgroundImage: `url('/images/safety-nets/invisible-nets.webp')`
               }}></div>
                 
 
                 
                 <div className="text-center text-white relative z-10 h-full flex flex-col items-center justify-center">
-                  <h3 className="text-xl font-semibold drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Balcony Safety Nets</h3>
-                  <p className="text-sm opacity-90 drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Home safety</p>
+                  <h3 className="text-xl font-semibold drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Invisible Nets</h3>
+                  <p className="text-sm opacity-90 drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Ultra-thin safety</p>
                 </div>
               </div>
               <div className="p-6">
-                <h4 className="font-semibold text-gray-900 mb-2">Perfect for Balconies</h4>
-                <p className="text-gray-600 text-sm">Complete safety solutions for balconies and high-rise buildings. Child and pet safety protection with weather-resistant materials across all areas of Hyderabad including Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, and surrounding areas</p>
+                <h4 className="font-semibold text-gray-900 mb-2">Perfect for Aesthetic Safety</h4>
+                <p className="text-gray-600 text-sm">Ultra-thin, nearly invisible safety nets that provide maximum protection while maintaining clear visibility. Perfect for areas where aesthetics are important without compromising on safety across all areas of Hyderabad including Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, and surrounding areas</p>
               </div>
             </motion.div>
 
-            {/* Cricket Nets */}
+            {/* Pigeon Nets */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -278,7 +278,7 @@ const Home: React.FC = () => {
               className="bg-gradient-to-br from-white to-blue-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group"
             >
               <div className="h-48 bg-cover bg-center bg-no-repeat relative overflow-hidden">
-                {/* Cricket Nets Image */}
+                {/* Pigeon Nets Image */}
               <div className="absolute inset-0" style={{
                 backgroundImage: `url('/images/safety-nets/pigeon-nets.webp')`,
                 backgroundPosition: 'center 30%'
@@ -294,6 +294,32 @@ const Home: React.FC = () => {
               <div className="p-6">
                 <h4 className="font-semibold text-gray-900 mb-2">Perfect for Bird Protection</h4>
                 <p className="text-gray-600 text-sm">Anti-pigeon nets to protect your property from bird droppings and damage. UV resistant, transparent design with easy maintenance across all areas of Hyderabad including Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, and surrounding areas</p>
+              </div>
+            </motion.div>
+
+            {/* Balcony Safety Nets */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="bg-gradient-to-br from-white to-blue-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group"
+            >
+              <div className="h-48 bg-cover bg-center bg-no-repeat relative overflow-hidden">
+                {/* Balcony Safety Nets Image */}
+              <div className="absolute inset-0" style={{
+                backgroundImage: `url('/images/safety-nets/balcony-safety-nets-1.webp')`
+              }}></div>
+                
+
+                
+                <div className="text-center text-white relative z-10 h-full flex flex-col items-center justify-center">
+                  <h3 className="text-xl font-semibold drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Balcony Safety Nets</h3>
+                  <p className="text-sm opacity-90 drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Home safety</p>
+                </div>
+              </div>
+              <div className="p-6">
+                <h4 className="font-semibold text-gray-900 mb-2">Perfect for Balconies</h4>
+                <p className="text-gray-600 text-sm">Complete safety solutions for balconies and high-rise buildings. Child and pet safety protection with weather-resistant materials across all areas of Hyderabad including Financial District, Nanakramguda, Manikonda, Chandanagar, Serilingampally, and surrounding areas</p>
               </div>
             </motion.div>
 
