@@ -49,14 +49,14 @@ const Contact: React.FC = () => {
     {
       icon: <Phone className="h-8 w-8 text-yellow-500" />,
       title: "Phone",
-      details: ["+91 7893987771", "+91 8096481881"],
-      action: "tel:+917893987771"
+      details: ["+91 9912373373", "+91 9177008924"],
+      action: "tel:+919912373373"
     },
     {
       icon: <Mail className="h-8 w-8 text-yellow-500" />,
       title: "Email",
-      details: ["steelinvisiblegrillsints@gmail.com"],
-      action: "mailto:steelinvisiblegrillsints@gmail.com"
+      details: ["sssafetyinvisiblegrill@gmail.com"],
+      action: "mailto:sssafetyinvisiblegrill@gmail.com"
     },
     {
       icon: <MapPin className="h-8 w-8 text-yellow-500" />,
@@ -88,18 +88,21 @@ const Contact: React.FC = () => {
   ];
 
   const serviceTypes = [
-    'Balcony Safety Nets',
-    'Pigeon Nets',
-    'Cricket Practice Nets',
-    'Kids Net For Balcony',
-    'Anti Bird Nets',
-    'Pets Safety Nets',
-    'Construction Safety Nets',
-    'Gardening Nets',
-    'Industrial Safety Nets',
-    'Sports Nets',
-    'Swimming Pool Nets',
-    'Window Safety Nets'
+    'Invisible Grill for Balconies',
+    'Invisible Grill for Windows',
+    'Invisible Grill for Apartments',
+    'Pull & Dry Cloth Hangers',
+    'Ceiling Cloth Hangers',
+    'Pull & Dry Cloth Hangers for Balconies',
+    'Invisible Grill Dealers',
+    'Invisible Grill Fixing Charges',
+    'Invisible Grill for Balcony Near Me',
+    'Invisible Grill for Balcony Price',
+    'Invisible Grill for Child Safety',
+    'Invisible Grill Manufacturer',
+    'Stainless Steel Invisible Grill',
+    'Pull & Dry Cloth Hangers Fixing',
+    'Pull & Dry Cloth Hangers Installation'
   ];
 
   return (

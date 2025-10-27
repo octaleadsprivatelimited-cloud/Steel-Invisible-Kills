@@ -1,7 +1,7 @@
 export const openWhatsAppQuote = () => {
-  const phoneNumber = '917893987771';
+  const phoneNumber = '919912373373';
   const message = encodeURIComponent(
-    'Hi! I would like to get a quote for safety nets installation. Please provide me with more information.'
+    'Hi! I would like to get a quote for Invisible Grills and Cloth Hangers installation. Please provide me with more information.'
   );
   
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;

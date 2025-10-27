@@ -12,10 +12,10 @@ import {
 
 const About: React.FC = () => {
   const achievements = [
-    { number: "500+", label: "Safety Installations", icon: <CheckCircle className="h-8 w-8" /> },
-    { number: "30+", label: "Expert Team Members", icon: <Users className="h-8 w-8" /> },
-    { number: "15+", label: "Years of Experience", icon: <Award className="h-8 w-8" /> },
-    { number: "60+", label: "Areas in Hyderabad", icon: <Globe className="h-8 w-8" /> }
+    { number: "5200+", label: "Projects Done", icon: <CheckCircle className="h-8 w-8" /> },
+    { number: "5100+", label: "Happy Clients", icon: <Users className="h-8 w-8" /> },
+    { number: "40+", label: "Expert Staffs", icon: <Award className="h-8 w-8" /> },
+    { number: "25+", label: "Years Experience", icon: <Globe className="h-8 w-8" /> }
   ];
 
   const values = [
@@ -68,7 +68,7 @@ const About: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="text-4xl lg:text-5xl font-bold mb-6"
           >
-            About Steel Invisible Grills
+            About SS Invisible Grills
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -76,8 +76,7 @@ const About: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl text-white max-w-3xl mx-auto font-medium"
           >
-            Leading safety nets and protection solutions company in Hyderabad. Committed to providing comprehensive 
-            safety solutions, professional safety nets installation, and exceptional customer service in Hyderabad.
+            SS Invisible Grill specializes in providing high-quality, durable invisible grills for balconies. We offer stylish and safe solutions to protect your home while maintaining unobstructed views. Reliable installation and superior craftsmanship guaranteed.
           </motion.p>
         </div>
       </section>
@@ -95,12 +94,12 @@ const About: React.FC = () => {
                 Our Story
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded in 2009, Steel Invisible Grills began with a clear mission: to make safety 
-                accessible and reliable for construction sites, sports facilities, and gardens across India.
+                Founded with 25+ years of experience, SS Invisible Grills began with a clear mission: to provide 
+                high-quality invisible grills and cloth hangers for homes and apartments across Hyderabad.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                What began as a small team of passionate safety experts has grown into one of the nation's 
-                most trusted safety nets installation companies, proudly serving over 500 satisfied customers.
+                What began as a small team of passionate safety experts has grown into one of Hyderabad's 
+                most trusted invisible grill companies, proudly serving over 5200 satisfied customers.
               </p>
               <p className="text-lg text-gray-600">
                 Today, we continue to innovate and expand our services while upholding our core 

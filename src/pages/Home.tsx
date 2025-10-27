@@ -23,31 +23,31 @@ const Home: React.FC = () => {
   const features = [
     {
       icon: <Shield className="h-12 w-12 text-blue-500" />,
-      title: "Premium Safety Nets",
-      description: "High-quality safety nets with 5+ year warranty"
+      title: "Sleek and Aesthetic Design",
+      description: "These grills provide a modern, invisible look, blending seamlessly with your balcony or window"
     },
     {
       icon: <HardHat className="h-12 w-12 text-blue-500" />,
-      title: "Expert Installation",
-      description: "Certified technicians with 10+ years of experience"
+      title: "Durable and Strong",
+      description: "Made from high-quality, rust-resistant materials like stainless steel, offering long-lasting strength"
     },
     {
       icon: <Award className="h-12 w-12 text-blue-500" />,
-      title: "Quality Assurance",
-      description: "ISO certified processes and materials"
+      title: "Enhanced Safety",
+      description: "Effectively prevent falls, providing a safe environment for children, pets, and residents"
     },
     {
       icon: <CheckCircle className="h-12 w-12 text-blue-500" />,
-      title: "Best Service",
-      description: "Award-winning customer service and support"
+      title: "Quality Guarantee",
+      description: "ISO certified processes and materials with superior craftsmanship"
     }
   ];
 
   const stats = [
-    { number: "500+", label: "Safety Installations", icon: <CheckCircle className="h-6 w-6" /> },
-    { number: "30+", label: "Team Members", icon: <Users className="h-6 w-6" /> },
-    { number: "15+", label: "Years Experience", icon: <TrendingUp className="h-6 w-6" /> },
-    { number: "60+", label: "Areas in Hyderabad", icon: <Globe className="h-6 w-6" /> }
+    { number: "5200+", label: "Projects Done", icon: <CheckCircle className="h-6 w-6" /> },
+    { number: "5100+", label: "Happy Clients", icon: <Users className="h-6 w-6" /> },
+    { number: "40+", label: "Expert Staffs", icon: <TrendingUp className="h-6 w-6" /> },
+    { number: "25+", label: "Years Experience", icon: <Globe className="h-6 w-6" /> }
   ];
 
   return (
@@ -131,8 +131,8 @@ const Home: React.FC = () => {
                       transition: { duration: 0.8 }
                     }}
                   >
-                Protect Lives with
-                  <span className="text-blue-400 font-semibold"> Safety Nets</span>
+                Invisible Grills for
+                  <span className="text-blue-400 font-semibold"> Balconies</span>
               </motion.h1>
               
               {/* Company Tagline with Moving Background Effect */}
@@ -151,7 +151,7 @@ const Home: React.FC = () => {
                         transition: { duration: 0.8 }
                       }}
                     >
-                  Leading Safety Solutions
+                  THE MAJOR INVISIBLE GRILL DEALERS AND SUPPLIERS
                 </motion.div>
                 <motion.div
                   className="text-lg lg:text-xl text-gray-200 mt-2"
@@ -167,7 +167,7 @@ const Home: React.FC = () => {
                     transition: { duration: 0.8 }
                   }}
                 >
-                  Professional Safety Nets Installation & Protection Solutions
+                  Professional Invisible Grills & Cloth Hangers Installation Solutions
                 </motion.div>
               </div>
               
@@ -231,7 +231,7 @@ const Home: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              Safety Nets Applications
+              What We Offer For Our Customers
             </motion.h2>
             <motion.p 
               className="text-xl text-gray-600 max-w-3xl mx-auto"
@@ -239,7 +239,7 @@ const Home: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              See our professional safety nets installations across Hyderabad - from construction safety nets to cricket nets, gardening protection nets, and industrial safety solutions
+              See our professional invisible grills and cloth hangers installations across Hyderabad - from balconies to windows, apartments, and cloth hangers
             </motion.p>
           </motion.div>
           
@@ -374,10 +374,10 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                  Why Choose Steel Invisible Grills?
+                  Why Choose SS Invisible Grills?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We provide comprehensive safety solutions with unmatched quality and service - from construction safety nets to cricket nets, gardening protection, and industrial safety solutions across Hyderabad
+              We provide comprehensive invisible grill and cloth hanger solutions with unmatched quality and service - from balconies to windows, apartments, and cloth hangers across Hyderabad
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
