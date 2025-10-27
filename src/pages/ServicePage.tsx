@@ -82,12 +82,13 @@ const ServicePage: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             {/* Service Image */}
             <div className="relative">
-              <LazyImage
-                src={service.image}
-                alt={service.name}
-                className="h-96 bg-cover bg-center bg-no-repeat rounded-xl shadow-lg"
-                style={{ backgroundImage: `url('${service.image}')` }}
-              />
+              <div className="h-96 w-full rounded-xl shadow-lg overflow-hidden">
+                <LazyImage
+                  src={service.image}
+                  alt={service.name}
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-xl"></div>
               <div className="absolute bottom-4 left-4 text-white">
                 <h3 className="text-xl font-bold">{service.name}</h3>
@@ -125,7 +126,7 @@ const ServicePage: React.FC = () => {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </button>
                 <a
-                  href="tel:+917893987771"
+                  href="tel:+919912373373"
                   className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors flex items-center justify-center"
                 >
                   <Phone className="mr-2 h-5 w-5" />
@@ -292,6 +293,58 @@ const ServicePage: React.FC = () => {
         </div>
       </section>
 
+      {/* Gallery Section */}
+      {service.gallery && service.gallery.length > 0 && (
+        <section className="py-20 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              className="text-center mb-16"
+            >
+              <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+                {service.name} Gallery
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Explore our professional installations and quality work for {service.name.toLowerCase()}
+              </p>
+            </motion.div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {service.gallery.map((image, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  className="group cursor-pointer"
+                >
+                  <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                    <div className="h-64 w-full">
+                      <LazyImage
+                        src={image}
+                        alt={`${service.name} - Image ${index + 1}`}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                    </div>
+                    <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
+                      <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div className="bg-white bg-opacity-20 rounded-full p-3">
+                          <svg className="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Stats Section */}
       <section className="py-20 bg-blue-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -357,10 +410,10 @@ const ServicePage: React.FC = () => {
               Get Free Quote
             </button>
             <a
-              href="tel:+917893987771"
+              href="tel:+919912373373"
               className="bg-white hover:bg-gray-100 text-green-600 px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
             >
-              Call Now: +91 7893987771
+              Call Now: +91 9912373373
             </a>
           </div>
         </div>
