@@ -13,9 +13,15 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
-    // Disable all rules to prevent compilation issues
+    // Disable all problematic rules
     'no-undef': 'off',
     'no-unused-vars': 'off',
-    'no-console': 'off'
+    'no-console': 'off',
+    'react/prop-types': 'off',
+    'react/react-in-jsx-scope': 'off'
+  },
+  globals: {
+    React: 'readonly',
+    JSX: 'readonly'
   }
 };
