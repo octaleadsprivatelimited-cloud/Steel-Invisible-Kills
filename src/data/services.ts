@@ -975,12 +975,12 @@ export const services: Service[] = [
       "Annual service"
     ],
     warranty: "3 years warranty on materials and installation",
-    image: "/images/safety-nets/invisible-nets.webp",
-    heroImage: "/images/safety-nets/invisible-nets.webp",
+    image: "/images/safety-nets/invisible-grill-balconies.jpg",
+    heroImage: "/images/safety-nets/invisible-grill-balconies.jpg",
     gallery: [
-      "/images/safety-nets/invisible-nets.webp",
-      "/images/safety-nets/balcony-safety-nets-1.webp",
-      "/images/safety-nets/terrace-top-nets.webp"
+      "/images/safety-nets/invisible-grill-balconies.jpg",
+      "/images/safety-nets/invisible-grill.jpg",
+      "/images/safety-nets/balcony-safety-nets-1.webp"
     ],
     priceRange: "₹25-40 per sq ft",
     category: "Invisible Grills",
@@ -1044,12 +1044,12 @@ export const services: Service[] = [
       "Annual service"
     ],
     warranty: "3 years warranty on materials and installation",
-    image: "/images/safety-nets/window-safety-nets.jpg",
-    heroImage: "/images/safety-nets/window-safety-nets.jpg",
+    image: "/images/safety-nets/invisible-grill-windows.jpg",
+    heroImage: "/images/safety-nets/invisible-grill-windows.jpg",
     gallery: [
-      "/images/safety-nets/window-safety-nets.jpg",
-      "/images/safety-nets/invisible-nets.webp",
-      "/images/safety-nets/terrace-top-nets.webp"
+      "/images/safety-nets/invisible-grill-windows.jpg",
+      "/images/safety-nets/invisible-grill.jpg",
+      "/images/safety-nets/window-safety-nets.jpg"
     ],
     priceRange: "₹20-35 per sq ft",
     category: "Invisible Grills",
@@ -1113,12 +1113,12 @@ export const services: Service[] = [
       "Annual service"
     ],
     warranty: "3 years warranty on materials and installation",
-    image: "/images/safety-nets/balcony-safety-nets-1.webp",
-    heroImage: "/images/safety-nets/balcony-safety-nets-1.webp",
+    image: "/images/safety-nets/invisible-grill-apartments.jpg",
+    heroImage: "/images/safety-nets/invisible-grill-apartments.jpg",
     gallery: [
-      "/images/safety-nets/balcony-safety-nets-1.webp",
-      "/images/safety-nets/invisible-nets.webp",
-      "/images/safety-nets/terrace-top-nets.webp"
+      "/images/safety-nets/invisible-grill-apartments.jpg",
+      "/images/safety-nets/invisible-grill.jpg",
+      "/images/safety-nets/balcony-safety-nets-1.webp"
     ],
     priceRange: "₹25-40 per sq ft",
     category: "Invisible Grills",
@@ -1182,12 +1182,12 @@ export const services: Service[] = [
       "Annual service"
     ],
     warranty: "2 years warranty on materials and workmanship",
-    image: "/images/safety-nets/terrace-top-nets.webp",
-    heroImage: "/images/safety-nets/terrace-top-nets.webp",
+    image: "/images/safety-nets/pull-dry-cloth-hangers.jpg",
+    heroImage: "/images/safety-nets/pull-dry-cloth-hangers.jpg",
     gallery: [
+      "/images/safety-nets/pull-dry-cloth-hangers.jpg",
       "/images/safety-nets/terrace-top-nets.webp",
-      "/images/safety-nets/balcony-safety-nets-1.webp",
-      "/images/safety-nets/invisible-nets.webp"
+      "/images/safety-nets/balcony-safety-nets-1.webp"
     ],
     priceRange: "₹15-25 per sq ft",
     category: "Cloth Hangers",
@@ -1251,12 +1251,12 @@ export const services: Service[] = [
       "Annual service"
     ],
     warranty: "2 years warranty on materials and workmanship",
-    image: "/images/safety-nets/terrace-top-nets.webp",
-    heroImage: "/images/safety-nets/terrace-top-nets.webp",
+    image: "/images/safety-nets/ceiling-cloth-hangers.jpg",
+    heroImage: "/images/safety-nets/ceiling-cloth-hangers.jpg",
     gallery: [
+      "/images/safety-nets/ceiling-cloth-hangers.jpg",
       "/images/safety-nets/terrace-top-nets.webp",
-      "/images/safety-nets/balcony-safety-nets-1.webp",
-      "/images/safety-nets/invisible-nets.webp"
+      "/images/safety-nets/balcony-safety-nets-1.webp"
     ],
     priceRange: "₹12-20 per sq ft",
     category: "Cloth Hangers",
@@ -1320,12 +1320,12 @@ export const services: Service[] = [
       "Annual service"
     ],
     warranty: "2 years warranty on materials and workmanship",
-    image: "/images/safety-nets/balcony-safety-nets-1.webp",
-    heroImage: "/images/safety-nets/balcony-safety-nets-1.webp",
+    image: "/images/safety-nets/pull-dry-cloth-hangers-balconies.jpg",
+    heroImage: "/images/safety-nets/pull-dry-cloth-hangers-balconies.jpg",
     gallery: [
+      "/images/safety-nets/pull-dry-cloth-hangers-balconies.jpg",
       "/images/safety-nets/balcony-safety-nets-1.webp",
-      "/images/safety-nets/terrace-top-nets.webp",
-      "/images/safety-nets/invisible-nets.webp"
+      "/images/safety-nets/terrace-top-nets.webp"
     ],
     priceRange: "₹18-30 per sq ft",
     category: "Cloth Hangers",

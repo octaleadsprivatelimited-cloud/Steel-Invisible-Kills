@@ -388,32 +388,32 @@ const Services: React.FC = () => {
                   )}
                   {index === 13 && (
                     <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
-                      backgroundImage: `url('/images/safety-nets/invisible-nets.webp')`
+                      backgroundImage: `url('/images/safety-nets/invisible-grill-balconies.jpg')`
                     }}></div>
                   )}
                   {index === 14 && (
                     <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
-                      backgroundImage: `url('/images/safety-nets/window-safety-nets.webp')`
+                      backgroundImage: `url('/images/safety-nets/invisible-grill-windows.jpg')`
                     }}></div>
                   )}
                   {index === 15 && (
                     <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
-                      backgroundImage: `url('/images/safety-nets/balcony-safety-nets-1.webp')`
+                      backgroundImage: `url('/images/safety-nets/invisible-grill-apartments.jpg')`
                     }}></div>
                   )}
                   {index === 16 && (
                     <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
-                      backgroundImage: `url('/images/safety-nets/terrace-top-nets.webp')`
+                      backgroundImage: `url('/images/safety-nets/pull-dry-cloth-hangers.jpg')`
                     }}></div>
                   )}
                   {index === 17 && (
                     <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
-                      backgroundImage: `url('/images/safety-nets/terrace-top-nets.webp')`
+                      backgroundImage: `url('/images/safety-nets/ceiling-cloth-hangers.jpg')`
                     }}></div>
                   )}
                   {index === 18 && (
                     <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
-                      backgroundImage: `url('/images/safety-nets/balcony-safety-nets-1.webp')`
+                      backgroundImage: `url('/images/safety-nets/pull-dry-cloth-hangers-balconies.jpg')`
                     }}></div>
                   )}
                   
