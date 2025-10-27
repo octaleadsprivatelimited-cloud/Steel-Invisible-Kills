@@ -213,14 +213,14 @@ const FAQ: React.FC = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+917893987771"
+                href="tel:+919912373373"
                 className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-flex items-center"
               >
                 <Zap className="mr-2 h-5 w-5" />
                 Call Our Experts
               </a>
               <a
-                href="https://wa.me/917893987771"
+                href="https://wa.me/919912373373"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-2 border-yellow-500 hover:bg-yellow-500 hover:text-gray-900 text-yellow-600 px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
