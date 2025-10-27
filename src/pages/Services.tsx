@@ -30,6 +30,7 @@ const Services: React.FC = () => {
   const services = [
     {
       icon: <Shield className="h-16 w-16 text-blue-500" />,
+      image: "/images/safety-nets/invisible-grill-balconies.jpg",
       title: "Invisible Grill for Balconies",
       description: "Premium invisible grills designed specifically for balconies, providing maximum security while maintaining unobstructed views",
       features: [
@@ -42,6 +43,7 @@ const Services: React.FC = () => {
     },
     {
       icon: <Target className="h-16 w-16 text-blue-500" />,
+      image: "/images/safety-nets/invisible-grill-windows.jpg",
       title: "Invisible Grill for Windows",
       description: "Elegant invisible grills for windows that provide security without blocking natural light or views",
       features: [
@@ -54,6 +56,7 @@ const Services: React.FC = () => {
     },
     {
       icon: <HardHat className="h-16 w-16 text-blue-500" />,
+      image: "/images/safety-nets/invisible-grill-apartments.jpg",
       title: "Invisible Grill for Apartments",
       description: "Complete invisible grill solutions for apartment buildings and high-rise complexes",
       features: [
@@ -66,6 +69,7 @@ const Services: React.FC = () => {
     },
     {
       icon: <Settings className="h-16 w-16 text-blue-500" />,
+      image: "/images/safety-nets/pull-dry-cloth-hangers.jpg",
       title: "Pull & Dry Cloth Hangers",
       description: "Modern pull & dry cloth hangers for efficient laundry management",
       features: [
@@ -78,6 +82,7 @@ const Services: React.FC = () => {
     },
     {
       icon: <Wrench className="h-16 w-16 text-blue-500" />,
+      image: "/images/safety-nets/ceiling-cloth-hangers.jpg",
       title: "Ceiling Cloth Hangers",
       description: "Ceiling-mounted cloth hangers for maximum space utilization",
       features: [
@@ -90,6 +95,7 @@ const Services: React.FC = () => {
     },
     {
       icon: <TreePine className="h-16 w-16 text-blue-500" />,
+      image: "/images/safety-nets/pull-dry-cloth-hangers-balconies.jpg",
       title: "Pull & Dry Cloth Hangers for Balconies",
       description: "Specialized pull & dry cloth hangers designed specifically for balconies",
       features: [
@@ -161,34 +167,45 @@ const Services: React.FC = () => {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 p-8"
+                className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden"
               >
-                <div className="text-center mb-6">
-                  {service.icon}
-                  <h3 className="text-xl font-bold text-gray-900 mt-4 mb-2">
-                    {service.title}
-                  </h3>
-                  <p className="text-gray-600 mb-6">
-                    {service.description}
-                  </p>
+                {/* Service Image */}
+                <div className="h-48 w-full overflow-hidden">
+                  <img
+                    src={service.image}
+                    alt={service.title}
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  />
                 </div>
+                
+                <div className="p-8">
+                  <div className="text-center mb-6">
+                    {service.icon}
+                    <h3 className="text-xl font-bold text-gray-900 mt-4 mb-2">
+                      {service.title}
+                    </h3>
+                    <p className="text-gray-600 mb-6">
+                      {service.description}
+                    </p>
+                  </div>
 
-                <div className="space-y-3 mb-6">
-                  {service.features.map((feature, featureIndex) => (
-                    <div key={featureIndex} className="flex items-center">
-                      <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
-                      <span className="text-gray-700">{feature}</span>
-                    </div>
-                  ))}
+                  <div className="space-y-3 mb-6">
+                    {service.features.map((feature, featureIndex) => (
+                      <div key={featureIndex} className="flex items-center">
+                        <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
+                        <span className="text-gray-700">{feature}</span>
+                      </div>
+                    ))}
+                  </div>
+
+                  <Link
+                    to={`/services/${getServiceSlug(service.title)}`}
+                    className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg font-semibold transition-colors flex items-center justify-center"
+                  >
+                    Learn More
+                    <ArrowRight className="h-5 w-5 ml-2" />
+                  </Link>
                 </div>
-
-                <Link
-                  to={`/services/${getServiceSlug(service.title)}`}
-                  className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg font-semibold transition-colors flex items-center justify-center"
-                >
-                  Learn More
-                  <ArrowRight className="h-5 w-5 ml-2" />
-                </Link>
               </motion.div>
             ))}
           </div>
