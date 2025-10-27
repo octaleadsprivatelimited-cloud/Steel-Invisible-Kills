@@ -59,7 +59,7 @@ const Home: React.FC = () => {
           y, 
           opacity, 
           scale,
-            backgroundImage: 'url(/images/safety-nets/sports-nets-installation.avif)',
+            backgroundImage: 'url(/images/hero/hero-background.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
@@ -71,7 +71,7 @@ const Home: React.FC = () => {
             <div 
               className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat opacity-90"
               style={{
-                backgroundImage: `url('/images/safety-nets/sports-nets-installation.avif')`,
+                backgroundImage: `url('/images/hero/hero-background.jpg')`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center center',
                 backgroundRepeat: 'no-repeat',
