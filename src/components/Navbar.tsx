@@ -45,22 +45,15 @@ const Navbar: React.FC = () => {
   };
 
   const invisibleGrillServices = [
-    { name: "Invisible Grill for Balconies", slug: "invisible-grill-balconies" },
-    { name: "Invisible Grill Dealers", slug: "invisible-grill-dealers" },
-    { name: "Invisible Grill Fixing Charges", slug: "invisible-grill-fixing-charges" },
-    { name: "Invisible Grill for Balcony Near Me", slug: "invisible-grill-balcony-near-me" },
-    { name: "Invisible Grill for Balcony Price", slug: "invisible-grill-balcony-price" },
-    { name: "Invisible Grill for Child Safety", slug: "invisible-grill-child-safety" },
-    { name: "Invisible Grill for Windows", slug: "invisible-grill-windows" },
-    { name: "Invisible Grill Manufacturer", slug: "invisible-grill-manufacturer" },
-    { name: "Stainless Steel Invisible Grill", slug: "stainless-steel-invisible-grill" }
+    { name: "Invisible Grill for Balconies", slug: "invisible-grill-for-balconies" },
+    { name: "Invisible Grill for Windows", slug: "invisible-grill-for-windows" },
+    { name: "Invisible Grill for Apartments", slug: "invisible-grill-for-apartments" }
   ];
 
   const clothHangerServices = [
     { name: "Pull & Dry Cloth Hangers", slug: "pull-dry-cloth-hangers" },
     { name: "Ceiling Cloth Hangers", slug: "ceiling-cloth-hangers" },
-    { name: "Pull & Dry Cloth Hangers Fixing", slug: "pull-dry-cloth-hangers-fixing" },
-    { name: "Pull & Dry Cloth Hangers Installation", slug: "pull-dry-cloth-hangers-installation" }
+    { name: "Pull & Dry Cloth Hangers for Balconies", slug: "pull-dry-cloth-hangers-for-balconies" }
   ];
 
   useEffect(() => {
