@@ -916,6 +916,420 @@ export const services: Service[] = [
     priceRange: "₹20-35 per sq ft",
     category: "Window Safety",
     popular: false
+  },
+  {
+    id: "invisible-grill-balconies",
+    name: "Invisible Grill for Balconies",
+    slug: "invisible-grill-balconies",
+    description: "Ultra-thin invisible grills designed specifically for balconies. Provides maximum safety while maintaining clear visibility and aesthetic appeal.",
+    shortDescription: "Ultra-thin invisible grills for balcony safety and aesthetics",
+    features: [
+      "Ultra-thin design",
+      "Nearly invisible",
+      "High tensile strength",
+      "Weather resistant",
+      "Easy installation",
+      "Custom sizing",
+      "Long-lasting",
+      "Maintains visibility"
+    ],
+    applications: [
+      "Residential balconies",
+      "High-rise apartments",
+      "Commercial buildings",
+      "Hotels and resorts",
+      "Office buildings",
+      "Educational institutions",
+      "Healthcare facilities",
+      "Shopping malls"
+    ],
+    benefits: [
+      "Maximum safety protection",
+      "Unobstructed views",
+      "Weather protection",
+      "Child and pet safety",
+      "Aesthetic appeal",
+      "Easy maintenance",
+      "Durable construction",
+      "Peace of mind"
+    ],
+    materials: [
+      "Ultra-fine steel mesh",
+      "High-strength materials",
+      "Stainless steel hardware",
+      "Weather-resistant coating",
+      "Anti-corrosion materials"
+    ],
+    installation: [
+      "Precise measurement",
+      "Custom grill preparation",
+      "Professional installation",
+      "Tension adjustment",
+      "Final inspection"
+    ],
+    maintenance: [
+      "Gentle cleaning",
+      "Regular inspection",
+      "Tension adjustment",
+      "Hardware maintenance",
+      "Annual service"
+    ],
+    warranty: "3 years warranty on materials and installation",
+    image: "/images/safety-nets/invisible-nets.webp",
+    heroImage: "/images/safety-nets/invisible-nets.webp",
+    gallery: [
+      "/images/safety-nets/invisible-nets.webp",
+      "/images/safety-nets/balcony-safety-nets-1.webp",
+      "/images/safety-nets/terrace-top-nets.webp"
+    ],
+    priceRange: "₹25-40 per sq ft",
+    category: "Invisible Grills",
+    popular: true
+  },
+  {
+    id: "invisible-grill-windows",
+    name: "Invisible Grill for Windows",
+    slug: "invisible-grill-windows",
+    description: "Professional invisible grills for windows that provide security without compromising on visibility or aesthetics.",
+    shortDescription: "Professional invisible grills for window security and visibility",
+    features: [
+      "Ultra-thin design",
+      "Nearly invisible",
+      "High tensile strength",
+      "Weather resistant",
+      "Easy installation",
+      "Custom sizing",
+      "Long-lasting",
+      "Maintains visibility"
+    ],
+    applications: [
+      "Residential windows",
+      "Commercial buildings",
+      "High-rise apartments",
+      "Office buildings",
+      "Hotels and resorts",
+      "Educational institutions",
+      "Healthcare facilities",
+      "Shopping centers"
+    ],
+    benefits: [
+      "Maximum safety protection",
+      "Unobstructed views",
+      "Weather protection",
+      "Child and pet safety",
+      "Aesthetic appeal",
+      "Easy maintenance",
+      "Durable construction",
+      "Peace of mind"
+    ],
+    materials: [
+      "Ultra-fine steel mesh",
+      "High-strength materials",
+      "Stainless steel hardware",
+      "Weather-resistant coating",
+      "Anti-corrosion materials"
+    ],
+    installation: [
+      "Precise measurement",
+      "Custom grill preparation",
+      "Professional installation",
+      "Tension adjustment",
+      "Final inspection"
+    ],
+    maintenance: [
+      "Gentle cleaning",
+      "Regular inspection",
+      "Tension adjustment",
+      "Hardware maintenance",
+      "Annual service"
+    ],
+    warranty: "3 years warranty on materials and installation",
+    image: "/images/safety-nets/window-safety-nets.jpg",
+    heroImage: "/images/safety-nets/window-safety-nets.jpg",
+    gallery: [
+      "/images/safety-nets/window-safety-nets.jpg",
+      "/images/safety-nets/invisible-nets.webp",
+      "/images/safety-nets/terrace-top-nets.webp"
+    ],
+    priceRange: "₹20-35 per sq ft",
+    category: "Invisible Grills",
+    popular: true
+  },
+  {
+    id: "invisible-grill-apartments",
+    name: "Invisible Grill for Apartments",
+    slug: "invisible-grill-apartments",
+    description: "Comprehensive invisible grill solutions for apartment buildings. Perfect for high-rise residential complexes with modern safety requirements.",
+    shortDescription: "Comprehensive invisible grill solutions for apartment buildings",
+    features: [
+      "Ultra-thin design",
+      "Nearly invisible",
+      "High tensile strength",
+      "Weather resistant",
+      "Easy installation",
+      "Custom sizing",
+      "Long-lasting",
+      "Maintains visibility"
+    ],
+    applications: [
+      "High-rise apartments",
+      "Residential complexes",
+      "Condominiums",
+      "Gated communities",
+      "Multi-story buildings",
+      "Apartment balconies",
+      "Apartment windows",
+      "Common areas"
+    ],
+    benefits: [
+      "Maximum safety protection",
+      "Unobstructed views",
+      "Weather protection",
+      "Child and pet safety",
+      "Aesthetic appeal",
+      "Easy maintenance",
+      "Durable construction",
+      "Peace of mind"
+    ],
+    materials: [
+      "Ultra-fine steel mesh",
+      "High-strength materials",
+      "Stainless steel hardware",
+      "Weather-resistant coating",
+      "Anti-corrosion materials"
+    ],
+    installation: [
+      "Precise measurement",
+      "Custom grill preparation",
+      "Professional installation",
+      "Tension adjustment",
+      "Final inspection"
+    ],
+    maintenance: [
+      "Gentle cleaning",
+      "Regular inspection",
+      "Tension adjustment",
+      "Hardware maintenance",
+      "Annual service"
+    ],
+    warranty: "3 years warranty on materials and installation",
+    image: "/images/safety-nets/balcony-safety-nets-1.webp",
+    heroImage: "/images/safety-nets/balcony-safety-nets-1.webp",
+    gallery: [
+      "/images/safety-nets/balcony-safety-nets-1.webp",
+      "/images/safety-nets/invisible-nets.webp",
+      "/images/safety-nets/terrace-top-nets.webp"
+    ],
+    priceRange: "₹25-40 per sq ft",
+    category: "Invisible Grills",
+    popular: true
+  },
+  {
+    id: "pull-dry-cloth-hangers",
+    name: "Pull & Dry Cloth Hangers",
+    slug: "pull-dry-cloth-hangers",
+    description: "Convenient pull and dry cloth hangers for efficient laundry management. Space-saving solution for drying clothes indoors and outdoors.",
+    shortDescription: "Convenient pull and dry cloth hangers for efficient laundry management",
+    features: [
+      "Space-saving design",
+      "Easy pull mechanism",
+      "Durable construction",
+      "Weather resistant",
+      "Easy installation",
+      "Custom sizing",
+      "Long-lasting",
+      "Multi-purpose use"
+    ],
+    applications: [
+      "Residential balconies",
+      "Apartment terraces",
+      "Indoor spaces",
+      "Outdoor areas",
+      "Laundry rooms",
+      "Kitchen areas",
+      "Bathroom spaces",
+      "Utility areas"
+    ],
+    benefits: [
+      "Efficient drying",
+      "Space optimization",
+      "Easy operation",
+      "Weather protection",
+      "Cost-effective",
+      "Easy maintenance",
+      "Durable construction",
+      "Versatile usage"
+    ],
+    materials: [
+      "High-grade steel",
+      "Weather-resistant coating",
+      "Stainless steel hardware",
+      "Durable ropes",
+      "Corrosion-resistant fittings"
+    ],
+    installation: [
+      "Site assessment",
+      "Custom measurement",
+      "Professional installation",
+      "Mechanism testing",
+      "Final inspection"
+    ],
+    maintenance: [
+      "Regular cleaning",
+      "Mechanism inspection",
+      "Hardware maintenance",
+      "Rope replacement",
+      "Annual service"
+    ],
+    warranty: "2 years warranty on materials and workmanship",
+    image: "/images/safety-nets/terrace-top-nets.webp",
+    heroImage: "/images/safety-nets/terrace-top-nets.webp",
+    gallery: [
+      "/images/safety-nets/terrace-top-nets.webp",
+      "/images/safety-nets/balcony-safety-nets-1.webp",
+      "/images/safety-nets/invisible-nets.webp"
+    ],
+    priceRange: "₹15-25 per sq ft",
+    category: "Cloth Hangers",
+    popular: false
+  },
+  {
+    id: "ceiling-cloth-hangers",
+    name: "Ceiling Cloth Hangers",
+    slug: "ceiling-cloth-hangers",
+    description: "Ceiling-mounted cloth hangers for maximum space utilization. Perfect for apartments and homes with limited space.",
+    shortDescription: "Ceiling-mounted cloth hangers for maximum space utilization",
+    features: [
+      "Ceiling-mounted design",
+      "Space optimization",
+      "Easy operation",
+      "Durable construction",
+      "Easy installation",
+      "Custom sizing",
+      "Long-lasting",
+      "Multi-level hanging"
+    ],
+    applications: [
+      "Residential apartments",
+      "Small homes",
+      "Indoor spaces",
+      "Laundry rooms",
+      "Kitchen areas",
+      "Bathroom spaces",
+      "Utility areas",
+      "Compact living spaces"
+    ],
+    benefits: [
+      "Maximum space utilization",
+      "Easy operation",
+      "Compact design",
+      "Indoor protection",
+      "Cost-effective",
+      "Easy maintenance",
+      "Durable construction",
+      "Space-saving"
+    ],
+    materials: [
+      "High-grade steel",
+      "Ceiling mounting hardware",
+      "Stainless steel components",
+      "Durable ropes",
+      "Corrosion-resistant fittings"
+    ],
+    installation: [
+      "Ceiling assessment",
+      "Custom measurement",
+      "Professional installation",
+      "Mounting verification",
+      "Final inspection"
+    ],
+    maintenance: [
+      "Regular cleaning",
+      "Ceiling inspection",
+      "Hardware maintenance",
+      "Rope replacement",
+      "Annual service"
+    ],
+    warranty: "2 years warranty on materials and workmanship",
+    image: "/images/safety-nets/terrace-top-nets.webp",
+    heroImage: "/images/safety-nets/terrace-top-nets.webp",
+    gallery: [
+      "/images/safety-nets/terrace-top-nets.webp",
+      "/images/safety-nets/balcony-safety-nets-1.webp",
+      "/images/safety-nets/invisible-nets.webp"
+    ],
+    priceRange: "₹12-20 per sq ft",
+    category: "Cloth Hangers",
+    popular: false
+  },
+  {
+    id: "pull-dry-cloth-hangers-balconies",
+    name: "Pull & Dry Cloth Hangers for Balconies",
+    slug: "pull-dry-cloth-hangers-balconies",
+    description: "Specialized pull and dry cloth hangers designed specifically for balconies. Weather-resistant and space-efficient solution for outdoor drying.",
+    shortDescription: "Specialized pull and dry cloth hangers for balcony drying",
+    features: [
+      "Balcony-specific design",
+      "Weather-resistant",
+      "Easy pull mechanism",
+      "Durable construction",
+      "Easy installation",
+      "Custom sizing",
+      "Long-lasting",
+      "Outdoor optimized"
+    ],
+    applications: [
+      "Residential balconies",
+      "Apartment terraces",
+      "Outdoor spaces",
+      "Balcony areas",
+      "Terrace spaces",
+      "Outdoor drying",
+      "Balcony laundry",
+      "Outdoor utility"
+    ],
+    benefits: [
+      "Outdoor drying capability",
+      "Weather resistance",
+      "Space optimization",
+      "Easy operation",
+      "Balcony-specific design",
+      "Easy maintenance",
+      "Durable construction",
+      "Outdoor protection"
+    ],
+    materials: [
+      "Weather-resistant steel",
+      "UV-resistant coating",
+      "Stainless steel hardware",
+      "Weather-resistant ropes",
+      "Corrosion-resistant fittings"
+    ],
+    installation: [
+      "Balcony assessment",
+      "Custom measurement",
+      "Professional installation",
+      "Weather testing",
+      "Final inspection"
+    ],
+    maintenance: [
+      "Regular cleaning",
+      "Weather inspection",
+      "Hardware maintenance",
+      "Rope replacement",
+      "Annual service"
+    ],
+    warranty: "2 years warranty on materials and workmanship",
+    image: "/images/safety-nets/balcony-safety-nets-1.webp",
+    heroImage: "/images/safety-nets/balcony-safety-nets-1.webp",
+    gallery: [
+      "/images/safety-nets/balcony-safety-nets-1.webp",
+      "/images/safety-nets/terrace-top-nets.webp",
+      "/images/safety-nets/invisible-nets.webp"
+    ],
+    priceRange: "₹18-30 per sq ft",
+    category: "Cloth Hangers",
+    popular: false
   }
 ];
 

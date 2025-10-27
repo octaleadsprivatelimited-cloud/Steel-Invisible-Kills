@@ -174,6 +174,78 @@ const Services: React.FC = () => {
         "Easy installation",
         "Custom sizing"
       ],
+    },
+    {
+      icon: <Shield className="h-16 w-16 text-purple-500" />,
+      title: "Invisible Grill for Balconies",
+      description: "Ultra-thin invisible grills designed specifically for balconies",
+      features: [
+        "Ultra-thin design",
+        "Nearly invisible",
+        "High tensile strength",
+        "Weather resistant",
+        "Maintains visibility"
+      ],
+    },
+    {
+      icon: <Shield className="h-16 w-16 text-purple-500" />,
+      title: "Invisible Grill for Windows",
+      description: "Professional invisible grills for windows that provide security",
+      features: [
+        "Ultra-thin design",
+        "Nearly invisible",
+        "High tensile strength",
+        "Weather resistant",
+        "Maintains visibility"
+      ],
+    },
+    {
+      icon: <Shield className="h-16 w-16 text-purple-500" />,
+      title: "Invisible Grill for Apartments",
+      description: "Comprehensive invisible grill solutions for apartment buildings",
+      features: [
+        "Ultra-thin design",
+        "Nearly invisible",
+        "High tensile strength",
+        "Weather resistant",
+        "Maintains visibility"
+      ],
+    },
+    {
+      icon: <Settings className="h-16 w-16 text-green-500" />,
+      title: "Pull & Dry Cloth Hangers",
+      description: "Convenient pull and dry cloth hangers for efficient laundry management",
+      features: [
+        "Space-saving design",
+        "Easy pull mechanism",
+        "Durable construction",
+        "Weather resistant",
+        "Multi-purpose use"
+      ],
+    },
+    {
+      icon: <Settings className="h-16 w-16 text-green-500" />,
+      title: "Ceiling Cloth Hangers",
+      description: "Ceiling-mounted cloth hangers for maximum space utilization",
+      features: [
+        "Ceiling-mounted design",
+        "Space optimization",
+        "Easy operation",
+        "Durable construction",
+        "Multi-level hanging"
+      ],
+    },
+    {
+      icon: <Settings className="h-16 w-16 text-green-500" />,
+      title: "Pull & Dry Cloth Hangers for Balconies",
+      description: "Specialized pull and dry cloth hangers designed specifically for balconies",
+      features: [
+        "Balcony-specific design",
+        "Weather-resistant",
+        "Easy pull mechanism",
+        "Durable construction",
+        "Outdoor optimized"
+      ],
     }
   ];
 
@@ -312,6 +384,36 @@ const Services: React.FC = () => {
                   {index === 12 && (
                     <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
                       backgroundImage: `url('/images/safety-nets/terrace-top-nets.webp')`
+                    }}></div>
+                  )}
+                  {index === 13 && (
+                    <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
+                      backgroundImage: `url('/images/safety-nets/invisible-nets.webp')`
+                    }}></div>
+                  )}
+                  {index === 14 && (
+                    <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
+                      backgroundImage: `url('/images/safety-nets/window-safety-nets.webp')`
+                    }}></div>
+                  )}
+                  {index === 15 && (
+                    <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
+                      backgroundImage: `url('/images/safety-nets/balcony-safety-nets-1.webp')`
+                    }}></div>
+                  )}
+                  {index === 16 && (
+                    <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
+                      backgroundImage: `url('/images/safety-nets/terrace-top-nets.webp')`
+                    }}></div>
+                  )}
+                  {index === 17 && (
+                    <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
+                      backgroundImage: `url('/images/safety-nets/terrace-top-nets.webp')`
+                    }}></div>
+                  )}
+                  {index === 18 && (
+                    <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60" style={{
+                      backgroundImage: `url('/images/safety-nets/balcony-safety-nets-1.webp')`
                     }}></div>
                   )}
                   
