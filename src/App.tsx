@@ -14,6 +14,7 @@ import FAQ from './pages/FAQ';
 import Blog from './pages/Blog';
 import Article from './pages/Article';
 import ImageTest from './pages/ImageTest';
+import Gallery from './pages/Gallery';
 import WhatsAppButton from './components/WhatsAppButton';
 import GreetingModal from './components/GreetingModal';
 import ScrollToTop from './components/ScrollToTop';
@@ -50,6 +51,7 @@ function App() {
                   </Suspense>
                 } />
 
+                <Route path="/gallery" element={<Gallery />} />
                     <Route path="/faq" element={<FAQ />} />
                     <Route path="/blog" element={<Blog />} />
                     <Route path="/blog/:slug" element={<Article />} />

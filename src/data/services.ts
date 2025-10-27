@@ -1330,6 +1330,629 @@ export const services: Service[] = [
     priceRange: "₹18-30 per sq ft",
     category: "Cloth Hangers",
     popular: false
+  },
+  // Additional Invisible Grill Services
+  {
+    id: "invisible-grill-dealers",
+    name: "Invisible Grill Dealers",
+    slug: "invisible-grill-dealers",
+    description: "Professional invisible grill dealers providing high-quality stainless steel invisible grills across Hyderabad. We offer expert consultation, custom design, and professional installation services.",
+    shortDescription: "Professional invisible grill dealers with expert consultation",
+    features: [
+      "Expert consultation",
+      "Custom design",
+      "Professional installation",
+      "Quality materials",
+      "Warranty support",
+      "After-sales service",
+      "Competitive pricing",
+      "Local expertise"
+    ],
+    applications: [
+      "Residential balconies",
+      "Commercial buildings",
+      "High-rise apartments",
+      "Office spaces",
+      "Hotels and resorts",
+      "Educational institutions",
+      "Healthcare facilities",
+      "Shopping malls"
+    ],
+    benefits: [
+      "Professional consultation",
+      "Custom solutions",
+      "Quality assurance",
+      "Expert installation",
+      "Warranty coverage",
+      "Local support",
+      "Competitive pricing",
+      "Reliable service"
+    ],
+    materials: [
+      "316 Marine-Grade Stainless Steel",
+      "SS316 Nylon Coated Cable",
+      "6063 Grade Aluminium Channel",
+      "SS304 Grade Fixing Anchors",
+      "SS316 Cross Clip"
+    ],
+    installation: [
+      "Site assessment",
+      "Custom design",
+      "Material preparation",
+      "Professional installation",
+      "Quality inspection"
+    ],
+    maintenance: [
+      "Regular inspection",
+      "Cleaning guidance",
+      "Hardware maintenance",
+      "Tension adjustment",
+      "Annual service"
+    ],
+    warranty: "3 years warranty on materials and installation",
+    image: "/images/safety-nets/invisible-grill.jpg",
+    heroImage: "/images/safety-nets/invisible-grill.jpg",
+    gallery: [
+      "/images/safety-nets/invisible-grill.jpg",
+      "/images/safety-nets/invisible-grill-balconies.jpg",
+      "/images/safety-nets/invisible-grill-windows.jpg"
+    ],
+    priceRange: "₹25-40 per sq ft",
+    category: "Invisible Grills",
+    popular: true
+  },
+  {
+    id: "invisible-grill-fixing-charges",
+    name: "Invisible Grill Fixing Charges",
+    slug: "invisible-grill-fixing-charges",
+    description: "Transparent pricing for invisible grill fixing and installation services. We provide detailed quotes with no hidden charges, ensuring you get the best value for your investment.",
+    shortDescription: "Transparent pricing for invisible grill installation",
+    features: [
+      "Transparent pricing",
+      "No hidden charges",
+      "Detailed quotes",
+      "Competitive rates",
+      "Quality materials",
+      "Professional installation",
+      "Warranty included",
+      "Free consultation"
+    ],
+    applications: [
+      "New installations",
+      "Repair services",
+      "Replacement work",
+      "Maintenance contracts",
+      "Upgrade services",
+      "Emergency repairs",
+      "Custom modifications",
+      "Bulk installations"
+    ],
+    benefits: [
+      "Cost transparency",
+      "Value for money",
+      "Quality assurance",
+      "Professional service",
+      "Warranty coverage",
+      "No hidden fees",
+      "Competitive pricing",
+      "Free estimates"
+    ],
+    materials: [
+      "316 Marine-Grade Stainless Steel",
+      "SS316 Nylon Coated Cable",
+      "6063 Grade Aluminium Channel",
+      "SS304 Grade Fixing Anchors",
+      "SS316 Cross Clip"
+    ],
+    installation: [
+      "Free site visit",
+      "Detailed quotation",
+      "Material procurement",
+      "Professional installation",
+      "Quality testing"
+    ],
+    maintenance: [
+      "Regular maintenance",
+      "Repair services",
+      "Replacement parts",
+      "Emergency support",
+      "Annual contracts"
+    ],
+    warranty: "3 years warranty on materials and workmanship",
+    image: "/images/safety-nets/invisible-grill.jpg",
+    heroImage: "/images/safety-nets/invisible-grill.jpg",
+    gallery: [
+      "/images/safety-nets/invisible-grill.jpg",
+      "/images/safety-nets/invisible-grill-balconies.jpg",
+      "/images/safety-nets/invisible-grill-windows.jpg"
+    ],
+    priceRange: "₹25-40 per sq ft",
+    category: "Invisible Grills",
+    popular: true
+  },
+  {
+    id: "invisible-grill-balcony-near-me",
+    name: "Invisible Grill for Balcony Near Me",
+    slug: "invisible-grill-balcony-near-me",
+    description: "Find invisible grill installation services for balconies near you in Hyderabad. We provide local expertise and quick service across all areas of Hyderabad and surrounding regions.",
+    shortDescription: "Local invisible grill services for balconies in Hyderabad",
+    features: [
+      "Local expertise",
+      "Quick service",
+      "Area coverage",
+      "Same-day consultation",
+      "Local support",
+      "Familiar with regulations",
+      "Quick installation",
+      "Local maintenance"
+    ],
+    applications: [
+      "Residential balconies",
+      "High-rise apartments",
+      "Commercial balconies",
+      "Office terraces",
+      "Hotel balconies",
+      "Restaurant terraces",
+      "Educational institutions",
+      "Healthcare facilities"
+    ],
+    benefits: [
+      "Local knowledge",
+      "Quick response",
+      "Area expertise",
+      "Familiar regulations",
+      "Local support",
+      "Quick installation",
+      "Easy maintenance",
+      "Local warranty"
+    ],
+    materials: [
+      "316 Marine-Grade Stainless Steel",
+      "SS316 Nylon Coated Cable",
+      "6063 Grade Aluminium Channel",
+      "SS304 Grade Fixing Anchors",
+      "SS316 Cross Clip"
+    ],
+    installation: [
+      "Local site visit",
+      "Area assessment",
+      "Custom design",
+      "Quick installation",
+      "Local inspection"
+    ],
+    maintenance: [
+      "Local maintenance",
+      "Quick repairs",
+      "Area support",
+      "Emergency service",
+      "Local warranty"
+    ],
+    warranty: "3 years warranty on materials and installation",
+    image: "/images/safety-nets/invisible-grill-balconies.jpg",
+    heroImage: "/images/safety-nets/invisible-grill-balconies.jpg",
+    gallery: [
+      "/images/safety-nets/invisible-grill-balconies.jpg",
+      "/images/safety-nets/invisible-grill.jpg",
+      "/images/safety-nets/balcony-safety-nets-1.webp"
+    ],
+    priceRange: "₹25-40 per sq ft",
+    category: "Invisible Grills",
+    popular: true
+  },
+  {
+    id: "invisible-grill-balcony-price",
+    name: "Invisible Grill for Balcony Price",
+    slug: "invisible-grill-balcony-price",
+    description: "Get competitive pricing for invisible grill installation on balconies. We offer transparent pricing with detailed breakdowns, ensuring you get the best value for your balcony safety needs.",
+    shortDescription: "Competitive pricing for invisible grill balcony installation",
+    features: [
+      "Competitive pricing",
+      "Transparent quotes",
+      "No hidden charges",
+      "Detailed breakdown",
+      "Value for money",
+      "Quality materials",
+      "Professional installation",
+      "Warranty included"
+    ],
+    applications: [
+      "Residential balconies",
+      "High-rise apartments",
+      "Commercial balconies",
+      "Office terraces",
+      "Hotel balconies",
+      "Restaurant terraces",
+      "Educational institutions",
+      "Healthcare facilities"
+    ],
+    benefits: [
+      "Cost-effective solutions",
+      "Transparent pricing",
+      "Quality assurance",
+      "Professional service",
+      "Warranty coverage",
+      "No hidden fees",
+      "Competitive rates",
+      "Value for money"
+    ],
+    materials: [
+      "316 Marine-Grade Stainless Steel",
+      "SS316 Nylon Coated Cable",
+      "6063 Grade Aluminium Channel",
+      "SS304 Grade Fixing Anchors",
+      "SS316 Cross Clip"
+    ],
+    installation: [
+      "Free consultation",
+      "Detailed quotation",
+      "Material procurement",
+      "Professional installation",
+      "Quality testing"
+    ],
+    maintenance: [
+      "Regular maintenance",
+      "Repair services",
+      "Replacement parts",
+      "Emergency support",
+      "Annual contracts"
+    ],
+    warranty: "3 years warranty on materials and workmanship",
+    image: "/images/safety-nets/invisible-grill-balconies.jpg",
+    heroImage: "/images/safety-nets/invisible-grill-balconies.jpg",
+    gallery: [
+      "/images/safety-nets/invisible-grill-balconies.jpg",
+      "/images/safety-nets/invisible-grill.jpg",
+      "/images/safety-nets/balcony-safety-nets-1.webp"
+    ],
+    priceRange: "₹25-40 per sq ft",
+    category: "Invisible Grills",
+    popular: true
+  },
+  {
+    id: "invisible-grill-child-safety",
+    name: "Invisible Grill for Child Safety",
+    slug: "invisible-grill-child-safety",
+    description: "Specialized invisible grills designed for child safety on balconies and windows. Our child-safe grills provide maximum protection while maintaining aesthetic appeal and clear visibility.",
+    shortDescription: "Child-safe invisible grills for maximum protection",
+    features: [
+      "Child-safe design",
+      "Maximum protection",
+      "Clear visibility",
+      "Aesthetic appeal",
+      "Strong materials",
+      "Secure installation",
+      "Easy maintenance",
+      "Long-lasting"
+    ],
+    applications: [
+      "Residential balconies",
+      "High-rise apartments",
+      "Commercial buildings",
+      "Office spaces",
+      "Hotels and resorts",
+      "Educational institutions",
+      "Healthcare facilities",
+      "Shopping malls"
+    ],
+    benefits: [
+      "Child protection",
+      "Peace of mind",
+      "Clear visibility",
+      "Aesthetic appeal",
+      "Strong security",
+      "Easy maintenance",
+      "Long-lasting",
+      "Weather resistant"
+    ],
+    materials: [
+      "316 Marine-Grade Stainless Steel",
+      "SS316 Nylon Coated Cable",
+      "6063 Grade Aluminium Channel",
+      "SS304 Grade Fixing Anchors",
+      "SS316 Cross Clip"
+    ],
+    installation: [
+      "Child-safe assessment",
+      "Custom design",
+      "Secure installation",
+      "Safety testing",
+      "Final inspection"
+    ],
+    maintenance: [
+      "Regular inspection",
+      "Safety checks",
+      "Cleaning guidance",
+      "Hardware maintenance",
+      "Annual service"
+    ],
+    warranty: "3 years warranty on materials and installation",
+    image: "/images/safety-nets/invisible-grill-balconies.jpg",
+    heroImage: "/images/safety-nets/invisible-grill-balconies.jpg",
+    gallery: [
+      "/images/safety-nets/invisible-grill-balconies.jpg",
+      "/images/safety-nets/invisible-grill.jpg",
+      "/images/safety-nets/balcony-safety-nets-1.webp"
+    ],
+    priceRange: "₹25-40 per sq ft",
+    category: "Invisible Grills",
+    popular: true
+  },
+  {
+    id: "invisible-grill-manufacturer",
+    name: "Invisible Grill Manufacturer",
+    slug: "invisible-grill-manufacturer",
+    description: "Leading manufacturer of high-quality invisible grills in Hyderabad. We design, manufacture, and install premium stainless steel invisible grills with 25+ years of expertise and superior craftsmanship.",
+    shortDescription: "Leading manufacturer of premium invisible grills",
+    features: [
+      "25+ years expertise",
+      "Premium materials",
+      "Superior craftsmanship",
+      "Custom design",
+      "Quality control",
+      "Professional installation",
+      "Warranty support",
+      "Innovation"
+    ],
+    applications: [
+      "Residential buildings",
+      "Commercial complexes",
+      "High-rise apartments",
+      "Office buildings",
+      "Hotels and resorts",
+      "Educational institutions",
+      "Healthcare facilities",
+      "Shopping malls"
+    ],
+    benefits: [
+      "Manufacturing expertise",
+      "Quality assurance",
+      "Custom solutions",
+      "Professional service",
+      "Warranty coverage",
+      "Innovation",
+      "Reliable supply",
+      "Competitive pricing"
+    ],
+    materials: [
+      "316 Marine-Grade Stainless Steel",
+      "SS316 Nylon Coated Cable",
+      "6063 Grade Aluminium Channel",
+      "SS304 Grade Fixing Anchors",
+      "SS316 Cross Clip"
+    ],
+    installation: [
+      "Manufacturing process",
+      "Quality control",
+      "Custom design",
+      "Professional installation",
+      "Quality testing"
+    ],
+    maintenance: [
+      "Manufacturing support",
+      "Quality maintenance",
+      "Replacement parts",
+      "Technical support",
+      "Annual service"
+    ],
+    warranty: "3 years warranty on materials and workmanship",
+    image: "/images/safety-nets/invisible-grill.jpg",
+    heroImage: "/images/safety-nets/invisible-grill.jpg",
+    gallery: [
+      "/images/safety-nets/invisible-grill.jpg",
+      "/images/safety-nets/invisible-grill-balconies.jpg",
+      "/images/safety-nets/invisible-grill-windows.jpg"
+    ],
+    priceRange: "₹25-40 per sq ft",
+    category: "Invisible Grills",
+    popular: true
+  },
+  {
+    id: "stainless-steel-invisible-grill",
+    name: "Stainless Steel Invisible Grill",
+    slug: "stainless-steel-invisible-grill",
+    description: "Premium stainless steel invisible grills offering superior strength, durability, and aesthetic appeal. Our 316 marine-grade stainless steel grills provide maximum protection while maintaining clear visibility.",
+    shortDescription: "Premium stainless steel invisible grills with superior strength",
+    features: [
+      "316 Marine-Grade Stainless Steel",
+      "Superior strength",
+      "Maximum durability",
+      "Clear visibility",
+      "Aesthetic appeal",
+      "Corrosion resistant",
+      "Weather proof",
+      "Long-lasting"
+    ],
+    applications: [
+      "Residential balconies",
+      "High-rise apartments",
+      "Commercial buildings",
+      "Office spaces",
+      "Hotels and resorts",
+      "Educational institutions",
+      "Healthcare facilities",
+      "Shopping malls"
+    ],
+    benefits: [
+      "Superior strength",
+      "Maximum durability",
+      "Clear visibility",
+      "Aesthetic appeal",
+      "Corrosion resistant",
+      "Weather proof",
+      "Long-lasting",
+      "Low maintenance"
+    ],
+    materials: [
+      "316 Marine-Grade Stainless Steel",
+      "SS316 Nylon Coated Cable",
+      "6063 Grade Aluminium Channel",
+      "SS304 Grade Fixing Anchors",
+      "SS316 Cross Clip"
+    ],
+    installation: [
+      "Material preparation",
+      "Custom design",
+      "Professional installation",
+      "Quality testing",
+      "Final inspection"
+    ],
+    maintenance: [
+      "Minimal maintenance",
+      "Regular inspection",
+      "Cleaning guidance",
+      "Hardware maintenance",
+      "Annual service"
+    ],
+    warranty: "3 years warranty on materials and installation",
+    image: "/images/safety-nets/invisible-grill.jpg",
+    heroImage: "/images/safety-nets/invisible-grill.jpg",
+    gallery: [
+      "/images/safety-nets/invisible-grill.jpg",
+      "/images/safety-nets/invisible-grill-balconies.jpg",
+      "/images/safety-nets/invisible-grill-windows.jpg"
+    ],
+    priceRange: "₹25-40 per sq ft",
+    category: "Invisible Grills",
+    popular: true
+  },
+  // Additional Cloth Hanger Services
+  {
+    id: "pull-dry-cloth-hangers-fixing",
+    name: "Pull & Dry Cloth Hangers Fixing",
+    slug: "pull-dry-cloth-hangers-fixing",
+    description: "Professional fixing and repair services for pull & dry cloth hangers. We provide expert repair, maintenance, and replacement services to keep your cloth hangers in perfect working condition.",
+    shortDescription: "Professional fixing and repair services for cloth hangers",
+    features: [
+      "Expert repair",
+      "Professional fixing",
+      "Quality materials",
+      "Quick service",
+      "Warranty support",
+      "Maintenance service",
+      "Replacement parts",
+      "Emergency repair"
+    ],
+    applications: [
+      "Residential balconies",
+      "Indoor spaces",
+      "Commercial buildings",
+      "Office spaces",
+      "Hotels and resorts",
+      "Educational institutions",
+      "Healthcare facilities",
+      "Shopping malls"
+    ],
+    benefits: [
+      "Expert repair",
+      "Quick service",
+      "Quality materials",
+      "Warranty support",
+      "Maintenance service",
+      "Replacement parts",
+      "Emergency support",
+      "Cost-effective"
+    ],
+    materials: [
+      "Weather-resistant steel",
+      "UV-resistant coating",
+      "Stainless steel hardware",
+      "Weather-resistant ropes",
+      "Corrosion-resistant fittings"
+    ],
+    installation: [
+      "Damage assessment",
+      "Repair planning",
+      "Material replacement",
+      "Professional fixing",
+      "Quality testing"
+    ],
+    maintenance: [
+      "Regular maintenance",
+      "Repair services",
+      "Replacement parts",
+      "Emergency support",
+      "Annual contracts"
+    ],
+    warranty: "2 years warranty on repair work",
+    image: "/images/safety-nets/pull-dry-cloth-hangers.jpg",
+    heroImage: "/images/safety-nets/pull-dry-cloth-hangers.jpg",
+    gallery: [
+      "/images/safety-nets/pull-dry-cloth-hangers.jpg",
+      "/images/safety-nets/ceiling-cloth-hangers.jpg",
+      "/images/safety-nets/pull-dry-cloth-hangers-balconies.jpg"
+    ],
+    priceRange: "₹15-25 per sq ft",
+    category: "Cloth Hangers",
+    popular: false
+  },
+  {
+    id: "pull-dry-cloth-hangers-installation",
+    name: "Pull & Dry Cloth Hangers Installation",
+    slug: "pull-dry-cloth-hangers-installation",
+    description: "Professional installation services for pull & dry cloth hangers. We provide expert installation with proper measurement, quality materials, and professional workmanship for optimal performance.",
+    shortDescription: "Professional installation services for cloth hangers",
+    features: [
+      "Professional installation",
+      "Expert measurement",
+      "Quality materials",
+      "Proper fitting",
+      "Warranty support",
+      "After-sales service",
+      "Custom design",
+      "Quick installation"
+    ],
+    applications: [
+      "Residential balconies",
+      "Indoor spaces",
+      "Commercial buildings",
+      "Office spaces",
+      "Hotels and resorts",
+      "Educational institutions",
+      "Healthcare facilities",
+      "Shopping malls"
+    ],
+    benefits: [
+      "Professional installation",
+      "Expert measurement",
+      "Quality materials",
+      "Proper fitting",
+      "Warranty support",
+      "After-sales service",
+      "Custom design",
+      "Quick installation"
+    ],
+    materials: [
+      "Weather-resistant steel",
+      "UV-resistant coating",
+      "Stainless steel hardware",
+      "Weather-resistant ropes",
+      "Corrosion-resistant fittings"
+    ],
+    installation: [
+      "Site assessment",
+      "Custom measurement",
+      "Material preparation",
+      "Professional installation",
+      "Quality testing"
+    ],
+    maintenance: [
+      "Regular maintenance",
+      "Repair services",
+      "Replacement parts",
+      "Emergency support",
+      "Annual contracts"
+    ],
+    warranty: "2 years warranty on materials and workmanship",
+    image: "/images/safety-nets/pull-dry-cloth-hangers.jpg",
+    heroImage: "/images/safety-nets/pull-dry-cloth-hangers.jpg",
+    gallery: [
+      "/images/safety-nets/pull-dry-cloth-hangers.jpg",
+      "/images/safety-nets/ceiling-cloth-hangers.jpg",
+      "/images/safety-nets/pull-dry-cloth-hangers-balconies.jpg"
+    ],
+    priceRange: "₹18-30 per sq ft",
+    category: "Cloth Hangers",
+    popular: false
   }
 ];
 
