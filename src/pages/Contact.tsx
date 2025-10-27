@@ -132,8 +132,8 @@ const Contact: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl text-white max-w-3xl mx-auto font-medium"
           >
-            Get in touch with our safety experts for a free consultation and quote. 
-            We're here to help you ensure safety!
+            Get in touch with our invisible grill experts for a free consultation and quote. 
+            We're here to help you secure your home with style!
           </motion.p>
         </div>
       </section>
@@ -182,10 +182,10 @@ const Contact: React.FC = () => {
               transition={{ duration: 0.8 }}
             >
               <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                Get Your Free Safety Quote
+                Get Your Free Invisible Grill Quote
               </h2>
               <p className="text-gray-600 mb-8">
-                Fill out the form below and our safety experts will get back to you within 24 hours 
+                Fill out the form below and our invisible grill experts will get back to you within 24 hours 
                 with a customized quote and consultation.
               </p>
 
@@ -196,7 +196,7 @@ const Contact: React.FC = () => {
                   className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-6 flex items-center"
                 >
                   <CheckCircle className="h-5 w-5 mr-2" />
-                  Thank you! We'll contact you soon with your safety quote.
+                  Thank you! We'll contact you soon with your invisible grill quote.
                 </motion.div>
               )}
 

@@ -131,8 +131,8 @@ const Home: React.FC = () => {
                       transition: { duration: 0.8 }
                     }}
                   >
-                Invisible Grills for
-                  <span className="text-blue-400 font-semibold"> Balconies</span>
+                Premium Invisible Grills
+                  <span className="text-blue-400 font-semibold"> for Your Home</span>
               </motion.h1>
               
               {/* Company Tagline with Moving Background Effect */}
@@ -151,7 +151,7 @@ const Home: React.FC = () => {
                         transition: { duration: 0.8 }
                       }}
                     >
-                  THE MAJOR INVISIBLE GRILL DEALERS AND SUPPLIERS
+                  THE LEADING INVISIBLE GRILL MANUFACTURERS AND INSTALLERS
                 </motion.div>
                 <motion.div
                   className="text-lg lg:text-xl text-gray-200 mt-2"
@@ -167,7 +167,7 @@ const Home: React.FC = () => {
                     transition: { duration: 0.8 }
                   }}
                 >
-                  Professional Invisible Grills & Cloth Hangers Installation Solutions
+                  Professional Invisible Grill Installation & Cloth Hanger Solutions
                 </motion.div>
               </div>
               
@@ -211,9 +211,9 @@ const Home: React.FC = () => {
         </div>
       </motion.section>
 
-          {/* Safety Nets Applications Showcase */}
+          {/* Invisible Grills Applications Showcase */}
           <motion.section 
-            className="py-20 bg-gradient-to-br from-red-50 to-pink-50"
+            className="py-20 bg-gradient-to-br from-blue-50 to-indigo-50"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8 }}
@@ -231,7 +231,7 @@ const Home: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              What We Offer For Our Customers
+              Our Premium Invisible Grill Solutions
             </motion.h2>
             <motion.p 
               className="text-xl text-gray-600 max-w-3xl mx-auto"
@@ -239,12 +239,12 @@ const Home: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              See our professional invisible grills and cloth hangers installations across Hyderabad - from balconies to windows, apartments, and cloth hangers
+              Transform your home with our premium invisible grills and cloth hangers - perfect for balconies, windows, apartments, and modern living spaces
             </motion.p>
           </motion.div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {/* Invisible Nets */}
+            {/* Invisible Grill for Balconies */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -252,25 +252,25 @@ const Home: React.FC = () => {
               className="bg-gradient-to-br from-white to-blue-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group"
             >
               <div className="h-48 bg-cover bg-center bg-no-repeat relative overflow-hidden">
-                {/* Invisible Nets Image */}
+                {/* Invisible Grill for Balconies Image */}
               <div className="absolute inset-0" style={{
-                backgroundImage: `url('/images/safety-nets/invisible-nets.webp')`
+                backgroundImage: `url('/images/safety-nets/invisible-grill-balconies.jpg')`
               }}></div>
                 
 
                 
                 <div className="text-center text-white relative z-10 h-full flex flex-col items-center justify-center">
-                  <h3 className="text-xl font-semibold drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Invisible Nets</h3>
-                  <p className="text-sm opacity-90 drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Ultra-thin safety</p>
+                  <h3 className="text-xl font-semibold drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Balcony Grills</h3>
+                  <p className="text-sm opacity-90 drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Premium invisible</p>
                 </div>
               </div>
               <div className="p-6">
-                <h4 className="font-semibold text-gray-900 mb-2">Perfect for Aesthetic Safety</h4>
-                <p className="text-gray-600 text-sm">Ultra-thin, nearly invisible safety nets that provide maximum protection while maintaining clear visibility. Perfect for areas where aesthetics are important without compromising on safety across all areas of Hyderabad including Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, and surrounding areas</p>
+                <h4 className="font-semibold text-gray-900 mb-2">Perfect for Modern Balconies</h4>
+                <p className="text-gray-600 text-sm">Ultra-thin, nearly invisible grills that provide maximum safety while maintaining clear views. Perfect for modern balconies where aesthetics matter without compromising on security across all areas of Hyderabad including Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, and surrounding areas</p>
               </div>
             </motion.div>
 
-            {/* Pigeon Nets */}
+            {/* Invisible Grill for Windows */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -278,26 +278,26 @@ const Home: React.FC = () => {
               className="bg-gradient-to-br from-white to-blue-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group"
             >
               <div className="h-48 bg-cover bg-center bg-no-repeat relative overflow-hidden">
-                {/* Pigeon Nets Image */}
+                {/* Invisible Grill for Windows Image */}
               <div className="absolute inset-0" style={{
-                backgroundImage: `url('/images/safety-nets/pigeon-nets.webp')`,
+                backgroundImage: `url('/images/safety-nets/invisible-grill-windows.jpg')`,
                 backgroundPosition: 'center 30%'
               }}></div>
                 
 
                 
                 <div className="text-center text-white relative z-10 h-full flex flex-col items-center justify-center">
-                  <h3 className="text-xl font-semibold drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Pigeon Nets</h3>
-                  <p className="text-sm opacity-90 drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Bird protection</p>
+                  <h3 className="text-xl font-semibold drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Window Grills</h3>
+                  <p className="text-sm opacity-90 drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Elegant security</p>
                 </div>
               </div>
               <div className="p-6">
-                <h4 className="font-semibold text-gray-900 mb-2">Perfect for Bird Protection</h4>
-                <p className="text-gray-600 text-sm">Anti-pigeon nets to protect your property from bird droppings and damage. UV resistant, transparent design with easy maintenance across all areas of Hyderabad including Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, and surrounding areas</p>
+                <h4 className="font-semibold text-gray-900 mb-2">Perfect for Window Security</h4>
+                <p className="text-gray-600 text-sm">Elegant invisible grills for windows that provide security without blocking natural light or views. UV resistant, transparent design with easy maintenance across all areas of Hyderabad including Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, and surrounding areas</p>
               </div>
             </motion.div>
 
-            {/* Balcony Safety Nets */}
+            {/* Invisible Grill for Apartments */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -305,25 +305,25 @@ const Home: React.FC = () => {
               className="bg-gradient-to-br from-white to-blue-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group"
             >
               <div className="h-48 bg-cover bg-center bg-no-repeat relative overflow-hidden">
-                {/* Balcony Safety Nets Image */}
+                {/* Invisible Grill for Apartments Image */}
               <div className="absolute inset-0" style={{
-                backgroundImage: `url('/images/safety-nets/balcony-safety-nets-1.webp')`
+                backgroundImage: `url('/images/safety-nets/invisible-grill-apartments.jpg')`
               }}></div>
                 
 
                 
                 <div className="text-center text-white relative z-10 h-full flex flex-col items-center justify-center">
-                  <h3 className="text-xl font-semibold drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Balcony Safety Nets</h3>
-                  <p className="text-sm opacity-90 drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Home safety</p>
+                  <h3 className="text-xl font-semibold drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Apartment Grills</h3>
+                  <p className="text-sm opacity-90 drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Complete solutions</p>
                 </div>
               </div>
               <div className="p-6">
-                <h4 className="font-semibold text-gray-900 mb-2">Perfect for Balconies</h4>
-                <p className="text-gray-600 text-sm">Complete safety solutions for balconies and high-rise buildings. Child and pet safety protection with weather-resistant materials across all areas of Hyderabad including Financial District, Nanakramguda, Manikonda, Chandanagar, Serilingampally, and surrounding areas</p>
+                <h4 className="font-semibold text-gray-900 mb-2">Perfect for Apartments</h4>
+                <p className="text-gray-600 text-sm">Complete invisible grill solutions for apartment buildings and high-rise complexes. Child and pet safety protection with weather-resistant materials across all areas of Hyderabad including Financial District, Nanakramguda, Manikonda, Chandanagar, Serilingampally, and surrounding areas</p>
               </div>
             </motion.div>
 
-            {/* Cricket Practice Nets */}
+            {/* Cloth Hangers */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -331,21 +331,21 @@ const Home: React.FC = () => {
               className="bg-gradient-to-br from-white to-blue-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group"
             >
               <div className="h-48 bg-cover bg-center bg-no-repeat relative overflow-hidden">
-                {/* Cricket Practice Nets Image */}
+                {/* Cloth Hangers Image */}
               <div className="absolute inset-0" style={{
-                backgroundImage: `url('/images/safety-nets/cricket-practice-nets.webp')`
+                backgroundImage: `url('/images/safety-nets/pull-dry-cloth-hangers.jpg')`
               }}></div>
                 
 
                 
                 <div className="text-center text-white relative z-10 h-full flex flex-col items-center justify-center">
-                  <h3 className="text-xl font-semibold drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Cricket Practice Nets</h3>
-                  <p className="text-sm opacity-90 drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Sports solutions</p>
+                  <h3 className="text-xl font-semibold drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Cloth Hangers</h3>
+                  <p className="text-sm opacity-90 drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Modern utility</p>
                 </div>
               </div>
               <div className="p-6">
-                <h4 className="font-semibold text-gray-900 mb-2">Perfect for Sports</h4>
-                <p className="text-gray-600 text-sm">Professional cricket nets for practice grounds, sports academies, and recreational facilities. High-quality nets that withstand weather and provide excellent ball containment across all areas of Hyderabad including Financial District, Nanakramguda, Manikonda, Chandanagar, Serilingampally, and surrounding areas</p>
+                <h4 className="font-semibold text-gray-900 mb-2">Perfect for Modern Homes</h4>
+                <p className="text-gray-600 text-sm">Professional cloth hangers for balconies and utility areas. High-quality stainless steel hangers that provide excellent drying solutions across all areas of Hyderabad including Financial District, Nanakramguda, Manikonda, Chandanagar, Serilingampally, and surrounding areas</p>
               </div>
             </motion.div>
 
@@ -374,10 +374,10 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                  Why Choose SS Invisible Grills?
+            Why Choose Steel Invisible Grills?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We provide comprehensive invisible grill and cloth hanger solutions with unmatched quality and service - from balconies to windows, apartments, and cloth hangers across Hyderabad
+              We provide comprehensive invisible grill and cloth hanger solutions with unmatched quality and service - from balconies to windows, apartments, and modern living spaces across Hyderabad
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

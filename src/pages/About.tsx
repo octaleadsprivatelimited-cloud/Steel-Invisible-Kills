@@ -21,32 +21,32 @@ const About: React.FC = () => {
   const values = [
     {
       title: "Quality First",
-      description: "We uphold the highest standards, using only premium materials and components to ensure maximum safety and durability."
+      description: "We uphold the highest standards, using only premium materials and components to ensure maximum security and durability for invisible grills."
     },
     {
       title: "Customer Satisfaction",
-      description: "Your safety is our priority — we provide dedicated support, reliable service, and comprehensive safety solutions."
+      description: "Your security is our priority — we provide dedicated support, reliable service, and comprehensive invisible grill solutions."
     },
     {
       title: "Innovation",
-      description: "We continuously embrace the latest safety technologies and industry best practices to deliver superior protection solutions."
+      description: "We continuously embrace the latest invisible grill technologies and industry best practices to deliver superior security solutions."
     },
     {
       title: "Safety Commitment",
-      description: "We are committed to protecting lives and ensuring safety across all our installations and services."
+      description: "We are committed to protecting homes and ensuring security across all our invisible grill installations and services."
     }
   ];
 
 
   const certifications = [
     "ISO 9001:2015 Quality Management",
-    "BIS Certified Safety Net Materials",
-    "Construction Safety Standards",
-    "Industrial Safety Compliance",
-    "Safety Nets Quality Certification",
-    "Workplace Safety Standards",
+    "BIS Certified Invisible Grill Materials",
+    "Construction Security Standards",
+    "Industrial Security Compliance",
+    "Invisible Grills Quality Certification",
+    "Workplace Security Standards",
     "Material Testing & Certification",
-    "Installation Safety Protocols"
+    "Installation Security Protocols"
   ];
 
   return (
@@ -76,7 +76,7 @@ const About: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl text-white max-w-3xl mx-auto font-medium"
           >
-            Steel Invisible Grill specializes in providing high-quality, durable invisible grills for balconies. We offer stylish and safe solutions to protect your home while maintaining unobstructed views. Reliable installation and superior craftsmanship guaranteed.
+            Steel Invisible Grill specializes in providing high-quality, durable invisible grills for balconies, windows, and apartments. We offer stylish and safe solutions to protect your home while maintaining unobstructed views. Reliable installation and superior craftsmanship guaranteed.
           </motion.p>
         </div>
       </section>
@@ -98,12 +98,12 @@ const About: React.FC = () => {
                 high-quality invisible grills and cloth hangers for homes and apartments across Hyderabad.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                What began as a small team of passionate safety experts has grown into one of Hyderabad's 
+                What began as a small team of passionate grill experts has grown into one of Hyderabad's 
                 most trusted invisible grill companies, proudly serving over 5200 satisfied customers.
               </p>
               <p className="text-lg text-gray-600">
                 Today, we continue to innovate and expand our services while upholding our core 
-                commitment to quality, customer satisfaction, and safety protection.
+                commitment to quality, customer satisfaction, and invisible grill excellence.
               </p>
             </motion.div>
             <motion.div
@@ -114,11 +114,11 @@ const About: React.FC = () => {
             >
               <h3 className="text-2xl font-bold mb-4">Our Mission</h3>
               <p className="text-lg mb-4">
-                To accelerate the adoption of safety solutions across India by delivering reliable, durable, and comprehensive safety nets and protection systems.
+                To accelerate the adoption of invisible grill solutions across India by delivering reliable, durable, and comprehensive invisible grills and protection systems.
               </p>
               <h3 className="text-2xl font-bold mb-4">Our Vision</h3>
               <p className="text-lg">
-                To become a leading safety nets company in India, driving the nation's commitment to safety and protection in all sectors.
+                To become a leading invisible grill company in India, driving the nation's commitment to modern home security and aesthetic protection in all sectors.
               </p>
             </motion.div>
           </div>
