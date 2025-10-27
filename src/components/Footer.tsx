@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
                 <Shield className="h-6 w-6 text-blue-500" />
-                  <span className="text-lg lg:text-xl font-bold">SS Invisible Grills</span>
+                  <span className="text-lg lg:text-xl font-bold">Steel Invisible Grills</span>
               </div>
               <p className="text-sm text-gray-300 leading-relaxed">
                 Leading invisible grills and cloth hangers provider in Hyderabad.
@@ -81,7 +81,7 @@ const Footer: React.FC = () => {
                       rel="noopener noreferrer"
                       className="text-gray-300 hover:text-blue-500 transition-colors cursor-pointer block"
                     >
-                      <p>SS Invisible Grills Office</p>
+                      <p>Steel Invisible Grills Office</p>
                       <p>Hyderabad, Telangana - 500001</p>
                     </a>
                   </div>
@@ -96,7 +96,7 @@ const Footer: React.FC = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-3 md:space-y-0">
             <div className="text-center md:text-left">
               <p className="text-sm text-gray-400">
-                © 2024 SS Invisible Grills. All rights reserved. | Developed by{' '}
+                © 2024 Steel Invisible Grills. All rights reserved. | Developed by{' '}
                 <a 
                   href="https://www.octaleads.com/" 
                   target="_blank" 

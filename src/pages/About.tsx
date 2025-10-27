@@ -68,7 +68,7 @@ const About: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="text-4xl lg:text-5xl font-bold mb-6"
           >
-            About SS Invisible Grills
+            About Steel Invisible Grills
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -76,7 +76,7 @@ const About: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl text-white max-w-3xl mx-auto font-medium"
           >
-            SS Invisible Grill specializes in providing high-quality, durable invisible grills for balconies. We offer stylish and safe solutions to protect your home while maintaining unobstructed views. Reliable installation and superior craftsmanship guaranteed.
+            Steel Invisible Grill specializes in providing high-quality, durable invisible grills for balconies. We offer stylish and safe solutions to protect your home while maintaining unobstructed views. Reliable installation and superior craftsmanship guaranteed.
           </motion.p>
         </div>
       </section>
@@ -94,7 +94,7 @@ const About: React.FC = () => {
                 Our Story
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded with 25+ years of experience, SS Invisible Grills began with a clear mission: to provide 
+                Founded with 25+ years of experience, Steel Invisible Grills began with a clear mission: to provide 
                 high-quality invisible grills and cloth hangers for homes and apartments across Hyderabad.
               </p>
               <p className="text-lg text-gray-600 mb-6">
