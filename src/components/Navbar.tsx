@@ -15,38 +15,52 @@ import { openWhatsAppQuote } from '../utils/whatsapp';
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const [isServicesDropdownOpen, setIsServicesDropdownOpen] = useState(false);
-  const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
+  const [isInvisibleGrillDropdownOpen, setIsInvisibleGrillDropdownOpen] = useState(false);
+  const [isClothHangerDropdownOpen, setIsClothHangerDropdownOpen] = useState(false);
+  const [isMobileInvisibleGrillOpen, setIsMobileInvisibleGrillOpen] = useState(false);
+  const [isMobileClothHangerOpen, setIsMobileClothHangerOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
-  const servicesDropdownRef = useRef<HTMLDivElement>(null);
+  const invisibleGrillDropdownRef = useRef<HTMLDivElement>(null);
+  const clothHangerDropdownRef = useRef<HTMLDivElement>(null);
   const location = useLocation();
 
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
 
-  const toggleServicesDropdown = () => {
-    setIsServicesDropdownOpen(!isServicesDropdownOpen);
+  const toggleInvisibleGrillDropdown = () => {
+    setIsInvisibleGrillDropdownOpen(!isInvisibleGrillDropdownOpen);
   };
 
-  const toggleMobileServices = () => {
-    setIsMobileServicesOpen(!isMobileServicesOpen);
+  const toggleClothHangerDropdown = () => {
+    setIsClothHangerDropdownOpen(!isClothHangerDropdownOpen);
   };
 
-  const services = [
-    { name: "Pigeon Nets", slug: "pigeon-nets" },
-    { name: "Invisible Nets", slug: "invisible-nets" },
-    { name: "Balcony Safety Nets", slug: "balcony-safety-nets" },
-    { name: "Cricket Practice Nets", slug: "cricket-practice-nets" },
-    { name: "Kids Safety Nets", slug: "kids-safety-nets" },
-    { name: "Anti Bird Nets", slug: "anti-bird-nets" },
-    { name: "Pets Safety Nets", slug: "pets-safety-nets" },
-    { name: "Construction Safety Nets", slug: "construction-safety-nets" },
-    { name: "Gardening Nets", slug: "gardening-nets" },
-    { name: "Industrial Safety Nets", slug: "industrial-safety-nets" },
-    { name: "Sports Nets", slug: "sports-nets" },
-    { name: "Swimming Pool Nets", slug: "swimming-pool-nets" },
-    { name: "Window Safety Nets", slug: "window-safety-nets" }
+  const toggleMobileInvisibleGrill = () => {
+    setIsMobileInvisibleGrillOpen(!isMobileInvisibleGrillOpen);
+  };
+
+  const toggleMobileClothHanger = () => {
+    setIsMobileClothHangerOpen(!isMobileClothHangerOpen);
+  };
+
+  const invisibleGrillServices = [
+    { name: "Invisible Grill for Balconies", slug: "invisible-grill-balconies" },
+    { name: "Invisible Grill Dealers", slug: "invisible-grill-dealers" },
+    { name: "Invisible Grill Fixing Charges", slug: "invisible-grill-fixing-charges" },
+    { name: "Invisible Grill for Balcony Near Me", slug: "invisible-grill-balcony-near-me" },
+    { name: "Invisible Grill for Balcony Price", slug: "invisible-grill-balcony-price" },
+    { name: "Invisible Grill for Child Safety", slug: "invisible-grill-child-safety" },
+    { name: "Invisible Grill for Windows", slug: "invisible-grill-windows" },
+    { name: "Invisible Grill Manufacturer", slug: "invisible-grill-manufacturer" },
+    { name: "Stainless Steel Invisible Grill", slug: "stainless-steel-invisible-grill" }
+  ];
+
+  const clothHangerServices = [
+    { name: "Pull & Dry Cloth Hangers", slug: "pull-dry-cloth-hangers" },
+    { name: "Ceiling Cloth Hangers", slug: "ceiling-cloth-hangers" },
+    { name: "Pull & Dry Cloth Hangers Fixing", slug: "pull-dry-cloth-hangers-fixing" },
+    { name: "Pull & Dry Cloth Hangers Installation", slug: "pull-dry-cloth-hangers-installation" }
   ];
 
   useEffect(() => {
@@ -54,8 +68,11 @@ const Navbar: React.FC = () => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
         setIsDropdownOpen(false);
       }
-      if (servicesDropdownRef.current && !servicesDropdownRef.current.contains(event.target as Node)) {
-        setIsServicesDropdownOpen(false);
+      if (invisibleGrillDropdownRef.current && !invisibleGrillDropdownRef.current.contains(event.target as Node)) {
+        setIsInvisibleGrillDropdownOpen(false);
+      }
+      if (clothHangerDropdownRef.current && !clothHangerDropdownRef.current.contains(event.target as Node)) {
+        setIsClothHangerDropdownOpen(false);
       }
     };
     document.addEventListener('mousedown', handleClickOutside);
@@ -70,7 +87,8 @@ const Navbar: React.FC = () => {
       const mobileMenu = document.querySelector('.mobile-menu');
       if (isOpen && mobileMenu && !mobileMenu.contains(event.target as Node)) {
         setIsOpen(false);
-        setIsMobileServicesOpen(false);
+        setIsMobileInvisibleGrillOpen(false);
+        setIsMobileClothHangerOpen(false);
       }
     };
     document.addEventListener('mousedown', handleClickOutside);
@@ -95,85 +113,72 @@ const Navbar: React.FC = () => {
 
           <div className="hidden md:flex items-center space-x-8">
             <Link to="/" className="text-white hover:text-gray-200 transition-colors">Home</Link>
+            <Link to="/about" className="text-white hover:text-gray-200 transition-colors">About</Link>
             
-            {/* Services Dropdown */}
-            <div className="relative" ref={servicesDropdownRef}>
+            {/* Invisible Grill Dropdown */}
+            <div className="relative" ref={invisibleGrillDropdownRef}>
               <button
-                onClick={toggleServicesDropdown}
+                onClick={toggleInvisibleGrillDropdown}
                 className="flex items-center space-x-1 text-white hover:text-gray-200 transition-colors"
               >
-                <span>Services</span>
-                <ChevronDown className={`h-4 w-4 transition-transform ${isServicesDropdownOpen ? 'rotate-180' : ''}`} />
+                <span>Invisible Grill</span>
+                <ChevronDown className={`h-4 w-4 transition-transform ${isInvisibleGrillDropdownOpen ? 'rotate-180' : ''}`} />
               </button>
 
-              {isServicesDropdownOpen && (
+              {isInvisibleGrillDropdownOpen && (
                 <motion.div
                   initial={{ opacity: 0, y: -10 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -10 }}
-                  className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50 max-h-96 overflow-y-auto"
+                  className="absolute top-full left-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50 max-h-96 overflow-y-auto"
                 >
-                      {services.map((service, index) => (
+                      {invisibleGrillServices.map((service, index) => (
                         <Link
                           key={index}
                           to={`/services/${service.slug}`}
                           className="block px-4 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition-colors"
-                          onClick={() => setIsServicesDropdownOpen(false)}
+                          onClick={() => setIsInvisibleGrillDropdownOpen(false)}
                         >
                           {service.name}
                         </Link>
                       ))}
-                  <div className="border-t border-gray-200 my-2"></div>
-                  <Link
-                    to="/services"
-                    className="block px-4 py-2 text-blue-600 hover:bg-blue-50 font-semibold transition-colors"
-                    onClick={() => setIsServicesDropdownOpen(false)}
-                  >
-                    View All Services
-                  </Link>
                 </motion.div>
               )}
             </div>
-            
-            <Link to="/about" className="text-white hover:text-gray-200 transition-colors">About</Link>
 
-            <div className="relative" ref={dropdownRef}>
+            {/* Cloth Hangers Dropdown */}
+            <div className="relative" ref={clothHangerDropdownRef}>
               <button
-                onClick={toggleDropdown}
+                onClick={toggleClothHangerDropdown}
                 className="flex items-center space-x-1 text-white hover:text-gray-200 transition-colors"
               >
-                <span>More</span>
-                <ChevronDown className={`h-4 w-4 transition-transform ${isDropdownOpen ? 'rotate-180' : ''}`} />
+                <span>Cloth Hangers</span>
+                <ChevronDown className={`h-4 w-4 transition-transform ${isClothHangerDropdownOpen ? 'rotate-180' : ''}`} />
               </button>
 
-              {isDropdownOpen && (
+              {isClothHangerDropdownOpen && (
                 <motion.div
                   initial={{ opacity: 0, y: -10 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -10 }}
-                  className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50"
+                  className="absolute top-full left-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50 max-h-96 overflow-y-auto"
                 >
-
-                  <Link
-                    to="/faq"
-                    className="flex items-center space-x-3 px-4 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition-colors"
-                    onClick={() => setIsDropdownOpen(false)}
-                  >
-                    <HelpCircle className="h-4 w-4" />
-                    <span>FAQ</span>
-                  </Link>
-                  <Link
-                    to="/blog"
-                    className="flex items-center space-x-3 px-4 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition-colors"
-                    onClick={() => setIsDropdownOpen(false)}
-                  >
-                    <BookOpen className="h-4 w-4" />
-                    <span>Blog</span>
-                  </Link>
-
+                      {clothHangerServices.map((service, index) => (
+                        <Link
+                          key={index}
+                          to={`/services/${service.slug}`}
+                          className="block px-4 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                          onClick={() => setIsClothHangerDropdownOpen(false)}
+                        >
+                          {service.name}
+                        </Link>
+                      ))}
                 </motion.div>
               )}
             </div>
+
+            <Link to="/gallery" className="text-white hover:text-gray-200 transition-colors">Gallery</Link>
+            <Link to="/faq" className="text-white hover:text-gray-200 transition-colors">FAQ's</Link>
 
             <Link to="/contact" className="text-white hover:text-gray-200 transition-colors">
               Contact
@@ -216,51 +221,68 @@ const Navbar: React.FC = () => {
         <div className="mobile-menu md:hidden absolute top-full left-0 right-0 bg-white shadow-lg border-t border-gray-200 z-50 max-h-[80vh] overflow-y-auto">
           <div className="px-4 py-3 space-y-2 bg-white">
             <Link to="/" className="block px-3 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded-md transition-colors" onClick={() => setIsOpen(false)}>Home</Link>
+            <Link to="/about" className="block px-3 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded-md transition-colors" onClick={() => setIsOpen(false)}>About</Link>
             
-            {/* Mobile Services Dropdown */}
+            {/* Mobile Invisible Grill Dropdown */}
             <div className="space-y-1">
               <button
-                onClick={toggleMobileServices}
+                onClick={toggleMobileInvisibleGrill}
                 className="flex items-center justify-between w-full px-3 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded-md transition-colors"
               >
-                <span className="font-semibold">Services</span>
-                <ChevronDown className={`h-4 w-4 transition-transform ${isMobileServicesOpen ? 'rotate-180' : ''}`} />
+                <span className="font-semibold">Invisible Grill</span>
+                <ChevronDown className={`h-4 w-4 transition-transform ${isMobileInvisibleGrillOpen ? 'rotate-180' : ''}`} />
               </button>
               
-              {isMobileServicesOpen && (
+              {isMobileInvisibleGrillOpen && (
                 <div className="ml-4 space-y-1 max-h-60 overflow-y-auto">
-                  {services.map((service, index) => (
+                  {invisibleGrillServices.map((service, index) => (
                     <Link
                       key={index}
                       to={`/services/${service.slug}`}
                       className="block px-3 py-2 text-gray-500 hover:bg-blue-50 hover:text-blue-600 rounded-md transition-colors text-sm"
                       onClick={() => {
                         setIsOpen(false);
-                        setIsMobileServicesOpen(false);
+                        setIsMobileInvisibleGrillOpen(false);
                       }}
                     >
                       {service.name}
                     </Link>
                   ))}
-                  <Link
-                    to="/services"
-                    className="block px-3 py-2 text-blue-600 hover:bg-blue-50 rounded-md transition-colors text-sm font-semibold"
-                    onClick={() => {
-                      setIsOpen(false);
-                      setIsMobileServicesOpen(false);
-                    }}
-                  >
-                    View All Services
-                  </Link>
+                </div>
+              )}
+            </div>
+
+            {/* Mobile Cloth Hangers Dropdown */}
+            <div className="space-y-1">
+              <button
+                onClick={toggleMobileClothHanger}
+                className="flex items-center justify-between w-full px-3 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded-md transition-colors"
+              >
+                <span className="font-semibold">Cloth Hangers</span>
+                <ChevronDown className={`h-4 w-4 transition-transform ${isMobileClothHangerOpen ? 'rotate-180' : ''}`} />
+              </button>
+              
+              {isMobileClothHangerOpen && (
+                <div className="ml-4 space-y-1 max-h-60 overflow-y-auto">
+                  {clothHangerServices.map((service, index) => (
+                    <Link
+                      key={index}
+                      to={`/services/${service.slug}`}
+                      className="block px-3 py-2 text-gray-500 hover:bg-blue-50 hover:text-blue-600 rounded-md transition-colors text-sm"
+                      onClick={() => {
+                        setIsOpen(false);
+                        setIsMobileClothHangerOpen(false);
+                      }}
+                    >
+                      {service.name}
+                    </Link>
+                  ))}
                 </div>
               )}
             </div>
             
-            <Link to="/about" className="block px-3 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded-md transition-colors" onClick={() => setIsOpen(false)}>About</Link>
-
-            <Link to="/faq" className="block px-3 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded-md transition-colors" onClick={() => setIsOpen(false)}>FAQ</Link>
-            <Link to="/blog" className="block px-3 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded-md transition-colors" onClick={() => setIsOpen(false)}>Blog</Link>
-
+            <Link to="/gallery" className="block px-3 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded-md transition-colors" onClick={() => setIsOpen(false)}>Gallery</Link>
+            <Link to="/faq" className="block px-3 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded-md transition-colors" onClick={() => setIsOpen(false)}>FAQ's</Link>
             <Link to="/contact" className="block px-3 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded-md transition-colors" onClick={() => setIsOpen(false)}>Contact</Link>
 
             {/* Mobile CTA Buttons */}
