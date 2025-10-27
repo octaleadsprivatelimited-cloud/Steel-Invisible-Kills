@@ -54,7 +54,7 @@ const Home: React.FC = () => {
     <div className="pt-16">
       {/* Hero Section with Video Background */}
       <motion.section 
-        className="relative bg-gradient-to-br from-blue-900/60 via-blue-800/50 to-blue-900/60 text-white min-h-screen flex items-center overflow-hidden bg-cover bg-center bg-no-repeat"
+        className="relative bg-gradient-to-br from-black/80 via-gray-900/70 to-black/80 text-white min-h-screen flex items-center overflow-hidden bg-cover bg-center bg-no-repeat"
         style={{ 
           y, 
           opacity, 
@@ -82,8 +82,8 @@ const Home: React.FC = () => {
               }}
             />
         
-        {/* Light Overlay for Text Readability */}
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-blue-800/15 to-blue-900/20"></div>
+        {/* Strong Black Overlay for Text Readability */}
+        <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-gray-900/60 to-black/70"></div>
         
         {/* Static Safety Elements - Optimized */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -253,7 +253,7 @@ const Home: React.FC = () => {
             >
               <div className="h-48 bg-cover bg-center bg-no-repeat relative overflow-hidden">
                 {/* Invisible Grill for Balconies Image */}
-              <div className="absolute inset-0" style={{
+              <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
                 backgroundImage: `url('/images/safety-nets/invisible-grill-balconies.jpg')`
               }}></div>
                 
@@ -279,7 +279,7 @@ const Home: React.FC = () => {
             >
               <div className="h-48 bg-cover bg-center bg-no-repeat relative overflow-hidden">
                 {/* Invisible Grill for Windows Image */}
-              <div className="absolute inset-0" style={{
+              <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
                 backgroundImage: `url('/images/safety-nets/invisible-grill-windows.jpg')`,
                 backgroundPosition: 'center 30%'
               }}></div>
@@ -306,7 +306,7 @@ const Home: React.FC = () => {
             >
               <div className="h-48 bg-cover bg-center bg-no-repeat relative overflow-hidden">
                 {/* Invisible Grill for Apartments Image */}
-              <div className="absolute inset-0" style={{
+              <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
                 backgroundImage: `url('/images/safety-nets/invisible-grill-apartments.jpg')`
               }}></div>
                 
@@ -332,7 +332,7 @@ const Home: React.FC = () => {
             >
               <div className="h-48 bg-cover bg-center bg-no-repeat relative overflow-hidden">
                 {/* Cloth Hangers Image */}
-              <div className="absolute inset-0" style={{
+              <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
                 backgroundImage: `url('/images/safety-nets/pull-dry-cloth-hangers.jpg')`
               }}></div>
                 

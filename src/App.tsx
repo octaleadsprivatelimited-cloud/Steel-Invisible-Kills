@@ -19,6 +19,7 @@ import WhatsAppButton from './components/WhatsAppButton';
 import GreetingModal from './components/GreetingModal';
 import ScrollToTop from './components/ScrollToTop';
 import ErrorBoundary from './components/ErrorBoundary';
+import TawkChat from './components/TawkChat';
 import './App.css';
 
 // Lazy load heavy components
@@ -63,6 +64,7 @@ function App() {
             </main>
         <GreetingModal />
         <WhatsAppButton />
+        <TawkChat />
         <Footer />
           <SpeedInsights />
           <Analytics />
