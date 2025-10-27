@@ -354,12 +354,12 @@ export const services: Service[] = [
       "Emergency repairs"
     ],
     warranty: "3 years warranty on materials and workmanship",
-    image: "/images/safety-nets/ceilling-cloth-hangers.jpg",
-    heroImage: "/images/safety-nets/ceilling-cloth-hangers.jpg",
+    image: "/images/safety-nets/ceiling-cloth-hangers.jpg",
+    heroImage: "/images/safety-nets/ceiling-cloth-hangers.jpg",
     gallery: [
-      "/images/safety-nets/ceilling-cloth-hangers.jpg",
+      "/images/safety-nets/ceiling-cloth-hangers.jpg",
       "/images/safety-nets/pull-dry-cloth-hangers.jpg",
-      "/images/safety-nets/pull-dry-cloth-hangers-for-balconies.jpg"
+      "/images/safety-nets/pull-dry-cloth-hangers-balconies.jpg"
     ],
     priceRange: "₹35-55 per sq ft",
     category: "Cloth Hangers",
@@ -423,12 +423,12 @@ export const services: Service[] = [
       "Emergency repairs"
     ],
     warranty: "3 years warranty on materials and workmanship",
-    image: "/images/safety-nets/pull-dry-cloth-hangers-for-balconies.jpg",
-    heroImage: "/images/safety-nets/pull-dry-cloth-hangers-for-balconies.jpg",
+    image: "/images/safety-nets/pull-dry-cloth-hangers-balconies.jpg",
+    heroImage: "/images/safety-nets/pull-dry-cloth-hangers-balconies.jpg",
     gallery: [
-      "/images/safety-nets/pull-dry-cloth-hangers-for-balconies.jpg",
+      "/images/safety-nets/pull-dry-cloth-hangers-balconies.jpg",
       "/images/safety-nets/pull-dry-cloth-hangers.jpg",
-      "/images/safety-nets/ceilling-cloth-hangers.jpg"
+      "/images/safety-nets/ceiling-cloth-hangers.jpg"
     ],
     priceRange: "₹45-65 per sq ft",
     category: "Cloth Hangers",

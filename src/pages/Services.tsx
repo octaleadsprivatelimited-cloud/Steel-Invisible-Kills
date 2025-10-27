@@ -16,7 +16,15 @@ import { openWhatsAppQuote } from '../utils/whatsapp';
 const Services: React.FC = () => {
   // Function to convert service title to slug
   const getServiceSlug = (title: string): string => {
-    return title.toLowerCase().replace(/\s+/g, '-');
+    const slugMap: { [key: string]: string } = {
+      "Invisible Grill for Balconies": "invisible-grill-for-balconies",
+      "Invisible Grill for Windows": "invisible-grill-for-windows", 
+      "Invisible Grill for Apartments": "invisible-grill-for-apartments",
+      "Pull & Dry Cloth Hangers": "pull-dry-cloth-hangers",
+      "Ceiling Cloth Hangers": "ceiling-cloth-hangers",
+      "Pull & Dry Cloth Hangers for Balconies": "pull-dry-cloth-hangers-for-balconies"
+    };
+    return slugMap[title] || title.toLowerCase().replace(/\s+/g, '-').replace(/&/g, '');
   };
   
   const services = [
