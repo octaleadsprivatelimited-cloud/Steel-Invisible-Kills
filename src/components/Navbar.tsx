@@ -108,18 +108,18 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center h-16">
               <Link to="/" className="flex items-center space-x-2">
                 <Shield className="h-8 w-8 text-blue-500" />
-                <span className="text-xl font-bold text-white">Steel Invisible Grills</span>
+                <span className="text-xl font-bold text-white">SS Invisible Grills</span>
               </Link>
 
-          <div className="hidden md:flex items-center space-x-8">
-            <Link to="/" className="text-white hover:text-gray-200 transition-colors">Home</Link>
-            <Link to="/about" className="text-white hover:text-gray-200 transition-colors">About</Link>
+          <div className="hidden lg:flex items-center space-x-6">
+            <Link to="/" className="text-white hover:text-gray-200 transition-colors font-medium">Home</Link>
+            <Link to="/about" className="text-white hover:text-gray-200 transition-colors font-medium">About</Link>
             
             {/* Invisible Grill Dropdown */}
             <div className="relative" ref={invisibleGrillDropdownRef}>
               <button
                 onClick={toggleInvisibleGrillDropdown}
-                className="flex items-center space-x-1 text-white hover:text-gray-200 transition-colors"
+                className="flex items-center space-x-1 text-white hover:text-gray-200 transition-colors font-medium"
               >
                 <span>Invisible Grill</span>
                 <ChevronDown className={`h-4 w-4 transition-transform ${isInvisibleGrillDropdownOpen ? 'rotate-180' : ''}`} />
@@ -130,13 +130,13 @@ const Navbar: React.FC = () => {
                   initial={{ opacity: 0, y: -10 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -10 }}
-                  className="absolute top-full left-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50 max-h-96 overflow-y-auto"
+                  className="absolute top-full left-0 mt-2 w-72 bg-white rounded-lg shadow-xl border border-gray-200 py-3 z-50 max-h-80 overflow-y-auto"
                 >
                       {invisibleGrillServices.map((service, index) => (
                         <Link
                           key={index}
                           to={`/services/${service.slug}`}
-                          className="block px-4 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                          className="block px-4 py-2.5 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors text-sm font-medium"
                           onClick={() => setIsInvisibleGrillDropdownOpen(false)}
                         >
                           {service.name}
@@ -150,7 +150,7 @@ const Navbar: React.FC = () => {
             <div className="relative" ref={clothHangerDropdownRef}>
               <button
                 onClick={toggleClothHangerDropdown}
-                className="flex items-center space-x-1 text-white hover:text-gray-200 transition-colors"
+                className="flex items-center space-x-1 text-white hover:text-gray-200 transition-colors font-medium"
               >
                 <span>Cloth Hangers</span>
                 <ChevronDown className={`h-4 w-4 transition-transform ${isClothHangerDropdownOpen ? 'rotate-180' : ''}`} />
@@ -161,13 +161,13 @@ const Navbar: React.FC = () => {
                   initial={{ opacity: 0, y: -10 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -10 }}
-                  className="absolute top-full left-0 mt-2 w-80 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50 max-h-96 overflow-y-auto"
+                  className="absolute top-full left-0 mt-2 w-72 bg-white rounded-lg shadow-xl border border-gray-200 py-3 z-50 max-h-80 overflow-y-auto"
                 >
                       {clothHangerServices.map((service, index) => (
                         <Link
                           key={index}
                           to={`/services/${service.slug}`}
-                          className="block px-4 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                          className="block px-4 py-2.5 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors text-sm font-medium"
                           onClick={() => setIsClothHangerDropdownOpen(false)}
                         >
                           {service.name}
@@ -177,20 +177,20 @@ const Navbar: React.FC = () => {
               )}
             </div>
 
-            <Link to="/gallery" className="text-white hover:text-gray-200 transition-colors">Gallery</Link>
-            <Link to="/faq" className="text-white hover:text-gray-200 transition-colors">FAQ's</Link>
+            <Link to="/gallery" className="text-white hover:text-gray-200 transition-colors font-medium">Gallery</Link>
+            <Link to="/faq" className="text-white hover:text-gray-200 transition-colors font-medium">FAQ's</Link>
 
-            <Link to="/contact" className="text-white hover:text-gray-200 transition-colors">
+            <Link to="/contact" className="text-white hover:text-gray-200 transition-colors font-medium">
               Contact
             </Link>
           </div>
 
           {/* CTA Buttons */}
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden lg:flex items-center space-x-3">
             {/* Quality Button */}
             <Link
               to="/about"
-              className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg font-semibold transition-colors flex items-center space-x-2 shadow-lg"
+              className="bg-green-600 hover:bg-green-700 text-white px-3 py-2 rounded-lg font-semibold transition-colors flex items-center space-x-1.5 shadow-lg text-sm"
             >
               <Award className="h-4 w-4" />
               <span>Quality Assured</span>
@@ -199,7 +199,7 @@ const Navbar: React.FC = () => {
             {/* Get Quote Button */}
             <button
               onClick={openWhatsAppQuote}
-              className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-lg font-semibold transition-colors cursor-pointer"
+              className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold transition-colors cursor-pointer text-sm"
             >
               Get Quote
             </button>
@@ -208,7 +208,7 @@ const Navbar: React.FC = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden text-white hover:text-gray-200 focus:outline-none focus:text-gray-200"
+            className="lg:hidden text-white hover:text-gray-200 focus:outline-none focus:text-gray-200"
             aria-label="Toggle mobile menu"
           >
             {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -218,7 +218,7 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Navigation */}
       {isOpen && (
-        <div className="mobile-menu md:hidden absolute top-full left-0 right-0 bg-white shadow-lg border-t border-gray-200 z-50 max-h-[80vh] overflow-y-auto">
+        <div className="mobile-menu lg:hidden absolute top-full left-0 right-0 bg-white shadow-lg border-t border-gray-200 z-50 max-h-[80vh] overflow-y-auto">
           <div className="px-4 py-3 space-y-2 bg-white">
             <Link to="/" className="block px-3 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded-md transition-colors" onClick={() => setIsOpen(false)}>Home</Link>
             <Link to="/about" className="block px-3 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded-md transition-colors" onClick={() => setIsOpen(false)}>About</Link>
