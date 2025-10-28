@@ -22,21 +22,21 @@ const FAQ: React.FC = () => {
 
   const faqCategories = [
     {
-      title: "Safety Net Installation",
+      title: "Invisible Grill Installation",
       icon: <Shield className="h-6 w-6" />,
       color: "from-blue-400 to-blue-600",
       questions: [
         {
-          question: "How long does safety net installation take?",
-          answer: "Installation time varies by project size. Simple balcony nets take 2-4 hours, while large construction sites may take 1-3 days. We provide accurate timelines during our free consultation."
+          question: "How long does invisible grill installation take?",
+          answer: "Installation time varies by project size. Simple balcony grills take 2-4 hours, while large apartment complexes may take 1-3 days. We provide accurate timelines during our free consultation."
         },
         {
-          question: "What types of safety nets do you offer?",
-          answer: "We offer comprehensive safety net solutions including balcony safety nets, pigeon nets, cricket practice nets, kids safety nets, anti-bird nets, pets safety nets, construction safety nets, gardening nets, industrial safety nets, sports nets, swimming pool nets, and window safety nets."
+          question: "What types of invisible grills do you offer?",
+          answer: "We offer comprehensive invisible grill solutions including balcony grills, window grills, apartment grills, stainless steel grills, and custom-designed grills for all types of properties."
         },
         {
           question: "Do you provide custom sizing?",
-          answer: "Yes, we provide custom sizing for all our safety net services. Our team takes precise measurements and creates nets tailored to your specific requirements and space constraints."
+          answer: "Yes, we provide custom sizing for all our invisible grill services. Our team takes precise measurements and creates grills tailored to your specific requirements and space constraints."
         }
       ]
     },
@@ -46,16 +46,16 @@ const FAQ: React.FC = () => {
       color: "from-green-400 to-green-600",
       questions: [
         {
-          question: "Are your safety nets certified and tested?",
-          answer: "Yes, all our safety nets meet international safety standards and are tested for strength, durability, and weather resistance. We use certified materials and follow strict quality control processes."
+          question: "Are your invisible grills certified and tested?",
+          answer: "Yes, all our invisible grills meet international safety standards and are tested for strength, durability, and weather resistance. We use certified materials and follow strict quality control processes."
         },
         {
-          question: "What materials are used in your safety nets?",
-          answer: "We use high-quality materials including UV-resistant nylon, polyethylene, and specialized safety net materials. All materials are weather-resistant, durable, and designed for long-term outdoor use."
+          question: "What materials are used in your invisible grills?",
+          answer: "We use high-quality materials including marine-grade stainless steel cables (316 S.S.), UV-resistant nylon coating, and specialized grill materials. All materials are weather-resistant, durable, and designed for long-term outdoor use."
         },
         {
-          question: "Can safety nets withstand harsh weather?",
-          answer: "Our safety nets are designed to withstand various weather conditions including rain, wind, and UV exposure. They're made from weather-resistant materials and are tested for durability in different climates."
+          question: "Can invisible grills withstand harsh weather?",
+          answer: "Our invisible grills are designed to withstand various weather conditions including rain, wind, and UV exposure. They're made from weather-resistant materials and are tested for durability in different climates."
         }
       ]
     },
@@ -65,35 +65,35 @@ const FAQ: React.FC = () => {
       color: "from-blue-400 to-blue-600",
       questions: [
         {
-          question: "What are safety nets and why do I need them?",
-          answer: "Safety nets are protective barriers made from high-strength materials designed to prevent falls, contain debris, and protect people and property. They're essential for construction sites, balconies, sports facilities, and areas where safety is a concern."
+          question: "What are invisible grills and why do I need them?",
+          answer: "Invisible grills are protective barriers made from high-strength stainless steel cables designed to provide security while maintaining unobstructed views. They're essential for balconies, windows, apartments, and areas where safety and aesthetics are both important."
         },
         {
-          question: "How long do safety nets last?",
-          answer: "Our high-quality safety nets typically last 5-10 years depending on usage and environmental conditions. We provide warranties ranging from 3-5 years and offer maintenance services to extend their lifespan."
+          question: "How long do invisible grills last?",
+          answer: "Our high-quality invisible grills typically last 10-15 years depending on usage and environmental conditions. We provide warranties ranging from 5-10 years and offer maintenance services to extend their lifespan."
         },
         {
-          question: "Do safety nets require maintenance?",
-          answer: "Safety nets require minimal maintenance. We recommend annual inspections to check for wear, damage, or loose fittings. Our team provides professional maintenance services to ensure optimal performance."
+          question: "Do invisible grills require maintenance?",
+          answer: "Invisible grills require minimal maintenance. We recommend annual inspections to check for wear, damage, or loose fittings. Our team provides professional maintenance services to ensure optimal performance."
         }
       ]
     },
     {
-      title: "Support & Warranty",
+      title: "Cloth Hangers & Support",
       icon: <Shield className="h-6 w-6" />,
       color: "from-purple-400 to-purple-600",
       questions: [
+        {
+          question: "What types of cloth hangers do you provide?",
+          answer: "We provide various cloth hanger solutions including pull & dry cloth hangers, ceiling cloth hangers, balcony cloth hangers, and custom-designed hanger systems for all your drying needs."
+        },
         {
           question: "What warranty do you provide?",
           answer: "We provide comprehensive warranties ranging from 3-5 years depending on the service type. Our warranty covers material defects, workmanship, and includes free repairs or replacement for covered issues."
         },
         {
           question: "Do you offer emergency services?",
-          answer: "Yes, we provide 24/7 emergency support for urgent safety net repairs or installations. Our emergency team can respond quickly to ensure your safety needs are met immediately."
-        },
-        {
-          question: "What if I need modifications after installation?",
-          answer: "We offer modification services for existing installations. Whether you need size adjustments, additional coverage, or upgrades, our team can modify your safety nets to meet your changing needs."
+          answer: "Yes, we provide 24/7 emergency support for urgent invisible grill repairs or installations. Our emergency team can respond quickly to ensure your security needs are met immediately."
         }
       ]
     }
@@ -105,7 +105,7 @@ const FAQ: React.FC = () => {
       <section className="relative text-white py-20 overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
-          backgroundImage: `url('/images/safety-nets/slider-7-3.jpg')`
+          backgroundImage: `url('/images/safety-nets/invisible-grill-balconies.jpg')`
         }}></div>
         
         {/* Dark Overlay for Better Text Visibility */}
@@ -123,7 +123,7 @@ const FAQ: React.FC = () => {
               Frequently Asked Questions
             </h1>
             <p className="text-xl text-white max-w-3xl mx-auto font-medium">
-              Get answers to common questions about safety nets, installation, and maintenance. 
+              Get answers to common questions about invisible grills, cloth hangers, installation, and maintenance. 
               Everything you need to know about Steel Invisible Grills services.
             </p>
           </motion.div>
@@ -208,7 +208,7 @@ const FAQ: React.FC = () => {
               Still Have Questions?
             </h2>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              Can't find the answer you're looking for? Our safety nets experts are here to help.
+              Can't find the answer you're looking for? Our invisible grill experts are here to help.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

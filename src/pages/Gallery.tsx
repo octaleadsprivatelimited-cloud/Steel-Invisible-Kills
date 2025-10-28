@@ -19,9 +19,7 @@ const Gallery: React.FC = () => {
         { src: "/images/safety-nets/invisible-grill-balconies.jpg", alt: "Invisible Grill for Balconies", title: "Invisible Grill for Balconies" },
         { src: "/images/safety-nets/invisible-grill-windows.jpg", alt: "Invisible Grill for Windows", title: "Invisible Grill for Windows" },
         { src: "/images/safety-nets/invisible-grill-apartments.jpg", alt: "Invisible Grill for Apartments", title: "Invisible Grill for Apartments" },
-        { src: "/images/safety-nets/invisible-grill.jpg", alt: "Stainless Steel Invisible Grill", title: "Stainless Steel Invisible Grill" },
-        { src: "/images/safety-nets/invisible-nets.webp", alt: "Invisible Nets", title: "Invisible Nets" },
-        { src: "/images/safety-nets/balcony-safety-nets-1.webp", alt: "Balcony Safety Nets", title: "Balcony Safety Nets" }
+        { src: "/images/safety-nets/invisible-grill.jpg", alt: "Stainless Steel Invisible Grill", title: "Stainless Steel Invisible Grill" }
       ]
     },
     {
@@ -31,15 +29,6 @@ const Gallery: React.FC = () => {
         { src: "/images/safety-nets/pull-dry-cloth-hangers.jpg", alt: "Pull & Dry Cloth Hangers", title: "Pull & Dry Cloth Hangers" },
         { src: "/images/safety-nets/ceiling-cloth-hangers.jpg", alt: "Ceiling Cloth Hangers", title: "Ceiling Cloth Hangers" },
         { src: "/images/safety-nets/pull-dry-cloth-hangers-balconies.jpg", alt: "Pull & Dry Cloth Hangers for Balconies", title: "Pull & Dry Cloth Hangers for Balconies" }
-      ]
-    },
-    {
-      title: "Safety Solutions",
-      icon: <HardHat className="h-8 w-8 text-orange-500" />,
-      images: [
-        { src: "/images/safety-nets/pigeon-nets.webp", alt: "Pigeon Nets", title: "Pigeon Nets" },
-        { src: "/images/safety-nets/cricket-practice-nets.webp", alt: "Cricket Practice Nets", title: "Cricket Practice Nets" },
-        { src: "/images/safety-nets/sports-nets-installation.avif", alt: "Sports Nets Installation", title: "Sports Nets Installation" }
       ]
     }
   ];
@@ -60,7 +49,7 @@ const Gallery: React.FC = () => {
       <section className="relative text-white py-20 overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
-          backgroundImage: `url('/images/safety-nets/sports-nets-installation.avif')`
+          backgroundImage: `url('/images/safety-nets/invisible-grill-balconies.jpg')`
         }}></div>
         
         {/* Dark Overlay for Better Text Visibility */}
