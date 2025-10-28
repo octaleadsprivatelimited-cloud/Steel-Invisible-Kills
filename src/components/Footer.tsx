@@ -11,9 +11,9 @@ const Footer: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
             {/* Company Info */}
             <div className="space-y-4">
-              <div className="flex items-center space-x-2">
-                <Shield className="h-6 w-6 text-blue-500" />
-                  <span className="text-lg lg:text-xl font-bold">Steel Invisible Grills</span>
+              <div className="flex items-center space-x-3">
+                <img src="/images/logo.png" alt="Steel Invisible Grills" className="h-10 w-auto hidden lg:block" />
+                <img src="/images/logo.png" alt="Steel Invisible Grills" className="h-8 w-auto lg:hidden" />
               </div>
               <p className="text-sm text-gray-300 leading-relaxed">
                 Leading invisible grills and cloth hangers provider in Hyderabad.

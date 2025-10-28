@@ -99,9 +99,9 @@ const Navbar: React.FC = () => {
     <nav className="shadow-md fixed w-full z-50" style={{ backgroundColor: '#f97316' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-              <Link to="/" className="flex items-center space-x-2">
-                <Shield className="h-8 w-8 text-blue-500" />
-                <span className="text-xl font-bold text-white">Steel Invisible Grills</span>
+              <Link to="/" className="flex items-center space-x-3">
+                <img src="/images/logo.png" alt="Steel Invisible Grills" className="h-10 w-auto hidden sm:block" />
+                <img src="/images/logo.png" alt="Steel Invisible Grills" className="h-8 w-auto sm:hidden" />
               </Link>
 
           <div className="hidden lg:flex items-center space-x-6">
