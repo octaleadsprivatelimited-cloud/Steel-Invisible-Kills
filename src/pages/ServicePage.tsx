@@ -126,7 +126,7 @@ const ServicePage: React.FC = () => {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </button>
                 <a
-                  href="tel:+919912373373"
+                  href="tel:+917893987771"
                   className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors flex items-center justify-center"
                 >
                   <Phone className="mr-2 h-5 w-5" />
@@ -410,10 +410,10 @@ const ServicePage: React.FC = () => {
               Get Free Quote
             </button>
             <a
-              href="tel:+919912373373"
+              href="tel:+917893987771"
               className="bg-white hover:bg-gray-100 text-green-600 px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
             >
-              Call Now: +91 9912373373
+              Call Now: +91 7893987771
             </a>
           </div>
         </div>

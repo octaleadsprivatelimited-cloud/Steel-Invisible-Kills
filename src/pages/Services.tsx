@@ -286,13 +286,13 @@ const Services: React.FC = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+919912373373"
+                href="tel:+917893987771"
                 className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
               >
-                Call Now: +91 9912373373
+                Call Now: +91 7893987771
               </a>
               <a
-                href="https://wa.me/919912373373"
+                href="https://wa.me/917893987771"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-2 border-white hover:bg-white hover:text-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors"

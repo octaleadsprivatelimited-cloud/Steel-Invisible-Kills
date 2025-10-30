@@ -313,14 +313,14 @@ const About: React.FC = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4">
             <a
-              href="tel:+919912373373"
+              href="tel:+917893987771"
               className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-base sm:text-lg transition-colors inline-flex items-center justify-center"
             >
               <Phone className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
-              Call Now: +91 9912373373
+              Call Now: +91 7893987771
             </a>
             <a
-              href="https://wa.me/919912373373"
+              href="https://wa.me/917893987771"
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-white hover:bg-white hover:text-gray-900 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-base sm:text-lg transition-colors"

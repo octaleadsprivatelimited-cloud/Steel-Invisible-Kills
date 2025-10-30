@@ -31,13 +31,13 @@ const GreetingModal: React.FC = () => {
     const message = encodeURIComponent(
       "Hi! I'm interested in safety nets installation. Can you provide me with more information about your services?"
     );
-    const whatsappUrl = `https://wa.me/919912373373?text=${message}`;
+    const whatsappUrl = `https://wa.me/917893987771?text=${message}`;
     window.open(whatsappUrl, '_blank');
     handleClose();
   };
 
   const handleCall = () => {
-    window.open('tel:+919912373373', '_self');
+    window.open('tel:+917893987771', '_self');
     handleClose();
   };
 
@@ -147,7 +147,7 @@ const GreetingModal: React.FC = () => {
                   className="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 px-4 rounded-lg font-semibold transition-colors flex items-center justify-center"
                 >
                   <Phone className="h-5 w-5 mr-2" />
-                  Call Now: +91 9912373373
+                  Call Now: +91 7893987771
                 </button>
               </motion.div>
 

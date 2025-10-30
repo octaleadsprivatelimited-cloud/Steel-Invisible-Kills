@@ -170,10 +170,10 @@ const Gallery: React.FC = () => {
               Get Free Quote
             </a>
             <a
-              href="tel:+919912373373"
+              href="tel:+917893987771"
               className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-900 transition-colors"
             >
-              Call Now: +91 9912373373
+              Call Now: +91 7893987771
             </a>
           </div>
         </div>

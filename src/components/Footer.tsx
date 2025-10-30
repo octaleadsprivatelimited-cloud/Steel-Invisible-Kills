@@ -12,8 +12,8 @@ const Footer: React.FC = () => {
             {/* Company Info */}
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
-                <img src="/images/logo.png" alt="Steel Invisible Grills" className="h-10 w-auto hidden lg:block" />
-                <img src="/images/logo.png" alt="Steel Invisible Grills" className="h-8 w-auto lg:hidden" />
+                <img src="/images/logo.png" alt="Steel Invisible Grills" className="h-12 w-auto object-contain bg-white rounded p-1 hidden lg:block" />
+                <img src="/images/logo.png" alt="Steel Invisible Grills" className="h-10 w-auto object-contain bg-white rounded p-1 lg:hidden" />
               </div>
               <p className="text-sm text-gray-300 leading-relaxed">
                 Leading invisible grills and cloth hangers provider in Hyderabad.
@@ -60,8 +60,8 @@ const Footer: React.FC = () => {
                 <div className="flex items-start space-x-3">
                   <Phone className="h-4 w-4 text-blue-500 mt-0.5 flex-shrink-0" />
                   <div>
-                    <p className="text-gray-300">+91 9912373373</p>
-                    <p className="text-gray-300">+91 9177008924</p>
+                    <p className="text-gray-300">+91 7893987771</p>
+                    <p className="text-gray-300">+91 8096481881</p>
                     <p className="text-gray-400 text-xs">24/7 Support</p>
                   </div>
                 </div>

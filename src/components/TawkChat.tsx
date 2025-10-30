@@ -48,7 +48,7 @@ const TawkChat: React.FC = () => {
       window.Tawk_API.toggle();
     } else {
       // Fallback to WhatsApp
-      window.open('https://wa.me/919912373373?text=Hi! I would like to get a quote for Premium Invisible Grills and Cloth Hangers installation.', '_blank');
+      window.open('https://wa.me/917893987771?text=Hi! I would like to get a quote for Premium Invisible Grills and Cloth Hangers installation.', '_blank');
     }
   };
 

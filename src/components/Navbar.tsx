@@ -100,8 +100,8 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
               <Link to="/" className="flex items-center space-x-3">
-                <img src="/images/logo.png" alt="Steel Invisible Grills" className="h-10 w-auto hidden sm:block" />
-                <img src="/images/logo.png" alt="Steel Invisible Grills" className="h-8 w-auto sm:hidden" />
+                <img src="/images/logo.png" alt="Steel Invisible Grills" className="h-12 w-auto object-contain hidden sm:block" />
+                <img src="/images/logo.png" alt="Steel Invisible Grills" className="h-10 w-auto object-contain sm:hidden" />
               </Link>
 
           <div className="hidden lg:flex items-center space-x-6">
