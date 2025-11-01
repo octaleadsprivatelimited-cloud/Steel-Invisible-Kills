@@ -112,7 +112,7 @@ const Navbar: React.FC = () => {
               className="flex items-center space-x-1 text-white hover:text-gray-200 transition-colors text-xs font-semibold"
             >
               <Phone className="h-3.5 w-3.5" />
-              <span>789-398-7771</span>
+              <span>+91 7893987771</span>
             </a>
             
             {/* Mobile Menu Button */}
