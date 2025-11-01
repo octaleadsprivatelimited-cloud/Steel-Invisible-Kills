@@ -8,7 +8,8 @@ import {
   Shield,
   HelpCircle,
   BookOpen,
-  Award
+  Award,
+  Phone
 } from 'lucide-react';
 import { openWhatsAppQuote } from '../utils/whatsapp';
 
@@ -104,6 +105,26 @@ const Navbar: React.FC = () => {
                 <img src="/images/logo.png" alt="Steel Invisible Grills" className="h-10 w-auto object-contain sm:hidden" />
               </Link>
 
+          {/* Mobile Phone Number and Menu - Only visible on small screens */}
+          <div className="lg:hidden flex items-center space-x-3">
+            <a 
+              href="tel:+917893987771" 
+              className="flex items-center space-x-1 text-white hover:text-gray-200 transition-colors text-xs font-semibold"
+            >
+              <Phone className="h-3.5 w-3.5" />
+              <span>789-398-7771</span>
+            </a>
+            
+            {/* Mobile Menu Button */}
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="text-white hover:text-gray-200 focus:outline-none focus:text-gray-200"
+              aria-label="Toggle mobile menu"
+            >
+              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </button>
+          </div>
+
           <div className="hidden lg:flex items-center space-x-6">
             <Link to="/" className="text-white hover:text-gray-200 transition-colors font-medium">Home</Link>
             <Link to="/about" className="text-white hover:text-gray-200 transition-colors font-medium">About</Link>
@@ -197,15 +218,6 @@ const Navbar: React.FC = () => {
               Get Quote
             </button>
           </div>
-
-          {/* Mobile Menu Button */}
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="lg:hidden text-white hover:text-gray-200 focus:outline-none focus:text-gray-200"
-            aria-label="Toggle mobile menu"
-          >
-            {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-          </button>
         </div>
       </div>
 
