@@ -39,16 +39,12 @@ const Footer: React.FC = () => {
               <div className="space-y-4">
                 <h3 className="text-lg font-semibold text-white">Services</h3>
                 <ul className="space-y-2 text-sm">
-                  <li><Link to="/services/invisible-grill-balconies" className="text-gray-300 hover:text-blue-500 transition-colors">Invisible Grill for Balconies</Link></li>
-                  <li><Link to="/services/invisible-grill-windows" className="text-gray-300 hover:text-blue-500 transition-colors">Invisible Grill for Windows</Link></li>
-                  <li><Link to="/services/invisible-grill-apartments" className="text-gray-300 hover:text-blue-500 transition-colors">Invisible Grill for Apartments</Link></li>
+                  <li><Link to="/services/invisible-grill-for-balconies" className="text-gray-300 hover:text-blue-500 transition-colors">Invisible Grill for Balconies</Link></li>
+                  <li><Link to="/services/invisible-grill-for-windows" className="text-gray-300 hover:text-blue-500 transition-colors">Invisible Grill for Windows</Link></li>
+                  <li><Link to="/services/invisible-grill-for-apartments" className="text-gray-300 hover:text-blue-500 transition-colors">Invisible Grill for Apartments</Link></li>
                   <li><Link to="/services/pull-dry-cloth-hangers" className="text-gray-300 hover:text-blue-500 transition-colors">Pull & Dry Cloth Hangers</Link></li>
                   <li><Link to="/services/ceiling-cloth-hangers" className="text-gray-300 hover:text-blue-500 transition-colors">Ceiling Cloth Hangers</Link></li>
-                  <li><Link to="/services/pull-dry-cloth-hangers-balconies" className="text-gray-300 hover:text-blue-500 transition-colors">Pull & Dry Cloth Hangers for Balconies</Link></li>
-                  <li><Link to="/services/invisible-grill-dealers" className="text-gray-300 hover:text-blue-500 transition-colors">Invisible Grill Dealers</Link></li>
-                  <li><Link to="/services/invisible-grill-manufacturer" className="text-gray-300 hover:text-blue-500 transition-colors">Invisible Grill Manufacturer</Link></li>
-                  <li><Link to="/services/stainless-steel-invisible-grill" className="text-gray-300 hover:text-blue-500 transition-colors">Stainless Steel Invisible Grill</Link></li>
-                  <li><Link to="/contact" className="text-gray-300 hover:text-blue-500 transition-colors">Quote Request</Link></li>
+                  <li><Link to="/services/pull-dry-cloth-hangers-for-balconies" className="text-gray-300 hover:text-blue-500 transition-colors">Pull & Dry Cloth Hangers for Balconies</Link></li>
                 </ul>
               </div>
             </div>

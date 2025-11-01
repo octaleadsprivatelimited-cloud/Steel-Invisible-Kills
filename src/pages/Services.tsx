@@ -32,78 +32,78 @@ const Services: React.FC = () => {
       icon: <Shield className="h-16 w-16 text-blue-500" />,
       image: "/images/safety-nets/invisible-grill-balconies.jpg",
       title: "Invisible Grill for Balconies",
-      description: "Premium invisible grills designed specifically for balconies, providing maximum security while maintaining unobstructed views",
+      description: "Premium invisible grills for balconies. Choose from 5 wire sizes (2mm, 2.5mm, 3mm, 3.5mm, 4mm) - thicker wires for more strength, thinner for better invisibility",
       features: [
-        "Stainless steel construction",
-        "Ultra-thin design",
-        "Weather resistant",
-        "Child-safe design",
-        "Maintains aesthetics"
+        "Available in 2mm, 2.5mm, 3mm, 3.5mm, 4mm",
+        "Nearly invisible design",
+        "Weather & rust resistant",
+        "Child & pet safe",
+        "Maintains your view"
       ],
     },
     {
       icon: <Target className="h-16 w-16 text-blue-500" />,
       image: "/images/safety-nets/invisible-grill-windows.jpg",
       title: "Invisible Grill for Windows",
-      description: "Elegant invisible grills for windows that provide security without blocking natural light or views",
+      description: "Elegant window grills with 5 wire thickness options (2mm, 2.5mm, 3mm, 3.5mm, 4mm). Provides security without blocking sunlight or views - you won't even notice they're there!",
       features: [
-        "Transparent design",
-        "Natural light passage",
-        "Weather resistant",
-        "Easy installation",
-        "Security focused"
+        "Wire sizes: 2mm, 2.5mm, 3mm, 3.5mm, 4mm",
+        "100% light & air passage",
+        "Rust-proof stainless steel",
+        "Custom fit any window",
+        "Strong yet invisible"
       ],
     },
     {
       icon: <HardHat className="h-16 w-16 text-blue-500" />,
       image: "/images/safety-nets/invisible-grill-apartments.jpg",
       title: "Invisible Grill for Apartments",
-      description: "Complete invisible grill solutions for apartment buildings and high-rise complexes",
+      description: "Complete apartment grill solutions available in 2mm, 2.5mm, 3mm, 3.5mm, and 4mm wire sizes. Perfect for high-rise safety - protects children and pets without blocking your beautiful view",
       features: [
-        "Bulk installation capability",
-        "Consistent design",
-        "Weather resistant",
-        "Professional installation",
-        "Modern aesthetics"
+        "Multiple sizes: 2mm to 4mm wires",
+        "Bulk installation discounts",
+        "Uniform appearance",
+        "Weather & rust proof",
+        "Professional team installation"
       ],
     },
     {
       icon: <Settings className="h-16 w-16 text-blue-500" />,
       image: "/images/safety-nets/pull-dry-cloth-hangers.jpg",
       title: "Pull & Dry Cloth Hangers",
-      description: "Modern pull & dry cloth hangers for efficient laundry management",
+      description: "Space-saving pull & dry hangers. Available in 4ft, 5ft, 6ft, 7ft, 8ft sizes with 3 or 6 rods - pull out to dry, fold back when done!",
       features: [
-        "Stainless steel construction",
-        "Pull mechanism",
-        "Weather resistant",
-        "Space efficient",
-        "Modern design"
+        "Sizes: 4ft, 5ft, 6ft, 7ft, 8ft",
+        "3 rods or 6 rods options",
+        "Rust-proof stainless steel",
+        "Space-saving fold design",
+        "Weather resistant"
       ],
     },
     {
       icon: <Wrench className="h-16 w-16 text-blue-500" />,
       image: "/images/safety-nets/ceiling-cloth-hangers.jpg",
       title: "Ceiling Cloth Hangers",
-      description: "Ceiling-mounted cloth hangers for maximum space utilization",
+      description: "Ceiling hangers that save wall space! Choose from 4ft to 8ft lengths with 3 or 6 rods. Lower to load clothes, raise to dry - smart solution!",
       features: [
-        "Ceiling mounting",
-        "Space efficient",
-        "Weather resistant",
-        "High capacity",
-        "Modern design"
+        "Lengths: 4ft, 5ft, 6ft, 7ft, 8ft",
+        "3 or 6 rods capacity",
+        "Ceiling-mounted - saves wall space",
+        "Pulldown & raise mechanism",
+        "Weather resistant"
       ],
     },
     {
       icon: <TreePine className="h-16 w-16 text-blue-500" />,
       image: "/images/safety-nets/pull-dry-cloth-hangers-balconies.jpg",
       title: "Pull & Dry Cloth Hangers for Balconies",
-      description: "Specialized pull & dry cloth hangers designed specifically for balconies",
+      description: "Balcony-specific hangers in 4ft to 8ft sizes with 3 or 6 rods. Extra weather-resistant for outdoor balcony use. Perfect for apartments!",
       features: [
-        "Balcony-specific design",
-        "Pull mechanism",
-        "Weather resistant",
-        "Space efficient",
-        "Modern aesthetics"
+        "Sizes: 4ft, 5ft, 6ft, 7ft, 8ft",
+        "3 or 6 rods for laundry capacity",
+        "Made for outdoor balconies",
+        "Sun & rain resistant",
+        "Space-saving fold design"
       ],
     }
   ];

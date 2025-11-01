@@ -13,12 +13,22 @@ import {
   Award
 } from 'lucide-react';
 import { openWhatsAppQuote } from '../utils/whatsapp';
+import HeroSlider from '../components/HeroSlider';
 
 const Home: React.FC = () => {
   const { scrollY } = useScroll();
   const y = useTransform(scrollY, [0, 300], [0, -50]);
   const opacity = useTransform(scrollY, [0, 300], [1, 0.8]);
   const scale = useTransform(scrollY, [0, 300], [1, 0.95]);
+
+  // Hero slider images
+  const heroImages = [
+    '/images/hero/slider-1.jpg',
+    '/images/hero/slider-2.jpg',
+    '/images/hero/slider-3.jpg',
+    '/images/hero/slider-4.jpg',
+    '/images/hero/hero-background.jpg'
+  ];
 
   const features = [
     {
@@ -52,35 +62,18 @@ const Home: React.FC = () => {
 
   return (
     <div className="pt-16">
-      {/* Hero Section with Video Background */}
+      {/* Hero Section with Slider Background */}
       <motion.section 
-        className="relative bg-gradient-to-br from-black/80 via-gray-900/70 to-black/80 text-white min-h-screen flex items-center overflow-hidden bg-cover bg-center bg-no-repeat"
+        className="relative bg-gradient-to-br from-black/80 via-gray-900/70 to-black/80 text-white min-h-screen flex items-center overflow-hidden"
         style={{ 
           y, 
           opacity, 
           scale,
-            backgroundImage: 'url(/images/hero/hero-background.jpg)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-          backgroundAttachment: 'scroll',
           backgroundColor: '#1e3a8a'
         }}
       >
-            {/* Background Image - Optimized */}
-            <div 
-              className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat opacity-90"
-              style={{
-                backgroundImage: `url('/images/hero/hero-background.jpg')`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center center',
-                backgroundRepeat: 'no-repeat',
-                backgroundAttachment: 'scroll',
-                minHeight: '100vh',
-                width: '100%',
-                height: '100%'
-              }}
-            />
+            {/* Hero Slider Background */}
+            <HeroSlider images={heroImages} interval={3000} />
         
         {/* Strong Black Overlay for Text Readability */}
         <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-gray-900/60 to-black/70"></div>
@@ -266,7 +259,8 @@ const Home: React.FC = () => {
               </div>
               <div className="p-6">
                 <h4 className="font-semibold text-gray-900 mb-2">Perfect for Modern Balconies</h4>
-                <p className="text-gray-600 text-sm">Ultra-thin, nearly invisible grills that provide maximum safety while maintaining clear views. Perfect for modern balconies where aesthetics matter without compromising on security across all areas of Hyderabad including Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, and surrounding areas</p>
+                <p className="text-gray-600 text-sm mb-3">Nearly invisible grills that provide maximum safety while maintaining clear views. Available in 5 wire sizes: <strong>2mm, 2.5mm, 3mm, 3.5mm, and 4mm</strong> to match your safety needs and budget.</p>
+                <p className="text-gray-500 text-xs">Serving all areas of Hyderabad including Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad</p>
               </div>
             </motion.div>
 
@@ -293,7 +287,8 @@ const Home: React.FC = () => {
               </div>
               <div className="p-6">
                 <h4 className="font-semibold text-gray-900 mb-2">Perfect for Window Security</h4>
-                <p className="text-gray-600 text-sm">Elegant invisible grills for windows that provide security without blocking natural light or views. UV resistant, transparent design with easy maintenance across all areas of Hyderabad including Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, and surrounding areas</p>
+                <p className="text-gray-600 text-sm mb-3">Elegant invisible grills that secure your windows without blocking sunlight or views. Choose from <strong>2mm, 2.5mm, 3mm, 3.5mm, or 4mm</strong> wire thickness based on your window size and security needs.</p>
+                <p className="text-gray-500 text-xs">Serving Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally and all Hyderabad areas</p>
               </div>
             </motion.div>
 
@@ -319,7 +314,8 @@ const Home: React.FC = () => {
               </div>
               <div className="p-6">
                 <h4 className="font-semibold text-gray-900 mb-2">Perfect for Apartments</h4>
-                <p className="text-gray-600 text-sm">Complete invisible grill solutions for apartment buildings and high-rise complexes. Child and pet safety protection with weather-resistant materials across all areas of Hyderabad including Financial District, Nanakramguda, Manikonda, Chandanagar, Serilingampally, and surrounding areas</p>
+                <p className="text-gray-600 text-sm mb-3">Complete safety solution for high-rise apartments. Protect your children and pets with our invisible grills in <strong>2mm to 4mm</strong> wire sizes. Strong, rust-proof, and nearly invisible!</p>
+                <p className="text-gray-500 text-xs">Serving Financial District, Nanakramguda, Manikonda, Chandanagar, Serilingampally and all Hyderabad</p>
               </div>
             </motion.div>
 
@@ -345,7 +341,8 @@ const Home: React.FC = () => {
               </div>
               <div className="p-6">
                 <h4 className="font-semibold text-gray-900 mb-2">Perfect for Modern Homes</h4>
-                <p className="text-gray-600 text-sm">Professional cloth hangers for balconies and utility areas. High-quality stainless steel hangers that provide excellent drying solutions across all areas of Hyderabad including Financial District, Nanakramguda, Manikonda, Chandanagar, Serilingampally, and surrounding areas</p>
+                <p className="text-gray-600 text-sm mb-3">Space-saving cloth hangers for your balcony or utility area. Available in <strong>4ft, 5ft, 6ft, 7ft, 8ft</strong> sizes with <strong>3 or 6 rods</strong> options. Pull out when needed, fold back to save space!</p>
+                <p className="text-gray-500 text-xs">Serving all Hyderabad areas - rust-proof, weather-resistant, easy to use</p>
               </div>
             </motion.div>
 
