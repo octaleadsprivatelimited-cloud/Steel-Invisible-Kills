@@ -177,25 +177,25 @@ const Home: React.FC = () => {
               >
                     <button
                       onClick={openWhatsAppQuote}
-                      className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 inline-flex items-center justify-center cursor-pointer shadow-lg hover:shadow-xl"
+                      className="bg-blue-600 hover:bg-blue-700 text-white px-6 sm:px-8 py-4 rounded-lg font-semibold text-base sm:text-lg transition-all duration-300 inline-flex items-center justify-center cursor-pointer shadow-lg hover:shadow-xl w-full sm:w-auto"
                     >
                       Get Free Quote
-                      <ArrowRight className="ml-2 h-6 w-6" />
+                      <ArrowRight className="ml-2 h-5 w-5 sm:h-6 sm:w-6" />
                     </button>
                 
                     <Link
                       to="/services"
-                      className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 inline-flex items-center justify-center shadow-lg hover:shadow-xl border-2 border-green-500 hover:border-green-600"
+                      className="bg-green-600 hover:bg-green-700 text-white px-6 sm:px-8 py-4 rounded-lg font-semibold text-base sm:text-lg transition-all duration-300 inline-flex items-center justify-center shadow-lg hover:shadow-xl border-2 border-green-500 hover:border-green-600 w-full sm:w-auto"
                     >
-                      <Shield className="mr-2 h-6 w-6" />
+                      <Shield className="mr-2 h-5 w-5 sm:h-6 sm:w-6" />
                       View Our Services
                     </Link>
                     
                     <a
                       href="/about#locations"
-                      className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 inline-flex items-center justify-center shadow-lg hover:shadow-xl border-2 border-orange-500 hover:border-orange-600 cursor-pointer"
+                      className="bg-orange-600 hover:bg-orange-700 text-white px-6 sm:px-8 py-4 rounded-lg font-semibold text-base sm:text-lg transition-all duration-300 inline-flex items-center justify-center shadow-lg hover:shadow-xl border-2 border-orange-500 hover:border-orange-600 cursor-pointer w-full sm:w-auto"
                     >
-                      <MapPin className="mr-2 h-6 w-6" />
+                      <MapPin className="mr-2 h-5 w-5 sm:h-6 sm:w-6" />
                       View Locations
                     </a>
               </motion.div>
