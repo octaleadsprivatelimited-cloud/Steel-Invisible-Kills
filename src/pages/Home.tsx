@@ -26,9 +26,7 @@ const Home: React.FC = () => {
   const heroImages = [
     '/images/hero/slider-1.jpg',
     '/images/hero/slider-2.jpg',
-    '/images/hero/slider-3.jpg',
-    '/images/hero/slider-4.jpg',
-    '/images/hero/hero-background.jpg'
+    '/images/hero/slider-3.jpg'
   ];
 
   const features = [

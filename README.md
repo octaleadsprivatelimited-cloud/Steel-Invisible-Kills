@@ -51,7 +51,7 @@ A professional, responsive website for a safety nets and protection solutions co
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd solar-website
+   cd Steel-Invisible-grills
    ```
 
 2. **Install dependencies**
@@ -93,7 +93,7 @@ src/
 
 ### Colors
 The website uses a custom color palette defined in `tailwind.config.js`:
-- Primary: Solar yellow (#eab308)
+- Primary: Orange (#f97316)
 - Secondary: Blue (#1e40af)
 - Accent: Green (#059669)
 
@@ -179,8 +179,8 @@ Customize colors, fonts, and animations in `tailwind.config.js`
 ## 🤝 Contributing
 
 For contributions and collaboration, please contact us directly:
-- Phone: +91 9100116156
-- Email: vinayakasolarpowersolutions@gmail.com
+- Phone: +91 7893987771
+- Email: steelinvisiblegrillsints@gmail.com
 
 ## 📄 License
 

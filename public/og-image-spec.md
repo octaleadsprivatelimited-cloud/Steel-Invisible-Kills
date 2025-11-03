@@ -1,46 +1,36 @@
-# Open Graph Image Specifications for Vinayaka Solar
+# Open Graph Image Specifications for Steel Invisible Grills
 
 ## Primary OG Image
 - **Dimensions**: 1200 x 630 pixels (1.91:1 ratio)
 - **Format**: PNG or JPG
 - **File Size**: Under 1MB
 - **Content**: 
-  - Logo: Vinayaka Solar with sun icon
-  - Tagline: "Leading Solar Installation in Telangana"
-  - Highlight: "₹78,000 Government Subsidy Available"
-  - Visual: Solar panels with blue sky background
+  - Logo: Steel Invisible Grills logo
+  - Tagline: "Leading Invisible Grill Installation in Hyderabad"
+  - Highlight: "Premium Safety Grills for Your Home"
+  - Visual: Invisible grill installation with modern building
 
 ## Page-Specific OG Images
 
 ### Homepage
 - **Dimensions**: 1200 x 630 pixels
-- **Content**: Company overview with solar panels
-- **Text**: "Vinayaka Solar - Power Your Future with Solar Energy"
-
-### Landing Page
-- **Dimensions**: 1200 x 630 pixels
-- **Content**: Subsidy focus with government scheme details
-- **Text**: "Get ₹78,000 Solar Subsidy - Limited Time Offer"
-
-### Calculator
-- **Dimensions**: 1200 x 630 pixels
-- **Content**: Calculator interface with savings display
-- **Text**: "Solar Cost Calculator - Calculate Your Savings"
+- **Content**: Company overview with invisible grills
+- **Text**: "Steel Invisible Grills - Protect Your Home with Premium Grills"
 
 ### Services
 - **Dimensions**: 1200 x 630 pixels
 - **Content**: Service offerings with installation examples
-- **Text**: "Complete Solar Solutions - Residential, Commercial, Industrial"
+- **Text**: "Complete Invisible Grill Solutions - Balcony, Window, Apartment"
 
 ### About
 - **Dimensions**: 1200 x 630 pixels
-- **Content**: Team photos with company building
-- **Text**: "About Vinayaka Solar - 10+ Years of Excellence"
+- **Content**: Company building and installations
+- **Text**: "About Steel Invisible Grills - 25+ Years of Excellence"
 
 ### Contact
 - **Dimensions**: 1200 x 630 pixels
 - **Content**: Contact information with service areas map
-- **Text**: "Contact Vinayaka Solar - 7 Cities Across Telangana"
+- **Text**: "Contact Steel Invisible Grills - All Areas Across Hyderabad"
 
 ## Social Media Platforms
 
@@ -67,9 +57,9 @@
 ## Image Guidelines
 
 ### Colors
-- **Primary**: Blue (#1e40af) - Trust and professionalism
-- **Secondary**: Yellow (#f59e0b) - Solar energy and optimism
-- **Accent**: Green (#10b981) - Environmental consciousness
+- **Primary**: Orange (#f97316) - Trust and professionalism
+- **Secondary**: Blue (#1e40af) - Safety and reliability
+- **Accent**: Green (#10b981) - Quality and durability
 
 ### Typography
 - **Font**: Inter or similar sans-serif
@@ -77,18 +67,18 @@
 - **Contrast**: High contrast for accessibility
 
 ### Branding
-- **Logo**: Always include Vinayaka Solar logo
-- **Tagline**: "Leading Solar Installation in Telangana"
-- **Contact**: +91 9100116156
-- **Website**: vinayakasolar.in
+- **Logo**: Always include Steel Invisible Grills logo
+- **Tagline**: "Leading Invisible Grill Installation in Hyderabad"
+- **Contact**: +91 7893987771
+- **Website**: steel-invisible-kills.vercel.app
 
 ## File Naming Convention
 - `og-homepage.png` - Homepage
-- `og-landing.png` - Landing page
-- `og-calculator.png` - Calculator
 - `og-services.png` - Services
 - `og-about.png` - About
 - `og-contact.png` - Contact
+- `og-gallery.png` - Gallery
+- `og-faq.png` - FAQ
 
 ## Optimization Tips
 1. **Compress** images for faster loading
