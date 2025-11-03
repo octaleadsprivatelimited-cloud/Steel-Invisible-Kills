@@ -123,8 +123,8 @@ const Home: React.FC = () => {
                       transition: { duration: 0.8 }
                     }}
                   >
-                Premium Invisible Grills
-                  <span className="text-blue-400 font-semibold"> for Your Home</span>
+                Invisible Grills & 
+                  <span className="text-blue-400 font-semibold"> Cloth Hangers</span>
               </motion.h1>
               
               {/* Company Tagline with Moving Background Effect */}
