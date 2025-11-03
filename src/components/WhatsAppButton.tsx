@@ -11,7 +11,7 @@ const WhatsAppButton: React.FC = () => {
 
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent(
-      "Hi! I'm interested in safety nets installation. Can you provide me with more information about your services and pricing?"
+      "Hi! I'm interested in Invisible Grills & Cloth Hangers installation. Can you provide me with more information about your services and pricing?"
     );
     const whatsappUrl = `https://wa.me/917893987771?text=${message}`;
     window.open(whatsappUrl, '_blank');
@@ -50,7 +50,7 @@ const WhatsAppButton: React.FC = () => {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           onClick={handleCallClick}
-          className="bg-blue-500 hover:bg-blue-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:shadow-xl"
+          className="bg-cyan-500 hover:bg-cyan-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:shadow-xl"
           aria-label="Call us"
         >
           <Phone className="h-6 w-6" />
