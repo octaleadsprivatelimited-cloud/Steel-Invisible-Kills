@@ -10,7 +10,8 @@ import {
   TrendingUp,
   Globe,
   ArrowRight,
-  Award
+  Award,
+  MapPin
 } from 'lucide-react';
 import { openWhatsAppQuote } from '../utils/whatsapp';
 import HeroSlider from '../components/HeroSlider';
@@ -191,6 +192,14 @@ const Home: React.FC = () => {
                       <Shield className="mr-2 h-6 w-6" />
                       View Our Services
                     </Link>
+                    
+                    <a
+                      href="/about#locations"
+                      className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 inline-flex items-center justify-center shadow-lg hover:shadow-xl border-2 border-orange-500 hover:border-orange-600 cursor-pointer"
+                    >
+                      <MapPin className="mr-2 h-6 w-6" />
+                      View Locations
+                    </a>
               </motion.div>
             </motion.div>
             <motion.div
