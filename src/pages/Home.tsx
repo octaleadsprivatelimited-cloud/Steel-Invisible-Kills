@@ -299,7 +299,7 @@ const Home: React.FC = () => {
               </div>
             </motion.div>
 
-            {/* Invisible Grill for Apartments */}
+            {/* Pull & Dry Cloth Hangers */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -307,34 +307,7 @@ const Home: React.FC = () => {
               className="bg-gradient-to-br from-white to-blue-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group"
             >
               <div className="h-48 bg-cover bg-center bg-no-repeat relative overflow-hidden">
-                {/* Invisible Grill for Apartments Image */}
-              <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
-                backgroundImage: `url('/images/safety-nets/invisible-grill-apartments.jpg')`
-              }}></div>
-                
-
-                
-                <div className="text-center text-white relative z-10 h-full flex flex-col items-center justify-center">
-                  <h3 className="text-xl font-semibold drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Apartment Grills</h3>
-                  <p className="text-sm opacity-90 drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Complete solutions</p>
-                </div>
-              </div>
-              <div className="p-6">
-                <h4 className="font-semibold text-gray-900 mb-2">Perfect for Apartments</h4>
-                <p className="text-gray-600 text-sm mb-3">Complete safety solution for high-rise apartments. Protect your children and pets with our invisible grills in <strong>2mm to 4mm</strong> wire sizes. Strong, rust-proof, and nearly invisible!</p>
-                <p className="text-gray-500 text-xs">Serving Financial District, Nanakramguda, Manikonda, Chandanagar, Serilingampally and all Hyderabad</p>
-              </div>
-            </motion.div>
-
-            {/* Cloth Hangers */}
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.3 }}
-              className="bg-gradient-to-br from-white to-blue-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group"
-            >
-              <div className="h-48 bg-cover bg-center bg-no-repeat relative overflow-hidden">
-                {/* Cloth Hangers Image */}
+                {/* Pull & Dry Cloth Hangers Image */}
               <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
                 backgroundImage: `url('/images/safety-nets/pull-dry-cloth-hangers.jpg')`
               }}></div>
@@ -342,14 +315,41 @@ const Home: React.FC = () => {
 
                 
                 <div className="text-center text-white relative z-10 h-full flex flex-col items-center justify-center">
-                  <h3 className="text-xl font-semibold drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Cloth Hangers</h3>
-                  <p className="text-sm opacity-90 drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Modern utility</p>
+                  <h3 className="text-xl font-semibold drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Pull & Dry Hangers</h3>
+                  <p className="text-sm opacity-90 drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Space-saving</p>
                 </div>
               </div>
               <div className="p-6">
                 <h4 className="font-semibold text-gray-900 mb-2">Perfect for Modern Homes</h4>
                 <p className="text-gray-600 text-sm mb-3">Space-saving cloth hangers for your balcony or utility area. Available in <strong>4ft, 5ft, 6ft, 7ft, 8ft</strong> sizes with <strong>3 or 6 rods</strong> options. Pull out when needed, fold back to save space!</p>
                 <p className="text-gray-500 text-xs">Serving all Hyderabad areas - rust-proof, weather-resistant, easy to use</p>
+              </div>
+            </motion.div>
+
+            {/* Ceiling Cloth Hangers */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+              className="bg-gradient-to-br from-white to-blue-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group"
+            >
+              <div className="h-48 bg-cover bg-center bg-no-repeat relative overflow-hidden">
+                {/* Ceiling Cloth Hangers Image */}
+              <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
+                backgroundImage: `url('/images/safety-nets/ceiling-cloth-hangers.jpg')`
+              }}></div>
+                
+
+                
+                <div className="text-center text-white relative z-10 h-full flex flex-col items-center justify-center">
+                  <h3 className="text-xl font-semibold drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Ceiling Hangers</h3>
+                  <p className="text-sm opacity-90 drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Ceiling-mounted</p>
+                </div>
+              </div>
+              <div className="p-6">
+                <h4 className="font-semibold text-gray-900 mb-2">Perfect for Utility Areas</h4>
+                <p className="text-gray-600 text-sm mb-3">Ceiling-mounted cloth hangers that maximize your drying space. Available in <strong>4ft, 5ft, 6ft, 7ft, 8ft</strong> sizes with <strong>3 or 6 rods</strong> options. Perfect when you have limited wall space - lower to load, raise to dry!</p>
+                <p className="text-gray-500 text-xs">Serving all Hyderabad areas - saves wall space, better air circulation</p>
               </div>
             </motion.div>
 
